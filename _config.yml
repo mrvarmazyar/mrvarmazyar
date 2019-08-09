@@ -1,0 +1,52 @@
+# Build settings
+permalink: /blog/:year/:title/
+markdown: kramdown
+highlighter: pygments
+plugins: [jekyll-paginate-v2]
+
+pagination:
+  enabled: true
+  per_page: 3
+  permalink: "/page/:num/"
+
+comments: true
+
+source: source
+destination: _site
+sass:
+  sass_dir: _sass
+  style: compressed # expanded
+
+# SEO settings
+title: Mohammad Varmazyar
+description: "Mohammad Varmazyar's personal blog"
+keywords: "DevOps, Varmazyar, Kubernetes, Docker, Swarm, gitlab, heroku, circleci, aws, route53"
+url: http://www.varmazyar.me
+baseurl: ""
+
+google_analytics: UA-52446115-1
+repo: http://github.com/mrvarmazyar/varmazyar.me
+disqus_shortname: "nandothemes"
+disqus_site_shortname: "nandothemes"
+
+# Author settings
+author:
+  name: Mohammad Varmazyar
+  job: DevOps Engineer
+  bio: "A DevOps Engineer with +10 years of experience in managing cloud infrastructure and system administration, integrating AWS or other cloud based infrastructure components, and developing automation solutions."
+  thumb: /images/author.jpg
+  email: mrvarmazyar@gmail.com
+  url: https://www.varmazyar.me/
+  github: https://github.com/mrvarmazyar
+  twitter: https://twitter.com/mohammadvr
+  facebook: https://facebook.com/#
+  linkedin: https://www.linkedin.com/in/varmazyar/
+
+# navbar pages
+navbar:
+  - slug: about
+    title: About
+  - slug: blog
+    title: Blog
+
+exclude: ["config.rb", "src", "Gemfile", "Gemfile.lock", "package.json","README.md", "Rakefile"]
