@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "test"
+title: "Solutions Architect"
 description: "Solutions Architect - sounds good, doesn't it? Most people either have no idea what that means, or they have some idea, but a different definition than yours."
-date: 2019-08-09 10:41:50
+date: 2019-08-09 11:41:50
 comments: true
 keywords: "solution, architect"
-category: general
+category: skills
 tags:
 - general
 ---
