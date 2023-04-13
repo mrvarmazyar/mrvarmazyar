@@ -15,7 +15,7 @@ description:  My name is Mohammad. It's roughly pronounced as [Mo:h@mm@d] [v@rm@
               My long-term goal since late last century has been to make fully automated infrastructures in big companies in the world, 
               though these days my focus is not limited to new technologies and concepts anymore.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://varmazyar.me" # the base hostname & protocol for your site
+url: "https://mrvarmazyar.github.io" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 
