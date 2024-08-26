@@ -2,74 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Cloud Engineering Chronicles with Mohammad</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://varmazyar.de/tags/</link>
     <description>Recent content in Tags on Cloud Engineering Chronicles with Mohammad</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 26 Aug 2024 11:46:20 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>About Me</title>
-      <link>http://localhost:1313/tags/about-me/</link>
-      <pubDate>Mon, 26 Aug 2024 11:46:20 +0200</pubDate>
-      <guid>http://localhost:1313/tags/about-me/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Career</title>
-      <link>http://localhost:1313/tags/career/</link>
-      <pubDate>Mon, 26 Aug 2024 11:46:20 +0200</pubDate>
-      <guid>http://localhost:1313/tags/career/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Cloud Engineering</title>
-      <link>http://localhost:1313/tags/cloud-engineering/</link>
-      <pubDate>Mon, 26 Aug 2024 11:46:20 +0200</pubDate>
-      <guid>http://localhost:1313/tags/cloud-engineering/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>DevOps</title>
-      <link>http://localhost:1313/tags/devops/</link>
-      <pubDate>Mon, 26 Aug 2024 11:46:20 +0200</pubDate>
-      <guid>http://localhost:1313/tags/devops/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Guides</title>
-      <link>http://localhost:1313/tags/guides/</link>
-      <pubDate>Mon, 26 Aug 2024 11:46:20 +0200</pubDate>
-      <guid>http://localhost:1313/tags/guides/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Introduction</title>
-      <link>http://localhost:1313/tags/introduction/</link>
-      <pubDate>Mon, 26 Aug 2024 11:46:20 +0200</pubDate>
-      <guid>http://localhost:1313/tags/introduction/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Observability</title>
-      <link>http://localhost:1313/tags/observability/</link>
-      <pubDate>Mon, 26 Aug 2024 11:46:20 +0200</pubDate>
-      <guid>http://localhost:1313/tags/observability/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Platform Engineering</title>
-      <link>http://localhost:1313/tags/platform-engineering/</link>
-      <pubDate>Mon, 26 Aug 2024 11:46:20 +0200</pubDate>
-      <guid>http://localhost:1313/tags/platform-engineering/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>SRE</title>
-      <link>http://localhost:1313/tags/sre/</link>
-      <pubDate>Mon, 26 Aug 2024 11:46:20 +0200</pubDate>
-      <guid>http://localhost:1313/tags/sre/</guid>
-      <description></description>
-    </item>
+    <atom:link href="https://varmazyar.de/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
