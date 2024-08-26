@@ -1,0 +1,70 @@
+baseurl = "http://www.varmazyar.com"  # Replace with your actual URL
+title = "Cloud Engineering Chronicles with Mohammad"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+
+[services]
+[services.disqus]
+disqusShortname = ""  # Add your Disqus shortname if you use Disqus for comments
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "Mohammad Varmazyar"
+  info = "Platform Engineer & Cloud Enthusiast"
+  description = "Mohammad Varmazyar's personal website on Cloud Engineering, DevOps, and Automation."
+  keywords = "cloud engineering, DevOps, platform engineering, SRE, automation"
+  gravatar = "mrvarmazyar@gmail.com"
+
+  faviconSVG = "/img/favicon.svg"
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  since = 2024
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa-brands fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/mrvarmazyar/"
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa-brands fa-linkedin fa-2x"
+  weight = 2
+  url = "https://www.linkedin.com/in/varmazyar/"
+[[params.social]]
+  name = "Instagram"
+  icon = "fa-brands fa-instagram fa-2x"
+  weight = 3
+  url = "https://www.instagram.com/its.aboutmo/?hl=en"
+[[params.social]]
+  name = "Medium"
+  icon = "fa-brands fa-medium fa-2x"
+  weight = 4
+  url = "https://medium.com/@mrvarmazyar"
+
+# Menu links
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url  = "posts/"
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "about/"
