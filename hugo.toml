@@ -4,6 +4,9 @@ theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
 
+relativeURLs = true
+canonifyurls = true
+enableEmoji = true
 paginate = 20
 
 [services]

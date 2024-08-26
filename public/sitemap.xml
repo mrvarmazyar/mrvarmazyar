@@ -2,21 +2,72 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://www.varmazyar.de/</loc>
+    <loc>http://localhost:1313/tags/about-me/</loc>
     <lastmod>2024-08-26T11:46:20+02:00</lastmod>
   </url><url>
-    <loc>http://www.varmazyar.de/posts/</loc>
+    <loc>http://localhost:1313/authors/</loc>
     <lastmod>2024-08-26T11:46:20+02:00</lastmod>
   </url><url>
-    <loc>http://www.varmazyar.de/about/</loc>
+    <loc>http://localhost:1313/tags/career/</loc>
+    <lastmod>2024-08-26T11:46:20+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/career/</loc>
+    <lastmod>2024-08-26T11:46:20+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2024-08-26T11:46:20+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/cloud-engineering/</loc>
+    <lastmod>2024-08-26T11:46:20+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-08-26T11:46:20+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/devops/</loc>
+    <lastmod>2024-08-26T11:46:20+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/devops/</loc>
+    <lastmod>2024-08-26T11:46:20+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/guides/</loc>
+    <lastmod>2024-08-26T11:46:20+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/hello-world/</loc>
+    <lastmod>2024-08-26T11:46:20+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/how-to-become-a-devops-engineer/</loc>
+    <lastmod>2024-08-26T11:46:20+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/introduction/</loc>
+    <lastmod>2024-08-26T11:46:20+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/introduction/</loc>
+    <lastmod>2024-08-26T11:46:20+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/authors/mohammad-varmazyar/</loc>
+    <lastmod>2024-08-26T11:46:20+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/observability/</loc>
+    <lastmod>2024-08-26T11:46:20+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/personal/</loc>
+    <lastmod>2024-08-26T11:46:20+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/platform-engineering/</loc>
+    <lastmod>2024-08-26T11:46:20+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2024-08-26T11:46:20+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/sre/</loc>
+    <lastmod>2024-08-26T11:46:20+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-08-26T11:46:20+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/about/</loc>
     <lastmod>2024-08-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://www.varmazyar.de/authors/</loc>
-  </url><url>
-    <loc>http://www.varmazyar.de/categories/</loc>
-  </url><url>
-    <loc>http://www.varmazyar.de/series/</loc>
-  </url><url>
-    <loc>http://www.varmazyar.de/tags/</loc>
+    <loc>http://localhost:1313/series/</loc>
   </url>
 </urlset>
