@@ -1,5 +1,5 @@
 +++ 
-draft = true
+draft = false
 date = 2024-08-26T11:46:20+02:00
 title = "How to Become a DevOps Engineer: An Honest Guide"
 description = "A candid look at what it takes to break into the DevOps field."

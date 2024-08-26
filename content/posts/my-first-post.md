@@ -1,5 +1,5 @@
 +++ 
-draft = true
+draft = false
 date = 2024-08-26T11:46:20+02:00
 title = "Hello World! Meet Mohammad Varmazyar"
 description = "An informal introduction to who I am and what I do."

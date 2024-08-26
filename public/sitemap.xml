@@ -2,21 +2,72 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://varmazyar.de/tags/about-me/</loc>
+    <lastmod>2024-08-26T11:46:20+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/authors/</loc>
+    <lastmod>2024-08-26T11:46:20+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/tags/career/</loc>
+    <lastmod>2024-08-26T11:46:20+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/categories/career/</loc>
+    <lastmod>2024-08-26T11:46:20+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/categories/</loc>
+    <lastmod>2024-08-26T11:46:20+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/tags/cloud-engineering/</loc>
+    <lastmod>2024-08-26T11:46:20+02:00</lastmod>
+  </url><url>
     <loc>https://varmazyar.de/</loc>
+    <lastmod>2024-08-26T11:46:20+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/tags/devops/</loc>
+    <lastmod>2024-08-26T11:46:20+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/categories/devops/</loc>
+    <lastmod>2024-08-26T11:46:20+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/tags/guides/</loc>
+    <lastmod>2024-08-26T11:46:20+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/posts/hello-world/</loc>
+    <lastmod>2024-08-26T11:46:20+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/posts/how-to-become-a-devops-engineer/</loc>
+    <lastmod>2024-08-26T11:46:20+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/tags/introduction/</loc>
+    <lastmod>2024-08-26T11:46:20+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/categories/introduction/</loc>
+    <lastmod>2024-08-26T11:46:20+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/authors/mohammad-varmazyar/</loc>
+    <lastmod>2024-08-26T11:46:20+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/tags/observability/</loc>
+    <lastmod>2024-08-26T11:46:20+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/categories/personal/</loc>
+    <lastmod>2024-08-26T11:46:20+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/tags/platform-engineering/</loc>
     <lastmod>2024-08-26T11:46:20+02:00</lastmod>
   </url><url>
     <loc>https://varmazyar.de/posts/</loc>
     <lastmod>2024-08-26T11:46:20+02:00</lastmod>
   </url><url>
+    <loc>https://varmazyar.de/tags/sre/</loc>
+    <lastmod>2024-08-26T11:46:20+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/tags/</loc>
+    <lastmod>2024-08-26T11:46:20+02:00</lastmod>
+  </url><url>
     <loc>https://varmazyar.de/about/</loc>
     <lastmod>2024-08-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://varmazyar.de/authors/</loc>
-  </url><url>
-    <loc>https://varmazyar.de/categories/</loc>
-  </url><url>
     <loc>https://varmazyar.de/series/</loc>
-  </url><url>
-    <loc>https://varmazyar.de/tags/</loc>
   </url>
 </urlset>
