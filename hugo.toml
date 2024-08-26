@@ -1,4 +1,4 @@
-baseurl = "http://www.varmazyar.com"  # Replace with your actual URL
+baseurl = "http://www.varmazyar.de"
 title = "Cloud Engineering Chronicles with Mohammad"
 theme = "hugo-coder"
 languagecode = "en"
