@@ -6,19 +6,26 @@
     <description>Recent content in Categories on Cloud Engineering Chronicles with Mohammad</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 27 Aug 2024 11:46:20 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 28 Aug 2024 11:46:20 +0200</lastBuildDate>
     <atom:link href="https://varmazyar.de/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI</title>
+      <link>https://varmazyar.de/categories/ai/</link>
+      <pubDate>Wed, 28 Aug 2024 11:46:20 +0200</pubDate>
+      <guid>https://varmazyar.de/categories/ai/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Cloud Engineering</title>
       <link>https://varmazyar.de/categories/cloud-engineering/</link>
-      <pubDate>Tue, 27 Aug 2024 11:46:20 +0200</pubDate>
+      <pubDate>Wed, 28 Aug 2024 11:46:20 +0200</pubDate>
       <guid>https://varmazyar.de/categories/cloud-engineering/</guid>
       <description></description>
     </item>
     <item>
       <title>DevOps</title>
       <link>https://varmazyar.de/categories/devops/</link>
-      <pubDate>Tue, 27 Aug 2024 11:46:20 +0200</pubDate>
+      <pubDate>Wed, 28 Aug 2024 11:46:20 +0200</pubDate>
       <guid>https://varmazyar.de/categories/devops/</guid>
       <description></description>
     </item>

@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Cloud Engineering Chronicles with Mohammad</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 27 Aug 2024 11:46:20 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 28 Aug 2024 11:46:20 +0200</lastBuildDate>
     <atom:link href="https://varmazyar.de/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Impact of GenAI on Modern Cloud and DevOps Practices</title>
+      <link>https://varmazyar.de/posts/genai-impact-cloud-devops-practices/</link>
+      <pubDate>Wed, 28 Aug 2024 11:46:20 +0200</pubDate>
+      <guid>https://varmazyar.de/posts/genai-impact-cloud-devops-practices/</guid>
+      <description>Introduction Link to heading In today’s rapidly evolving technological landscape, software development and operations have become more complex and interconnected than ever. The rise of cloud computing, microservices, and continuous delivery has transformed how we build and deploy applications. However, with these advancements comes increased complexity, necessitating the convergence of various disciplines such as DevSecOps, Site Reliability Engineering (SRE), Platform Engineering, and Cloud Engineering. Each of these disciplines addresses unique challenges but also shares common goals—improving efficiency, scalability, security, and collaboration across teams.</description>
+    </item>
     <item>
       <title>Optimizing Airflow Scheduler on Google Kubernetes Engine: A Cost-Effective Approach</title>
       <link>https://varmazyar.de/posts/optimizing-airflow-scheduler-gke/</link>

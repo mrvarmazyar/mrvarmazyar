@@ -6,20 +6,48 @@
     <description>Recent content in Tags on Cloud Engineering Chronicles with Mohammad</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 27 Aug 2024 11:46:20 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 28 Aug 2024 11:46:20 +0200</lastBuildDate>
     <atom:link href="https://varmazyar.de/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cloud Engineering</title>
+      <link>https://varmazyar.de/tags/cloud-engineering/</link>
+      <pubDate>Wed, 28 Aug 2024 11:46:20 +0200</pubDate>
+      <guid>https://varmazyar.de/tags/cloud-engineering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DevSecOps</title>
+      <link>https://varmazyar.de/tags/devsecops/</link>
+      <pubDate>Wed, 28 Aug 2024 11:46:20 +0200</pubDate>
+      <guid>https://varmazyar.de/tags/devsecops/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Generative AI</title>
+      <link>https://varmazyar.de/tags/generative-ai/</link>
+      <pubDate>Wed, 28 Aug 2024 11:46:20 +0200</pubDate>
+      <guid>https://varmazyar.de/tags/generative-ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Platform Engineering</title>
+      <link>https://varmazyar.de/tags/platform-engineering/</link>
+      <pubDate>Wed, 28 Aug 2024 11:46:20 +0200</pubDate>
+      <guid>https://varmazyar.de/tags/platform-engineering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SRE</title>
+      <link>https://varmazyar.de/tags/sre/</link>
+      <pubDate>Wed, 28 Aug 2024 11:46:20 +0200</pubDate>
+      <guid>https://varmazyar.de/tags/sre/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Apache Airflow</title>
       <link>https://varmazyar.de/tags/apache-airflow/</link>
       <pubDate>Tue, 27 Aug 2024 11:46:20 +0200</pubDate>
       <guid>https://varmazyar.de/tags/apache-airflow/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Cloud Engineering</title>
-      <link>https://varmazyar.de/tags/cloud-engineering/</link>
-      <pubDate>Tue, 27 Aug 2024 11:46:20 +0200</pubDate>
-      <guid>https://varmazyar.de/tags/cloud-engineering/</guid>
       <description></description>
     </item>
     <item>
@@ -76,20 +104,6 @@
       <link>https://varmazyar.de/tags/observability/</link>
       <pubDate>Mon, 26 Aug 2024 11:46:20 +0200</pubDate>
       <guid>https://varmazyar.de/tags/observability/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Platform Engineering</title>
-      <link>https://varmazyar.de/tags/platform-engineering/</link>
-      <pubDate>Mon, 26 Aug 2024 11:46:20 +0200</pubDate>
-      <guid>https://varmazyar.de/tags/platform-engineering/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>SRE</title>
-      <link>https://varmazyar.de/tags/sre/</link>
-      <pubDate>Mon, 26 Aug 2024 11:46:20 +0200</pubDate>
-      <guid>https://varmazyar.de/tags/sre/</guid>
       <description></description>
     </item>
   </channel>
