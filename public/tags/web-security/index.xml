@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web Security on Cloud Engineering Chronicles with Mohammad</title>
+    <link>https://varmazyar.de/tags/web-security/</link>
+    <description>Recent content in Web Security on Cloud Engineering Chronicles with Mohammad</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 28 Aug 2024 11:46:20 +0200</lastBuildDate>
+    <atom:link href="https://varmazyar.de/tags/web-security/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mastering API Rate Limiting: Strategies, Algorithms, and Best Practices</title>
+      <link>https://varmazyar.de/posts/mastering-api-rate-limiting/</link>
+      <pubDate>Wed, 28 Aug 2024 11:46:20 +0200</pubDate>
+      <guid>https://varmazyar.de/posts/mastering-api-rate-limiting/</guid>
+      <description>Introduction Link to heading In the rapidly growing landscape of digital services, APIs (Application Programming Interfaces) have become the backbone of modern software applications. Whether powering mobile apps, connecting microservices, or enabling third-party integrations, APIs are crucial for communication between systems. However, the open nature of APIs also makes them vulnerable to misuse, abuse, and attacks, leading to performance degradation and potential downtime. This is where rate limiting comes into play—a critical technique to ensure that APIs remain available, secure, and performant.</description>
+    </item>
+  </channel>
+</rss>

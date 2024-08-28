@@ -9,6 +9,20 @@
     <lastBuildDate>Wed, 28 Aug 2024 11:46:20 +0200</lastBuildDate>
     <atom:link href="https://varmazyar.de/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>API</title>
+      <link>https://varmazyar.de/tags/api/</link>
+      <pubDate>Wed, 28 Aug 2024 11:46:20 +0200</pubDate>
+      <guid>https://varmazyar.de/tags/api/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Best Practices</title>
+      <link>https://varmazyar.de/tags/best-practices/</link>
+      <pubDate>Wed, 28 Aug 2024 11:46:20 +0200</pubDate>
+      <guid>https://varmazyar.de/tags/best-practices/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Cloud Engineering</title>
       <link>https://varmazyar.de/tags/cloud-engineering/</link>
       <pubDate>Wed, 28 Aug 2024 11:46:20 +0200</pubDate>
@@ -30,6 +44,13 @@
       <description></description>
     </item>
     <item>
+      <title>Network Management</title>
+      <link>https://varmazyar.de/tags/network-management/</link>
+      <pubDate>Wed, 28 Aug 2024 11:46:20 +0200</pubDate>
+      <guid>https://varmazyar.de/tags/network-management/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Platform Engineering</title>
       <link>https://varmazyar.de/tags/platform-engineering/</link>
       <pubDate>Wed, 28 Aug 2024 11:46:20 +0200</pubDate>
@@ -37,10 +58,24 @@
       <description></description>
     </item>
     <item>
+      <title>Rate Limiting</title>
+      <link>https://varmazyar.de/tags/rate-limiting/</link>
+      <pubDate>Wed, 28 Aug 2024 11:46:20 +0200</pubDate>
+      <guid>https://varmazyar.de/tags/rate-limiting/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>SRE</title>
       <link>https://varmazyar.de/tags/sre/</link>
       <pubDate>Wed, 28 Aug 2024 11:46:20 +0200</pubDate>
       <guid>https://varmazyar.de/tags/sre/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web Security</title>
+      <link>https://varmazyar.de/tags/web-security/</link>
+      <pubDate>Wed, 28 Aug 2024 11:46:20 +0200</pubDate>
+      <guid>https://varmazyar.de/tags/web-security/</guid>
       <description></description>
     </item>
     <item>
