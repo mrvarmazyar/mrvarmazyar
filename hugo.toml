@@ -10,8 +10,9 @@ enableEmoji = true
 paginate = 20
 
 [services]
-[services.disqus]
-disqusShortname = ""  # Add your Disqus shortname if you use Disqus for comments
+  [services.disqus]
+    shortname = 'varmazyar-de'
+
 
 [markup.highlight]
 style = "github-dark"
