@@ -36,5 +36,12 @@
       <guid>https://varmazyar.de/about/</guid>
       <description>Hey there! I’m Mohammad Varmazyar, a Platform Engineer with a passion for Cloud Engineering, DevOps, and automation. Over the past decade, I’ve immersed myself in the world of cloud infrastructure, working with some of the leading technologies in the industry, including AWS, Azure, and GCP.&#xA;Currently, I’m part of the Data Platform team at Delivery Hero, where I focus on building scalable, resilient, and efficient systems. Whether it&amp;rsquo;s setting up Kubernetes clusters, automating deployments with Terraform, or ensuring observability through tools like Grafana, Datadog, and Prometheus, I&amp;rsquo;m all about making complex infrastructures run smoothly.</description>
     </item>
+    <item>
+      <title>About</title>
+      <link>https://varmazyar.de/resume/</link>
+      <pubDate>Mon, 26 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://varmazyar.de/resume/</guid>
+      <description>Mohammad Varmazyar Link to heading Platform Engineer - Data Platform at Delivery Hero&#xA;Berlin Metropolitan Area&#xA;Summary Link to heading Experienced DevOps Engineer with over a decade of expertise in cloud infrastructure management, system administration, and automation. Proven track record of integrating Azure and AWS components, cultivating seamless information access, and orchestrating infrastructure performance across diverse server platforms. Effective communicator collaborating with senior engineers, project managers, executives, and developers.</description>
+    </item>
   </channel>
 </rss>
