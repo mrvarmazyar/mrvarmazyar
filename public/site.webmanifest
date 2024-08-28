@@ -1,0 +1,14 @@
+{
+    "name": "Cloud Engineering Chronicles",
+    "short_name": "Cloud Chronicles",
+    "description": "A blog about cloud engineering, DevOps, and software development.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#007bff",
+    "orientation": "portrait-primary",
+    "lang": "en-US",
+    "scope": "/",
+    "categories": ["technology", "software", "cloud"]
+  }
+  

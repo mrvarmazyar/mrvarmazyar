@@ -64,6 +64,17 @@ style = "github-dark"
   weight = 4
   url = "https://medium.com/@mrvarmazyar"
 
+[params.csp]
+childsrc = ["'self'", "blob:"]
+fontsrc = ["'self'", "https://fonts.gstatic.com", "data:"]
+formaction = ["'self'"]
+framesrc = ["'self'"]
+imgsrc = ["'self'", "data:", "https://www.gravatar.com"]
+objectsrc = ["'none'"]
+stylesrc = ["'self'", "'unsafe-inline'", "https://fonts.googleapis.com", "http://localhost:1313/css/"]
+scriptsrc = ["'self'", "https://www.googletagmanager.com", "https://www.google-analytics.com", "'unsafe-inline'"]
+connectsrc = ["'self'", "https://www.google-analytics.com", "https://region1.google-analytics.com"]
+
 # Menu links
 [[menu.main]]
   name = "Blog"
