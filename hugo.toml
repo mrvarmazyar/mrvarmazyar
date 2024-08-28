@@ -12,7 +12,8 @@ paginate = 20
 [services]
   [services.disqus]
     shortname = 'varmazyar-de'
-
+  [services.googleAnalytics]
+    ID = 'G-W94N3M25M5'
 
 [markup.highlight]
 style = "github-dark"
