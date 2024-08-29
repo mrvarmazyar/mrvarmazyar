@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+  Unmasking Technology: A Deep Dive into Heroku, Playwright and Unsupervised Learning · Cloud Engineering Chronicles with Mohammad
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests; block-all-mixed-content; default-src 'self'; child-src 'self' blob:; font-src 'self' https://fonts.gstatic.com data: https://varmazyar.de; form-action 'self'; frame-src 'self'; img-src 'self' data: https://www.gravatar.com https://varmazyar.de http://localhost:1313/; object-src 'none'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://varmazyar.de http://localhost:1313/css/; script-src 'self' https://www.googletagmanager.com https://varmazyar.de 'sha256-m4/M+m7eUT5UtkR8sOG3lFlhyuawXRxSBdAwzV6BBmU=' 'wasm-unsafe-eval' 'inline-speculation-rules'; connect-src 'self' https://varmazyar.de https://www.google-analytics.com https://region1.google-analytics.com;">
+
+
+
+
+<meta name="author" content="Mohammad Varmazyar">
+<meta name="description" content="Short Description: Navigating the ever-evolving world of technology can be daunting. In our exploration today, we decode Heroku, Playwright, and Unsupervised Learning, understand their challenges and best practices, and navigate through real-world examples.">
+<meta name="keywords" content="cloud engineering, DevOps, platform engineering, SRE, automation">
+<meta name="fediverse:creator" content="" />
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Unmasking Technology: A Deep Dive into Heroku, Playwright and Unsupervised Learning">
+  <meta name="twitter:description" content="Short Description: Navigating the ever-evolving world of technology can be daunting. In our exploration today, we decode Heroku, Playwright, and Unsupervised Learning, understand their challenges and best practices, and navigate through real-world examples.">
+
+<meta property="og:url" content="https://varmazyar.de/posts/unmasking-technology-a-deep-dive-into-heroku-playwright-and-unsupervised-learning/">
+  <meta property="og:site_name" content="Cloud Engineering Chronicles with Mohammad">
+  <meta property="og:title" content="Unmasking Technology: A Deep Dive into Heroku, Playwright and Unsupervised Learning">
+  <meta property="og:description" content="Short Description: Navigating the ever-evolving world of technology can be daunting. In our exploration today, we decode Heroku, Playwright, and Unsupervised Learning, understand their challenges and best practices, and navigate through real-world examples.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-08-29T20:54:30+02:00">
+    <meta property="article:modified_time" content="2024-08-29T20:54:30+02:00">
+    <meta property="article:tag" content="Heroku">
+    <meta property="article:tag" content="Playwright">
+    <meta property="article:tag" content="Unsupervised Learning">
+    <meta property="article:tag" content="Machine Learning">
+    <meta property="article:tag" content="Cloud Platforms">
+    <meta property="article:tag" content="Automated Testing">
+
+
+
+
+<link rel="canonical" href="https://varmazyar.de/posts/unmasking-technology-a-deep-dive-into-heroku-playwright-and-unsupervised-learning/">
+
+
+<link rel="preload" href="../../fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../../fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../../fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="../../css/coder.min.5e35fe9f2921e0d6c3f28502ddfa49024048eca925740d711aa8d933f91ce90a.css" integrity="sha256-XjX&#43;nykh4NbD8oUC3fpJAkBI7KkldA1xGqjZM/kc6Qo=" crossorigin="anonymous" media="screen" />
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="../../css/coder-dark.min.a00e6364bacbc8266ad1cc81230774a1397198f8cfb7bcba29b7d6fcb54ce57f.css" integrity="sha256-oA5jZLrLyCZq0cyBIwd0oTlxmPjPt7y6KbfW/LVM5X8=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="../../img/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="../../img/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="../../img/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="../../images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="../../images/apple-touch-icon.png">
+
+<link rel="manifest" href="../../site.webmanifest">
+<link rel="mask-icon" href="../../images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="https://varmazyar.de/">
+      Cloud Engineering Chronicles with Mohammad
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="../../posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="../../resume/">Resume</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="../../about/">About</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="https://varmazyar.de/posts/unmasking-technology-a-deep-dive-into-heroku-playwright-and-unsupervised-learning/">
+              Unmasking Technology: A Deep Dive into Heroku, Playwright and Unsupervised Learning
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+              <time datetime="2024-08-29T20:54:30&#43;02:00">
+                August 29, 2024
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
+              3-minute read
+            </span>
+          </div>
+          <div class="authors">
+  <i class="fa-solid fa-user" aria-hidden="true"></i>
+    <a href="../../authors/mohammad-varmazyar/">Mohammad Varmazyar</a></div>
+
+          <div class="categories">
+  <i class="fa-solid fa-folder" aria-hidden="true"></i>
+    <a href="../../categories/heroku/">Heroku</a>
+      <span class="separator">•</span>
+    <a href="../../categories/playwright/">Playwright</a>
+      <span class="separator">•</span>
+    <a href="../../categories/unsupervised-learning/">Unsupervised Learning</a>
+      <span class="separator">•</span>
+    <a href="../../categories/machine-learning/">Machine Learning</a>
+      <span class="separator">•</span>
+    <a href="../../categories/cloud-platforms/">Cloud Platforms</a>
+      <span class="separator">•</span>
+    <a href="../../categories/automated-testing/">Automated Testing</a>
+      <span class="separator">•</span>
+    <a href="../../categories/web-scraping/">Web Scraping</a>
+      <span class="separator">•</span>
+    <a href="../../categories/technology/">Technology</a></div>
+
+          <div class="tags">
+  <i class="fa-solid fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="../../tags/heroku/">Heroku</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="../../tags/playwright/">Playwright</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="../../tags/unsupervised-learning/">Unsupervised Learning</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="../../tags/machine-learning/">Machine Learning</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="../../tags/cloud-platforms/">Cloud Platforms</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="../../tags/automated-testing/">Automated Testing</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="../../tags/web-scraping/">Web Scraping</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="../../tags/technology/">Technology</a>
+    </span></div>
+
+        </div>
+      </header>
+
+      <div class="post-content">
+        
+        <p>Navigating the vast and ever-improving world of technology can be both exhilarating and overwhelming. Today’s blog post takes you deep into Heroku, Playwright and Unsupervised Learning – three exciting and diverse elements of the technological universe.</p>
+<p><strong>Heroku: The Ubiquitous Cloud Platform</strong></p>
+<p>Heroku, one of the pioneer platforms as a service (PaaS), grants developers the convenience of deploying, managing, and scaling applications without the worries of hardware or infrastructure management. Its robust integrations, easy scaling, and flexible ecosystem make it a favorite among many developers.</p>
+<p>However, Heroku does present certain challenges, such as limitations on free-tier usage, difficulties in managing large databases, and longer boot time for large scale applications. To overcome these, it&rsquo;s best to carefully assess the requirements of your applications, determine the necessary computational resources, and structure your database in efficient, manageable segments.</p>
+<p>In practice, companies like Macy’s have leveraged Heroku to manage high traffic demands during Black Friday sales, demonstrating the platform’s scalability.</p>
+<p><strong>Playwright: Seamless Automated Testing</strong></p>
+<p>Playwright is a fast, reliable albeit less known framework for testing modern web applications. Supported by Microsoft, it provides developers with the tools to automate browser tasks across multiple web browsers.</p>
+<p>Playwright often faces challenges due to its newbie position in the market compared to established players like Selenium. Another issue lies in the setup required for each target browser. Despite those challenges, embracing good scripting practices and spending adequate time setting up the environments can help achieve efficient and easy maintenance over time.</p>
+<p>Spotify is a great example of a company utilizing Playwright. They have leveraged Playwright to execute end-to-end testing efficiently across their modern web applications, assuring a bug-free user experience.</p>
+<p><strong>Unsupervised Learning: The Autodidact of Machine Learning</strong></p>
+<p>Diving into Machine Learning, Unsupervised Learning is a self-training method where algorithms learn from unlabelled input data, creating structures and unearthing hidden patterns.</p>
+<p>One of the biggest challenges with Unsupervised Learning is that it requires large amounts of data to derive accurate results, and the outputs are complex to interpret. To counter these, you can rely on feature selection techniques to reduce the dimensionality of your input data and employ visualization methods to interpret the results better.</p>
+<p>Take Google News, for instance, which uses unsupervised learning for their news grouping. The algorithms identify hidden similarities and grouping news articles into separate topics accordingly.</p>
+<p><strong>Conclusion</strong></p>
+<p>While the diverse fields of Heroku, Playwright and Unsupervised Learning each present unique challenges, they also offer unique solutions. By understanding these technologies&rsquo; intricacies, one can navigate through them effectively. The practices mentioned above can help you unlock these technologies’ potentials.</p>
+<p>Whether you&rsquo;re just starting on the journey into the cosmos of technology, or an experienced explorer, Heroku, Playwright, and Unsupervised Learning offer limitless possibilities. Embrace the challenges, implement best practices, and let these technologies power your digital journey to new heights.</p>
+<p>Remember, every obstacle is just a new opportunity for innovation.</p>
+<p>Stay tuned for more deep dives into the technological universe in the upcoming blogs.</p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        <div id="disqus_thread"></div>
+<script>
+  window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "varmazyar-de" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+    
+    document.addEventListener('themeChanged', function (e) { 
+        if (document.readyState == 'complete') {
+          DISQUS.reset({ reload: true, config: disqus_config });
+        }
+    });
+</script>
+        
+        
+        
+        
+
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+    2024
+     Mohammad Varmazyar 
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="../../js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js" integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script>
+  
+
+  
+
+  
+
+
+  
+  
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-W94N3M25M5"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-W94N3M25M5');
+        }
+      </script>
+    
+  
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>

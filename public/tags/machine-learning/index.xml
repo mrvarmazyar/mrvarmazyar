@@ -6,8 +6,22 @@
     <description>Recent content in Machine Learning on Cloud Engineering Chronicles with Mohammad</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Aug 2024 20:23:44 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 29 Aug 2024 20:54:30 +0200</lastBuildDate>
     <atom:link href="https://varmazyar.de/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Unmasking Technology: A Deep Dive into Heroku, Playwright and Unsupervised Learning</title>
+      <link>https://varmazyar.de/posts/unmasking-technology-a-deep-dive-into-heroku-playwright-and-unsupervised-learning/</link>
+      <pubDate>Thu, 29 Aug 2024 20:54:30 +0200</pubDate>
+      <guid>https://varmazyar.de/posts/unmasking-technology-a-deep-dive-into-heroku-playwright-and-unsupervised-learning/</guid>
+      <description>Navigating the vast and ever-improving world of technology can be both exhilarating and overwhelming. Today’s blog post takes you deep into Heroku, Playwright and Unsupervised Learning – three exciting and diverse elements of the technological universe.&#xA;Heroku: The Ubiquitous Cloud Platform&#xA;Heroku, one of the pioneer platforms as a service (PaaS), grants developers the convenience of deploying, managing, and scaling applications without the worries of hardware or infrastructure management. Its robust integrations, easy scaling, and flexible ecosystem make it a favorite among many developers.</description>
+    </item>
+    <item>
+      <title>&#39;Demystifying Reinforcement Learning and Asynchronous Programming: An In-Depth Guide&#39;</title>
+      <link>https://varmazyar.de/posts/demystifying-reinforcement-learning-and-asynchronous-programming-an-in-depth-guide/</link>
+      <pubDate>Thu, 29 Aug 2024 20:51:25 +0200</pubDate>
+      <guid>https://varmazyar.de/posts/demystifying-reinforcement-learning-and-asynchronous-programming-an-in-depth-guide/</guid>
+      <description>Full Article:&#xA;Over the last decade, the tech industry has been evolving at an explosive pace. Two critical technological advancements that have been making waves recently are Reinforcement Learning (RL) and Asynchronous Programming. While these terms might seem intimidating at first, understanding their principles, applications, and overcoming related challenges can be simplified with a clear explanation and examples.&#xA;Reinforcement Learning and Its Implications&#xA;Let&amp;rsquo;s begin by understanding the emerging paradigm of Reinforcement Learning (RL).</description>
+    </item>
     <item>
       <title>Navigating the Depths: Model Interpretability, Securing Data with Vault, and Efficient Model Deployment</title>
       <link>https://varmazyar.de/posts/navigating-the-depths-model-interpretability-securing-data-with-vault-and-efficient-model-deployment/</link>

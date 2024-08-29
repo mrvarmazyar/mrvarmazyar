@@ -6,13 +6,146 @@
     <description>Recent content in Categories on Cloud Engineering Chronicles with Mohammad</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Aug 2024 20:23:44 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 29 Aug 2024 21:07:16 +0200</lastBuildDate>
     <atom:link href="https://varmazyar.de/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DigitalOcean</title>
+      <link>https://varmazyar.de/categories/digitalocean/</link>
+      <pubDate>Thu, 29 Aug 2024 21:07:16 +0200</pubDate>
+      <guid>https://varmazyar.de/categories/digitalocean/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mobile Development</title>
+      <link>https://varmazyar.de/categories/mobile-development/</link>
+      <pubDate>Thu, 29 Aug 2024 21:07:16 +0200</pubDate>
+      <guid>https://varmazyar.de/categories/mobile-development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mobile Security</title>
+      <link>https://varmazyar.de/categories/mobile-security/</link>
+      <pubDate>Thu, 29 Aug 2024 21:07:16 +0200</pubDate>
+      <guid>https://varmazyar.de/categories/mobile-security/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mocha</title>
+      <link>https://varmazyar.de/categories/mocha/</link>
+      <pubDate>Thu, 29 Aug 2024 21:07:16 +0200</pubDate>
+      <guid>https://varmazyar.de/categories/mocha/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Testing</title>
+      <link>https://varmazyar.de/categories/testing/</link>
+      <pubDate>Thu, 29 Aug 2024 21:07:16 +0200</pubDate>
+      <guid>https://varmazyar.de/categories/testing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Automated Testing</title>
+      <link>https://varmazyar.de/categories/automated-testing/</link>
+      <pubDate>Thu, 29 Aug 2024 20:54:30 +0200</pubDate>
+      <guid>https://varmazyar.de/categories/automated-testing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cloud Platforms</title>
+      <link>https://varmazyar.de/categories/cloud-platforms/</link>
+      <pubDate>Thu, 29 Aug 2024 20:54:30 +0200</pubDate>
+      <guid>https://varmazyar.de/categories/cloud-platforms/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Heroku</title>
+      <link>https://varmazyar.de/categories/heroku/</link>
+      <pubDate>Thu, 29 Aug 2024 20:54:30 +0200</pubDate>
+      <guid>https://varmazyar.de/categories/heroku/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Machine Learning</title>
+      <link>https://varmazyar.de/categories/machine-learning/</link>
+      <pubDate>Thu, 29 Aug 2024 20:54:30 +0200</pubDate>
+      <guid>https://varmazyar.de/categories/machine-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Playwright</title>
+      <link>https://varmazyar.de/categories/playwright/</link>
+      <pubDate>Thu, 29 Aug 2024 20:54:30 +0200</pubDate>
+      <guid>https://varmazyar.de/categories/playwright/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Technology</title>
+      <link>https://varmazyar.de/categories/technology/</link>
+      <pubDate>Thu, 29 Aug 2024 20:54:30 +0200</pubDate>
+      <guid>https://varmazyar.de/categories/technology/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Unsupervised Learning</title>
+      <link>https://varmazyar.de/categories/unsupervised-learning/</link>
+      <pubDate>Thu, 29 Aug 2024 20:54:30 +0200</pubDate>
+      <guid>https://varmazyar.de/categories/unsupervised-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web Scraping</title>
+      <link>https://varmazyar.de/categories/web-scraping/</link>
+      <pubDate>Thu, 29 Aug 2024 20:54:30 +0200</pubDate>
+      <guid>https://varmazyar.de/categories/web-scraping/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI</title>
+      <link>https://varmazyar.de/categories/ai/</link>
+      <pubDate>Thu, 29 Aug 2024 20:51:25 +0200</pubDate>
+      <guid>https://varmazyar.de/categories/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Asynchronous Programming</title>
+      <link>https://varmazyar.de/categories/asynchronous-programming/</link>
+      <pubDate>Thu, 29 Aug 2024 20:51:25 +0200</pubDate>
+      <guid>https://varmazyar.de/categories/asynchronous-programming/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Best Practices</title>
       <link>https://varmazyar.de/categories/best-practices/</link>
-      <pubDate>Thu, 29 Aug 2024 20:23:44 +0200</pubDate>
+      <pubDate>Thu, 29 Aug 2024 20:51:25 +0200</pubDate>
       <guid>https://varmazyar.de/categories/best-practices/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Programming</title>
+      <link>https://varmazyar.de/categories/programming/</link>
+      <pubDate>Thu, 29 Aug 2024 20:51:25 +0200</pubDate>
+      <guid>https://varmazyar.de/categories/programming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Real-World Examples</title>
+      <link>https://varmazyar.de/categories/real-world-examples/</link>
+      <pubDate>Thu, 29 Aug 2024 20:51:25 +0200</pubDate>
+      <guid>https://varmazyar.de/categories/real-world-examples/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reinforcement Learning</title>
+      <link>https://varmazyar.de/categories/reinforcement-learning/</link>
+      <pubDate>Thu, 29 Aug 2024 20:51:25 +0200</pubDate>
+      <guid>https://varmazyar.de/categories/reinforcement-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DevSecOps, Design Patterns, Software Development, Security, Operations, Best Practices, Challenges, Real-World Applications, Application Design, Software Engineering, Continuous Integration</title>
+      <link>https://varmazyar.de/categories/devsecops-design-patterns-software-development-security-operations-best-practices-challenges-real-world-applications-application-design-software-engineering-continuous-integration/</link>
+      <pubDate>Thu, 29 Aug 2024 20:46:24 +0200</pubDate>
+      <guid>https://varmazyar.de/categories/devsecops-design-patterns-software-development-security-operations-best-practices-challenges-real-world-applications-application-design-software-engineering-continuous-integration/</guid>
       <description></description>
     </item>
     <item>
@@ -20,13 +153,6 @@
       <link>https://varmazyar.de/categories/data-security/</link>
       <pubDate>Thu, 29 Aug 2024 20:23:44 +0200</pubDate>
       <guid>https://varmazyar.de/categories/data-security/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Machine Learning</title>
-      <link>https://varmazyar.de/categories/machine-learning/</link>
-      <pubDate>Thu, 29 Aug 2024 20:23:44 +0200</pubDate>
-      <guid>https://varmazyar.de/categories/machine-learning/</guid>
       <description></description>
     </item>
     <item>
@@ -69,13 +195,6 @@
       <link>https://varmazyar.de/categories/meteor/</link>
       <pubDate>Thu, 29 Aug 2024 20:10:49 +0200</pubDate>
       <guid>https://varmazyar.de/categories/meteor/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Mobile Development</title>
-      <link>https://varmazyar.de/categories/mobile-development/</link>
-      <pubDate>Thu, 29 Aug 2024 20:10:49 +0200</pubDate>
-      <guid>https://varmazyar.de/categories/mobile-development/</guid>
       <description></description>
     </item>
     <item>
@@ -230,13 +349,6 @@
       <link>https://varmazyar.de/categories/career/</link>
       <pubDate>Thu, 29 Aug 2024 16:40:00 +0200</pubDate>
       <guid>https://varmazyar.de/categories/career/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>AI</title>
-      <link>https://varmazyar.de/categories/ai/</link>
-      <pubDate>Wed, 28 Aug 2024 11:46:20 +0200</pubDate>
-      <guid>https://varmazyar.de/categories/ai/</guid>
       <description></description>
     </item>
     <item>

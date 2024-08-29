@@ -2,40 +2,163 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://varmazyar.de/posts/mastering-the-art-of-devsecops-and-design-patterns-a-comprehensive-guide/</loc>
-    <lastmod>2024-08-29T20:46:24+02:00</lastmod>
-  </url><url>
     <loc>https://varmazyar.de/authors/</loc>
-    <lastmod>2024-08-29T20:46:24+02:00</lastmod>
+    <lastmod>2024-08-29T22:11:41+02:00</lastmod>
   </url><url>
     <loc>https://varmazyar.de/</loc>
-    <lastmod>2024-08-29T20:46:24+02:00</lastmod>
+    <lastmod>2024-08-29T22:11:41+02:00</lastmod>
   </url><url>
     <loc>https://varmazyar.de/authors/mohammad-varmazyar/</loc>
-    <lastmod>2024-08-29T20:46:24+02:00</lastmod>
+    <lastmod>2024-08-29T22:11:41+02:00</lastmod>
   </url><url>
     <loc>https://varmazyar.de/posts/</loc>
-    <lastmod>2024-08-29T20:46:24+02:00</lastmod>
+    <lastmod>2024-08-29T22:11:41+02:00</lastmod>
   </url><url>
-    <loc>https://varmazyar.de/tags/best-practices/</loc>
-    <lastmod>2024-08-29T20:23:44+02:00</lastmod>
-  </url><url>
-    <loc>https://varmazyar.de/categories/best-practices/</loc>
-    <lastmod>2024-08-29T20:23:44+02:00</lastmod>
+    <loc>https://varmazyar.de/posts/unleashing-extraordinary-web-development-streamlining-django-web-applications-with-vercel-on-a-5g-network/</loc>
+    <lastmod>2024-08-29T22:11:41+02:00</lastmod>
   </url><url>
     <loc>https://varmazyar.de/categories/</loc>
-    <lastmod>2024-08-29T20:23:44+02:00</lastmod>
+    <lastmod>2024-08-29T21:07:16+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/tags/digitalocean/</loc>
+    <lastmod>2024-08-29T21:07:16+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/categories/digitalocean/</loc>
+    <lastmod>2024-08-29T21:07:16+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/posts/enhancing-mobile-security-with-mocha-testing-on-digitalocean/</loc>
+    <lastmod>2024-08-29T21:07:16+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/tags/mobile-development/</loc>
+    <lastmod>2024-08-29T21:07:16+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/categories/mobile-development/</loc>
+    <lastmod>2024-08-29T21:07:16+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/tags/mobile-security/</loc>
+    <lastmod>2024-08-29T21:07:16+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/categories/mobile-security/</loc>
+    <lastmod>2024-08-29T21:07:16+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/tags/mocha/</loc>
+    <lastmod>2024-08-29T21:07:16+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/categories/mocha/</loc>
+    <lastmod>2024-08-29T21:07:16+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/tags/</loc>
+    <lastmod>2024-08-29T21:07:16+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/tags/testing/</loc>
+    <lastmod>2024-08-29T21:07:16+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/categories/testing/</loc>
+    <lastmod>2024-08-29T21:07:16+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/tags/automated-testing/</loc>
+    <lastmod>2024-08-29T20:54:30+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/categories/automated-testing/</loc>
+    <lastmod>2024-08-29T20:54:30+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/tags/cloud-platforms/</loc>
+    <lastmod>2024-08-29T20:54:30+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/categories/cloud-platforms/</loc>
+    <lastmod>2024-08-29T20:54:30+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/tags/heroku/</loc>
+    <lastmod>2024-08-29T20:54:30+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/categories/heroku/</loc>
+    <lastmod>2024-08-29T20:54:30+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/tags/machine-learning/</loc>
+    <lastmod>2024-08-29T20:54:30+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/categories/machine-learning/</loc>
+    <lastmod>2024-08-29T20:54:30+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/tags/playwright/</loc>
+    <lastmod>2024-08-29T20:54:30+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/categories/playwright/</loc>
+    <lastmod>2024-08-29T20:54:30+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/tags/technology/</loc>
+    <lastmod>2024-08-29T20:54:30+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/categories/technology/</loc>
+    <lastmod>2024-08-29T20:54:30+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/posts/unmasking-technology-a-deep-dive-into-heroku-playwright-and-unsupervised-learning/</loc>
+    <lastmod>2024-08-29T20:54:30+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/tags/unsupervised-learning/</loc>
+    <lastmod>2024-08-29T20:54:30+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/categories/unsupervised-learning/</loc>
+    <lastmod>2024-08-29T20:54:30+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/tags/web-scraping/</loc>
+    <lastmod>2024-08-29T20:54:30+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/categories/web-scraping/</loc>
+    <lastmod>2024-08-29T20:54:30+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/posts/demystifying-reinforcement-learning-and-asynchronous-programming-an-in-depth-guide/</loc>
+    <lastmod>2024-08-29T20:51:25+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/tags/ai/</loc>
+    <lastmod>2024-08-29T20:51:25+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/categories/ai/</loc>
+    <lastmod>2024-08-29T20:51:25+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/tags/asynchronous-programming/</loc>
+    <lastmod>2024-08-29T20:51:25+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/categories/asynchronous-programming/</loc>
+    <lastmod>2024-08-29T20:51:25+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/tags/best-practices/</loc>
+    <lastmod>2024-08-29T20:51:25+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/categories/best-practices/</loc>
+    <lastmod>2024-08-29T20:51:25+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/tags/programming/</loc>
+    <lastmod>2024-08-29T20:51:25+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/categories/programming/</loc>
+    <lastmod>2024-08-29T20:51:25+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/tags/real-world-examples/</loc>
+    <lastmod>2024-08-29T20:51:25+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/categories/real-world-examples/</loc>
+    <lastmod>2024-08-29T20:51:25+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/tags/reinforcement-learning/</loc>
+    <lastmod>2024-08-29T20:51:25+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/categories/reinforcement-learning/</loc>
+    <lastmod>2024-08-29T20:51:25+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/tags/devsecops-design-patterns-software-development-security-operations-best-practices-challenges-real-world-applications-application-design-software-engineering-continuous-integration/</loc>
+    <lastmod>2024-08-29T20:46:24+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/categories/devsecops-design-patterns-software-development-security-operations-best-practices-challenges-real-world-applications-application-design-software-engineering-continuous-integration/</loc>
+    <lastmod>2024-08-29T20:46:24+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/posts/mastering-the-art-of-devsecops-and-design-patterns-a-comprehensive-guide/</loc>
+    <lastmod>2024-08-29T20:46:24+02:00</lastmod>
   </url><url>
     <loc>https://varmazyar.de/tags/data-security/</loc>
     <lastmod>2024-08-29T20:23:44+02:00</lastmod>
   </url><url>
     <loc>https://varmazyar.de/categories/data-security/</loc>
-    <lastmod>2024-08-29T20:23:44+02:00</lastmod>
-  </url><url>
-    <loc>https://varmazyar.de/tags/machine-learning/</loc>
-    <lastmod>2024-08-29T20:23:44+02:00</lastmod>
-  </url><url>
-    <loc>https://varmazyar.de/categories/machine-learning/</loc>
     <lastmod>2024-08-29T20:23:44+02:00</lastmod>
   </url><url>
     <loc>https://varmazyar.de/tags/model-deployment/</loc>
@@ -51,9 +174,6 @@
     <lastmod>2024-08-29T20:23:44+02:00</lastmod>
   </url><url>
     <loc>https://varmazyar.de/posts/navigating-the-depths-model-interpretability-securing-data-with-vault-and-efficient-model-deployment/</loc>
-    <lastmod>2024-08-29T20:23:44+02:00</lastmod>
-  </url><url>
-    <loc>https://varmazyar.de/tags/</loc>
     <lastmod>2024-08-29T20:23:44+02:00</lastmod>
   </url><url>
     <loc>https://varmazyar.de/tags/vault/</loc>
@@ -78,12 +198,6 @@
     <lastmod>2024-08-29T20:10:49+02:00</lastmod>
   </url><url>
     <loc>https://varmazyar.de/categories/meteor/</loc>
-    <lastmod>2024-08-29T20:10:49+02:00</lastmod>
-  </url><url>
-    <loc>https://varmazyar.de/tags/mobile-development/</loc>
-    <lastmod>2024-08-29T20:10:49+02:00</lastmod>
-  </url><url>
-    <loc>https://varmazyar.de/categories/mobile-development/</loc>
     <lastmod>2024-08-29T20:10:49+02:00</lastmod>
   </url><url>
     <loc>https://varmazyar.de/tags/nativescript/</loc>
@@ -244,9 +358,6 @@
   </url><url>
     <loc>https://varmazyar.de/tags/service-mesh/</loc>
     <lastmod>2024-08-29T16:40:00+02:00</lastmod>
-  </url><url>
-    <loc>https://varmazyar.de/categories/ai/</loc>
-    <lastmod>2024-08-28T11:46:20+02:00</lastmod>
   </url><url>
     <loc>https://varmazyar.de/tags/api/</loc>
     <lastmod>2024-08-28T11:46:20+02:00</lastmod>
