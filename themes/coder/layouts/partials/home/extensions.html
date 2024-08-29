@@ -1,0 +1,15 @@
+<section class="latest-posts" style="text-align: left;">
+  <h2>Latest Posts</h2>
+  <ul style="list-style-type: none; padding: 0; margin: 0;">
+    {{ range first 5 (.Site.RegularPages.ByDate.Reverse) }}
+      {{ if eq .Section "posts" }}
+        <li style="margin: 0; padding: 0; display: flex; align-items: center;">
+          <span style="margin-right: 5px; white-space: nowrap;">{{ .Date.Format "Jan 2, 2006" }} -</span>
+          <a href="{{ .Permalink | safeURL }}" style="text-transform: none; white-space: nowrap;">{{ .Title }}</a>
+        </li>
+      {{ end }}
+    {{ end }}
+  </ul>
+</section>
+
+  

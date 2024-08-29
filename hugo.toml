@@ -1,6 +1,6 @@
 baseurl = "https://varmazyar.de"
 title = "Cloud Engineering Chronicles with Mohammad"
-theme = "hugo-coder"
+theme = "coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
 
