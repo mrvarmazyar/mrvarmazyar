@@ -6,20 +6,90 @@
     <description>Recent content in Tags on Cloud Engineering Chronicles with Mohammad</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 28 Aug 2024 11:46:20 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 29 Aug 2024 17:23:15 +0200</lastBuildDate>
     <atom:link href="https://varmazyar.de/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>API</title>
-      <link>https://varmazyar.de/tags/api/</link>
-      <pubDate>Wed, 28 Aug 2024 11:46:20 +0200</pubDate>
-      <guid>https://varmazyar.de/tags/api/</guid>
+      <title>Agile Development</title>
+      <link>https://varmazyar.de/tags/agile-development/</link>
+      <pubDate>Thu, 29 Aug 2024 17:23:15 +0200</pubDate>
+      <guid>https://varmazyar.de/tags/agile-development/</guid>
       <description></description>
     </item>
     <item>
       <title>Best Practices</title>
       <link>https://varmazyar.de/tags/best-practices/</link>
-      <pubDate>Wed, 28 Aug 2024 11:46:20 +0200</pubDate>
+      <pubDate>Thu, 29 Aug 2024 17:23:15 +0200</pubDate>
       <guid>https://varmazyar.de/tags/best-practices/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cordova</title>
+      <link>https://varmazyar.de/tags/cordova/</link>
+      <pubDate>Thu, 29 Aug 2024 17:23:15 +0200</pubDate>
+      <guid>https://varmazyar.de/tags/cordova/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scrum</title>
+      <link>https://varmazyar.de/tags/scrum/</link>
+      <pubDate>Thu, 29 Aug 2024 17:23:15 +0200</pubDate>
+      <guid>https://varmazyar.de/tags/scrum/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software Development</title>
+      <link>https://varmazyar.de/tags/software-development/</link>
+      <pubDate>Thu, 29 Aug 2024 17:23:15 +0200</pubDate>
+      <guid>https://varmazyar.de/tags/software-development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spring Boot</title>
+      <link>https://varmazyar.de/tags/spring-boot/</link>
+      <pubDate>Thu, 29 Aug 2024 17:23:15 +0200</pubDate>
+      <guid>https://varmazyar.de/tags/spring-boot/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AKS</title>
+      <link>https://varmazyar.de/tags/aks/</link>
+      <pubDate>Thu, 29 Aug 2024 17:19:44 +0200</pubDate>
+      <guid>https://varmazyar.de/tags/aks/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cloud Computing</title>
+      <link>https://varmazyar.de/tags/cloud-computing/</link>
+      <pubDate>Thu, 29 Aug 2024 17:19:44 +0200</pubDate>
+      <guid>https://varmazyar.de/tags/cloud-computing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Database Management</title>
+      <link>https://varmazyar.de/tags/database-management/</link>
+      <pubDate>Thu, 29 Aug 2024 17:19:44 +0200</pubDate>
+      <guid>https://varmazyar.de/tags/database-management/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kubernetes</title>
+      <link>https://varmazyar.de/tags/kubernetes/</link>
+      <pubDate>Thu, 29 Aug 2024 17:19:44 +0200</pubDate>
+      <guid>https://varmazyar.de/tags/kubernetes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PostgreSQL</title>
+      <link>https://varmazyar.de/tags/postgresql/</link>
+      <pubDate>Thu, 29 Aug 2024 17:19:44 +0200</pubDate>
+      <guid>https://varmazyar.de/tags/postgresql/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>API</title>
+      <link>https://varmazyar.de/tags/api/</link>
+      <pubDate>Wed, 28 Aug 2024 11:46:20 +0200</pubDate>
+      <guid>https://varmazyar.de/tags/api/</guid>
       <description></description>
     </item>
     <item>
@@ -90,13 +160,6 @@
       <link>https://varmazyar.de/tags/gke/</link>
       <pubDate>Tue, 27 Aug 2024 11:46:20 +0200</pubDate>
       <guid>https://varmazyar.de/tags/gke/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Kubernetes</title>
-      <link>https://varmazyar.de/tags/kubernetes/</link>
-      <pubDate>Tue, 27 Aug 2024 11:46:20 +0200</pubDate>
-      <guid>https://varmazyar.de/tags/kubernetes/</guid>
       <description></description>
     </item>
     <item>
