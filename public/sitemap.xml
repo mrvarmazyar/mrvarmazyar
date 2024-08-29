@@ -2,10 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://varmazyar.de/posts/navigating-the-depths-model-interpretability-securing-data-with-vault-and-efficient-model-deployment/</loc>
-    <lastmod>2024-08-29T20:23:44+02:00</lastmod>
+    <loc>https://varmazyar.de/posts/mastering-the-art-of-devsecops-and-design-patterns-a-comprehensive-guide/</loc>
+    <lastmod>2024-08-29T20:46:24+02:00</lastmod>
   </url><url>
     <loc>https://varmazyar.de/authors/</loc>
+    <lastmod>2024-08-29T20:46:24+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/</loc>
+    <lastmod>2024-08-29T20:46:24+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/authors/mohammad-varmazyar/</loc>
+    <lastmod>2024-08-29T20:46:24+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/posts/</loc>
+    <lastmod>2024-08-29T20:46:24+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/posts/navigating-the-depths-model-interpretability-securing-data-with-vault-and-efficient-model-deployment/</loc>
     <lastmod>2024-08-29T20:23:44+02:00</lastmod>
   </url><url>
     <loc>https://varmazyar.de/tags/best-practices/</loc>
@@ -15,9 +27,6 @@
     <lastmod>2024-08-29T20:23:44+02:00</lastmod>
   </url><url>
     <loc>https://varmazyar.de/categories/</loc>
-    <lastmod>2024-08-29T20:23:44+02:00</lastmod>
-  </url><url>
-    <loc>https://varmazyar.de/</loc>
     <lastmod>2024-08-29T20:23:44+02:00</lastmod>
   </url><url>
     <loc>https://varmazyar.de/tags/data-security/</loc>
@@ -42,12 +51,6 @@
     <lastmod>2024-08-29T20:23:44+02:00</lastmod>
   </url><url>
     <loc>https://varmazyar.de/categories/model-interpretability/</loc>
-    <lastmod>2024-08-29T20:23:44+02:00</lastmod>
-  </url><url>
-    <loc>https://varmazyar.de/authors/mohammad-varmazyar/</loc>
-    <lastmod>2024-08-29T20:23:44+02:00</lastmod>
-  </url><url>
-    <loc>https://varmazyar.de/posts/</loc>
     <lastmod>2024-08-29T20:23:44+02:00</lastmod>
   </url><url>
     <loc>https://varmazyar.de/tags/</loc>
