@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Containerization on Cloud Engineering Chronicles with Mohammad</title>
+    <link>https://varmazyar.de/categories/containerization/</link>
+    <description>Recent content in Containerization on Cloud Engineering Chronicles with Mohammad</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 29 Aug 2024 16:46:14 +0200</lastBuildDate>
+    <atom:link href="https://varmazyar.de/categories/containerization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Transforming Software Development with CI/CD, Kubernetes, and Docker</title>
+      <link>https://varmazyar.de/posts/transforming-software-development-with-cicd-kubernetes-and-docker/</link>
+      <pubDate>Thu, 29 Aug 2024 16:46:14 +0200</pubDate>
+      <guid>https://varmazyar.de/posts/transforming-software-development-with-cicd-kubernetes-and-docker/</guid>
+      <description>In today&amp;rsquo;s fast-paced software development landscape, staying ahead of the curve means adopting cutting-edge technologies and practices that streamline the deployment process, increase scalability, and enhance overall productivity. Three key components driving this transformation are Continuous Integration/Continuous Deployment (CI/CD), Kubernetes orchestration, and Docker containers. In this article, we delve into how these technologies work harmoniously to revolutionize software development practices.&#xA;Understanding CI/CD Link to heading Continuous Integration (CI) and Continuous Deployment (CD) are software development practices that automate the process of testing and deploying code changes.</description>
+    </item>
+  </channel>
+</rss>
