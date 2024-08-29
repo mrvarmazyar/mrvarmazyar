@@ -2,25 +2,67 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://varmazyar.de/authors/</loc>
+    <lastmod>2024-08-29T20:10:49+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/categories/</loc>
+    <lastmod>2024-08-29T20:10:49+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/</loc>
+    <lastmod>2024-08-29T20:10:49+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/tags/full-stack-development/</loc>
+    <lastmod>2024-08-29T20:10:49+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/categories/full-stack-development/</loc>
+    <lastmod>2024-08-29T20:10:49+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/tags/javascript/</loc>
+    <lastmod>2024-08-29T20:10:49+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/categories/javascript/</loc>
+    <lastmod>2024-08-29T20:10:49+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/tags/meteor/</loc>
+    <lastmod>2024-08-29T20:10:49+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/categories/meteor/</loc>
+    <lastmod>2024-08-29T20:10:49+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/tags/mobile-development/</loc>
+    <lastmod>2024-08-29T20:10:49+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/categories/mobile-development/</loc>
+    <lastmod>2024-08-29T20:10:49+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/authors/mohammad-varmazyar/</loc>
+    <lastmod>2024-08-29T20:10:49+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/tags/nativescript/</loc>
+    <lastmod>2024-08-29T20:10:49+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/categories/nativescript/</loc>
+    <lastmod>2024-08-29T20:10:49+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/posts/</loc>
+    <lastmod>2024-08-29T20:10:49+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/tags/</loc>
+    <lastmod>2024-08-29T20:10:49+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/posts/unleashing-the-power-of-meteor-nativescript-and-javascript-a-comprehensive-guide/</loc>
+    <lastmod>2024-08-29T20:10:49+02:00</lastmod>
+  </url><url>
     <loc>https://varmazyar.de/tags/agile-development/</loc>
     <lastmod>2024-08-29T17:23:15+02:00</lastmod>
   </url><url>
     <loc>https://varmazyar.de/categories/agile-development/</loc>
     <lastmod>2024-08-29T17:23:15+02:00</lastmod>
   </url><url>
-    <loc>https://varmazyar.de/authors/</loc>
-    <lastmod>2024-08-29T17:23:15+02:00</lastmod>
-  </url><url>
     <loc>https://varmazyar.de/tags/best-practices/</loc>
     <lastmod>2024-08-29T17:23:15+02:00</lastmod>
   </url><url>
     <loc>https://varmazyar.de/categories/best-practices/</loc>
-    <lastmod>2024-08-29T17:23:15+02:00</lastmod>
-  </url><url>
-    <loc>https://varmazyar.de/categories/</loc>
-    <lastmod>2024-08-29T17:23:15+02:00</lastmod>
-  </url><url>
-    <loc>https://varmazyar.de/</loc>
     <lastmod>2024-08-29T17:23:15+02:00</lastmod>
   </url><url>
     <loc>https://varmazyar.de/tags/cordova/</loc>
@@ -30,12 +72,6 @@
     <lastmod>2024-08-29T17:23:15+02:00</lastmod>
   </url><url>
     <loc>https://varmazyar.de/posts/mastering-agile-development-with-scrum-spring-boot-and-cordova/</loc>
-    <lastmod>2024-08-29T17:23:15+02:00</lastmod>
-  </url><url>
-    <loc>https://varmazyar.de/authors/mohammad-varmazyar/</loc>
-    <lastmod>2024-08-29T17:23:15+02:00</lastmod>
-  </url><url>
-    <loc>https://varmazyar.de/posts/</loc>
     <lastmod>2024-08-29T17:23:15+02:00</lastmod>
   </url><url>
     <loc>https://varmazyar.de/tags/scrum/</loc>
@@ -54,9 +90,6 @@
     <lastmod>2024-08-29T17:23:15+02:00</lastmod>
   </url><url>
     <loc>https://varmazyar.de/categories/spring-boot/</loc>
-    <lastmod>2024-08-29T17:23:15+02:00</lastmod>
-  </url><url>
-    <loc>https://varmazyar.de/tags/</loc>
     <lastmod>2024-08-29T17:23:15+02:00</lastmod>
   </url><url>
     <loc>https://varmazyar.de/tags/aks/</loc>
