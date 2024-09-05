@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Career on Cloud Engineering Chronicles with Mohammad</title>
-    <link>http://localhost:1313/categories/career/</link>
+    <link>https://varmazyar.de/categories/career/</link>
     <description>Recent content in Career on Cloud Engineering Chronicles with Mohammad</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 29 Aug 2024 16:40:00 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/career/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://varmazyar.de/categories/career/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Empowering Microservices with Istio on Kubernetes</title>
-      <link>http://localhost:1313/posts/empowering-microservices-with-istio-on-kubernetes/</link>
+      <link>https://varmazyar.de/posts/empowering-microservices-with-istio-on-kubernetes/</link>
       <pubDate>Thu, 29 Aug 2024 16:40:00 +0200</pubDate>
-      <guid>http://localhost:1313/posts/empowering-microservices-with-istio-on-kubernetes/</guid>
+      <guid>https://varmazyar.de/posts/empowering-microservices-with-istio-on-kubernetes/</guid>
       <description>In the world of modern cloud-native applications, orchestrating microservices efficiently is crucial for ensuring scalability, reliability, and security. Kubernetes has become the de facto standard for container orchestration, providing a robust platform for deploying and managing microservices. However, as the number of microservices grows, managing and monitoring them can become complex.&#xA;This is where Istio comes in. Istio is an open-source service mesh that provides a set of powerful tools for managing microservices traffic, enforcing security policies, and collecting telemetry data.</description>
     </item>
     <item>
       <title>How to Become a DevOps Engineer: An Honest Guide</title>
-      <link>http://localhost:1313/posts/how-to-become-a-devops-engineer/</link>
+      <link>https://varmazyar.de/posts/how-to-become-a-devops-engineer/</link>
       <pubDate>Mon, 26 Aug 2024 11:46:20 +0200</pubDate>
-      <guid>http://localhost:1313/posts/how-to-become-a-devops-engineer/</guid>
+      <guid>https://varmazyar.de/posts/how-to-become-a-devops-engineer/</guid>
       <description>The role of a DevOps Engineer is one of the most sought-after positions in IT today, and it often comes with a lucrative salary. However, the path to landing this role can vary greatly depending on the company, with job titles like Site Reliability Engineer (SRE) or Platform Engineer sometimes being used interchangeably.&#xA;Despite the differences in titles and interview processes, the core responsibilities of a DevOps Engineer remain consistent. We’re the ones bridging the gap between development and operations teams, driving automation and continuous delivery practices, and ensuring the reliability and scalability of applications and infrastructure.</description>
     </item>
   </channel>

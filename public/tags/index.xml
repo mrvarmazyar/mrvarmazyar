@@ -2,479 +2,479 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Cloud Engineering Chronicles with Mohammad</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://varmazyar.de/tags/</link>
     <description>Recent content in Tags on Cloud Engineering Chronicles with Mohammad</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 29 Aug 2024 21:07:16 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://varmazyar.de/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>DigitalOcean</title>
-      <link>http://localhost:1313/tags/digitalocean/</link>
+      <link>https://varmazyar.de/tags/digitalocean/</link>
       <pubDate>Thu, 29 Aug 2024 21:07:16 +0200</pubDate>
-      <guid>http://localhost:1313/tags/digitalocean/</guid>
+      <guid>https://varmazyar.de/tags/digitalocean/</guid>
       <description></description>
     </item>
     <item>
       <title>Mobile Development</title>
-      <link>http://localhost:1313/tags/mobile-development/</link>
+      <link>https://varmazyar.de/tags/mobile-development/</link>
       <pubDate>Thu, 29 Aug 2024 21:07:16 +0200</pubDate>
-      <guid>http://localhost:1313/tags/mobile-development/</guid>
+      <guid>https://varmazyar.de/tags/mobile-development/</guid>
       <description></description>
     </item>
     <item>
       <title>Mobile Security</title>
-      <link>http://localhost:1313/tags/mobile-security/</link>
+      <link>https://varmazyar.de/tags/mobile-security/</link>
       <pubDate>Thu, 29 Aug 2024 21:07:16 +0200</pubDate>
-      <guid>http://localhost:1313/tags/mobile-security/</guid>
+      <guid>https://varmazyar.de/tags/mobile-security/</guid>
       <description></description>
     </item>
     <item>
       <title>Mocha</title>
-      <link>http://localhost:1313/tags/mocha/</link>
+      <link>https://varmazyar.de/tags/mocha/</link>
       <pubDate>Thu, 29 Aug 2024 21:07:16 +0200</pubDate>
-      <guid>http://localhost:1313/tags/mocha/</guid>
+      <guid>https://varmazyar.de/tags/mocha/</guid>
       <description></description>
     </item>
     <item>
       <title>Testing</title>
-      <link>http://localhost:1313/tags/testing/</link>
+      <link>https://varmazyar.de/tags/testing/</link>
       <pubDate>Thu, 29 Aug 2024 21:07:16 +0200</pubDate>
-      <guid>http://localhost:1313/tags/testing/</guid>
+      <guid>https://varmazyar.de/tags/testing/</guid>
       <description></description>
     </item>
     <item>
       <title>Automated Testing</title>
-      <link>http://localhost:1313/tags/automated-testing/</link>
+      <link>https://varmazyar.de/tags/automated-testing/</link>
       <pubDate>Thu, 29 Aug 2024 20:54:30 +0200</pubDate>
-      <guid>http://localhost:1313/tags/automated-testing/</guid>
+      <guid>https://varmazyar.de/tags/automated-testing/</guid>
       <description></description>
     </item>
     <item>
       <title>Cloud Platforms</title>
-      <link>http://localhost:1313/tags/cloud-platforms/</link>
+      <link>https://varmazyar.de/tags/cloud-platforms/</link>
       <pubDate>Thu, 29 Aug 2024 20:54:30 +0200</pubDate>
-      <guid>http://localhost:1313/tags/cloud-platforms/</guid>
+      <guid>https://varmazyar.de/tags/cloud-platforms/</guid>
       <description></description>
     </item>
     <item>
       <title>Heroku</title>
-      <link>http://localhost:1313/tags/heroku/</link>
+      <link>https://varmazyar.de/tags/heroku/</link>
       <pubDate>Thu, 29 Aug 2024 20:54:30 +0200</pubDate>
-      <guid>http://localhost:1313/tags/heroku/</guid>
+      <guid>https://varmazyar.de/tags/heroku/</guid>
       <description></description>
     </item>
     <item>
       <title>Machine Learning</title>
-      <link>http://localhost:1313/tags/machine-learning/</link>
+      <link>https://varmazyar.de/tags/machine-learning/</link>
       <pubDate>Thu, 29 Aug 2024 20:54:30 +0200</pubDate>
-      <guid>http://localhost:1313/tags/machine-learning/</guid>
+      <guid>https://varmazyar.de/tags/machine-learning/</guid>
       <description></description>
     </item>
     <item>
       <title>Playwright</title>
-      <link>http://localhost:1313/tags/playwright/</link>
+      <link>https://varmazyar.de/tags/playwright/</link>
       <pubDate>Thu, 29 Aug 2024 20:54:30 +0200</pubDate>
-      <guid>http://localhost:1313/tags/playwright/</guid>
+      <guid>https://varmazyar.de/tags/playwright/</guid>
       <description></description>
     </item>
     <item>
       <title>Technology</title>
-      <link>http://localhost:1313/tags/technology/</link>
+      <link>https://varmazyar.de/tags/technology/</link>
       <pubDate>Thu, 29 Aug 2024 20:54:30 +0200</pubDate>
-      <guid>http://localhost:1313/tags/technology/</guid>
+      <guid>https://varmazyar.de/tags/technology/</guid>
       <description></description>
     </item>
     <item>
       <title>Unsupervised Learning</title>
-      <link>http://localhost:1313/tags/unsupervised-learning/</link>
+      <link>https://varmazyar.de/tags/unsupervised-learning/</link>
       <pubDate>Thu, 29 Aug 2024 20:54:30 +0200</pubDate>
-      <guid>http://localhost:1313/tags/unsupervised-learning/</guid>
+      <guid>https://varmazyar.de/tags/unsupervised-learning/</guid>
       <description></description>
     </item>
     <item>
       <title>Web Scraping</title>
-      <link>http://localhost:1313/tags/web-scraping/</link>
+      <link>https://varmazyar.de/tags/web-scraping/</link>
       <pubDate>Thu, 29 Aug 2024 20:54:30 +0200</pubDate>
-      <guid>http://localhost:1313/tags/web-scraping/</guid>
+      <guid>https://varmazyar.de/tags/web-scraping/</guid>
       <description></description>
     </item>
     <item>
       <title>AI</title>
-      <link>http://localhost:1313/tags/ai/</link>
+      <link>https://varmazyar.de/tags/ai/</link>
       <pubDate>Thu, 29 Aug 2024 20:51:25 +0200</pubDate>
-      <guid>http://localhost:1313/tags/ai/</guid>
+      <guid>https://varmazyar.de/tags/ai/</guid>
       <description></description>
     </item>
     <item>
       <title>Asynchronous Programming</title>
-      <link>http://localhost:1313/tags/asynchronous-programming/</link>
+      <link>https://varmazyar.de/tags/asynchronous-programming/</link>
       <pubDate>Thu, 29 Aug 2024 20:51:25 +0200</pubDate>
-      <guid>http://localhost:1313/tags/asynchronous-programming/</guid>
+      <guid>https://varmazyar.de/tags/asynchronous-programming/</guid>
       <description></description>
     </item>
     <item>
       <title>Best Practices</title>
-      <link>http://localhost:1313/tags/best-practices/</link>
+      <link>https://varmazyar.de/tags/best-practices/</link>
       <pubDate>Thu, 29 Aug 2024 20:51:25 +0200</pubDate>
-      <guid>http://localhost:1313/tags/best-practices/</guid>
+      <guid>https://varmazyar.de/tags/best-practices/</guid>
       <description></description>
     </item>
     <item>
       <title>Programming</title>
-      <link>http://localhost:1313/tags/programming/</link>
+      <link>https://varmazyar.de/tags/programming/</link>
       <pubDate>Thu, 29 Aug 2024 20:51:25 +0200</pubDate>
-      <guid>http://localhost:1313/tags/programming/</guid>
+      <guid>https://varmazyar.de/tags/programming/</guid>
       <description></description>
     </item>
     <item>
       <title>Real-World Examples</title>
-      <link>http://localhost:1313/tags/real-world-examples/</link>
+      <link>https://varmazyar.de/tags/real-world-examples/</link>
       <pubDate>Thu, 29 Aug 2024 20:51:25 +0200</pubDate>
-      <guid>http://localhost:1313/tags/real-world-examples/</guid>
+      <guid>https://varmazyar.de/tags/real-world-examples/</guid>
       <description></description>
     </item>
     <item>
       <title>Reinforcement Learning</title>
-      <link>http://localhost:1313/tags/reinforcement-learning/</link>
+      <link>https://varmazyar.de/tags/reinforcement-learning/</link>
       <pubDate>Thu, 29 Aug 2024 20:51:25 +0200</pubDate>
-      <guid>http://localhost:1313/tags/reinforcement-learning/</guid>
+      <guid>https://varmazyar.de/tags/reinforcement-learning/</guid>
       <description></description>
     </item>
     <item>
       <title>DevSecOps, Design Patterns, Software Development, Security, Operations, Best Practices, Challenges, Real-World Applications, Application Design, Software Engineering, Continuous Integration</title>
-      <link>http://localhost:1313/tags/devsecops-design-patterns-software-development-security-operations-best-practices-challenges-real-world-applications-application-design-software-engineering-continuous-integration/</link>
+      <link>https://varmazyar.de/tags/devsecops-design-patterns-software-development-security-operations-best-practices-challenges-real-world-applications-application-design-software-engineering-continuous-integration/</link>
       <pubDate>Thu, 29 Aug 2024 20:46:24 +0200</pubDate>
-      <guid>http://localhost:1313/tags/devsecops-design-patterns-software-development-security-operations-best-practices-challenges-real-world-applications-application-design-software-engineering-continuous-integration/</guid>
+      <guid>https://varmazyar.de/tags/devsecops-design-patterns-software-development-security-operations-best-practices-challenges-real-world-applications-application-design-software-engineering-continuous-integration/</guid>
       <description></description>
     </item>
     <item>
       <title>Data Security</title>
-      <link>http://localhost:1313/tags/data-security/</link>
+      <link>https://varmazyar.de/tags/data-security/</link>
       <pubDate>Thu, 29 Aug 2024 20:23:44 +0200</pubDate>
-      <guid>http://localhost:1313/tags/data-security/</guid>
+      <guid>https://varmazyar.de/tags/data-security/</guid>
       <description></description>
     </item>
     <item>
       <title>Model Deployment</title>
-      <link>http://localhost:1313/tags/model-deployment/</link>
+      <link>https://varmazyar.de/tags/model-deployment/</link>
       <pubDate>Thu, 29 Aug 2024 20:23:44 +0200</pubDate>
-      <guid>http://localhost:1313/tags/model-deployment/</guid>
+      <guid>https://varmazyar.de/tags/model-deployment/</guid>
       <description></description>
     </item>
     <item>
       <title>Model Interpretability</title>
-      <link>http://localhost:1313/tags/model-interpretability/</link>
+      <link>https://varmazyar.de/tags/model-interpretability/</link>
       <pubDate>Thu, 29 Aug 2024 20:23:44 +0200</pubDate>
-      <guid>http://localhost:1313/tags/model-interpretability/</guid>
+      <guid>https://varmazyar.de/tags/model-interpretability/</guid>
       <description></description>
     </item>
     <item>
       <title>Vault</title>
-      <link>http://localhost:1313/tags/vault/</link>
+      <link>https://varmazyar.de/tags/vault/</link>
       <pubDate>Thu, 29 Aug 2024 20:23:44 +0200</pubDate>
-      <guid>http://localhost:1313/tags/vault/</guid>
+      <guid>https://varmazyar.de/tags/vault/</guid>
       <description></description>
     </item>
     <item>
       <title>Full-Stack Development</title>
-      <link>http://localhost:1313/tags/full-stack-development/</link>
+      <link>https://varmazyar.de/tags/full-stack-development/</link>
       <pubDate>Thu, 29 Aug 2024 20:10:49 +0200</pubDate>
-      <guid>http://localhost:1313/tags/full-stack-development/</guid>
+      <guid>https://varmazyar.de/tags/full-stack-development/</guid>
       <description></description>
     </item>
     <item>
       <title>JavaScript</title>
-      <link>http://localhost:1313/tags/javascript/</link>
+      <link>https://varmazyar.de/tags/javascript/</link>
       <pubDate>Thu, 29 Aug 2024 20:10:49 +0200</pubDate>
-      <guid>http://localhost:1313/tags/javascript/</guid>
+      <guid>https://varmazyar.de/tags/javascript/</guid>
       <description></description>
     </item>
     <item>
       <title>Meteor</title>
-      <link>http://localhost:1313/tags/meteor/</link>
+      <link>https://varmazyar.de/tags/meteor/</link>
       <pubDate>Thu, 29 Aug 2024 20:10:49 +0200</pubDate>
-      <guid>http://localhost:1313/tags/meteor/</guid>
+      <guid>https://varmazyar.de/tags/meteor/</guid>
       <description></description>
     </item>
     <item>
       <title>NativeScript</title>
-      <link>http://localhost:1313/tags/nativescript/</link>
+      <link>https://varmazyar.de/tags/nativescript/</link>
       <pubDate>Thu, 29 Aug 2024 20:10:49 +0200</pubDate>
-      <guid>http://localhost:1313/tags/nativescript/</guid>
+      <guid>https://varmazyar.de/tags/nativescript/</guid>
       <description></description>
     </item>
     <item>
       <title>Agile Development</title>
-      <link>http://localhost:1313/tags/agile-development/</link>
+      <link>https://varmazyar.de/tags/agile-development/</link>
       <pubDate>Thu, 29 Aug 2024 17:23:15 +0200</pubDate>
-      <guid>http://localhost:1313/tags/agile-development/</guid>
+      <guid>https://varmazyar.de/tags/agile-development/</guid>
       <description></description>
     </item>
     <item>
       <title>Cordova</title>
-      <link>http://localhost:1313/tags/cordova/</link>
+      <link>https://varmazyar.de/tags/cordova/</link>
       <pubDate>Thu, 29 Aug 2024 17:23:15 +0200</pubDate>
-      <guid>http://localhost:1313/tags/cordova/</guid>
+      <guid>https://varmazyar.de/tags/cordova/</guid>
       <description></description>
     </item>
     <item>
       <title>Scrum</title>
-      <link>http://localhost:1313/tags/scrum/</link>
+      <link>https://varmazyar.de/tags/scrum/</link>
       <pubDate>Thu, 29 Aug 2024 17:23:15 +0200</pubDate>
-      <guid>http://localhost:1313/tags/scrum/</guid>
+      <guid>https://varmazyar.de/tags/scrum/</guid>
       <description></description>
     </item>
     <item>
       <title>Software Development</title>
-      <link>http://localhost:1313/tags/software-development/</link>
+      <link>https://varmazyar.de/tags/software-development/</link>
       <pubDate>Thu, 29 Aug 2024 17:23:15 +0200</pubDate>
-      <guid>http://localhost:1313/tags/software-development/</guid>
+      <guid>https://varmazyar.de/tags/software-development/</guid>
       <description></description>
     </item>
     <item>
       <title>Spring Boot</title>
-      <link>http://localhost:1313/tags/spring-boot/</link>
+      <link>https://varmazyar.de/tags/spring-boot/</link>
       <pubDate>Thu, 29 Aug 2024 17:23:15 +0200</pubDate>
-      <guid>http://localhost:1313/tags/spring-boot/</guid>
+      <guid>https://varmazyar.de/tags/spring-boot/</guid>
       <description></description>
     </item>
     <item>
       <title>AKS</title>
-      <link>http://localhost:1313/tags/aks/</link>
+      <link>https://varmazyar.de/tags/aks/</link>
       <pubDate>Thu, 29 Aug 2024 17:19:44 +0200</pubDate>
-      <guid>http://localhost:1313/tags/aks/</guid>
+      <guid>https://varmazyar.de/tags/aks/</guid>
       <description></description>
     </item>
     <item>
       <title>Cloud Computing</title>
-      <link>http://localhost:1313/tags/cloud-computing/</link>
+      <link>https://varmazyar.de/tags/cloud-computing/</link>
       <pubDate>Thu, 29 Aug 2024 17:19:44 +0200</pubDate>
-      <guid>http://localhost:1313/tags/cloud-computing/</guid>
+      <guid>https://varmazyar.de/tags/cloud-computing/</guid>
       <description></description>
     </item>
     <item>
       <title>Database Management</title>
-      <link>http://localhost:1313/tags/database-management/</link>
+      <link>https://varmazyar.de/tags/database-management/</link>
       <pubDate>Thu, 29 Aug 2024 17:19:44 +0200</pubDate>
-      <guid>http://localhost:1313/tags/database-management/</guid>
+      <guid>https://varmazyar.de/tags/database-management/</guid>
       <description></description>
     </item>
     <item>
       <title>Kubernetes</title>
-      <link>http://localhost:1313/tags/kubernetes/</link>
+      <link>https://varmazyar.de/tags/kubernetes/</link>
       <pubDate>Thu, 29 Aug 2024 17:19:44 +0200</pubDate>
-      <guid>http://localhost:1313/tags/kubernetes/</guid>
+      <guid>https://varmazyar.de/tags/kubernetes/</guid>
       <description></description>
     </item>
     <item>
       <title>PostgreSQL</title>
-      <link>http://localhost:1313/tags/postgresql/</link>
+      <link>https://varmazyar.de/tags/postgresql/</link>
       <pubDate>Thu, 29 Aug 2024 17:19:44 +0200</pubDate>
-      <guid>http://localhost:1313/tags/postgresql/</guid>
+      <guid>https://varmazyar.de/tags/postgresql/</guid>
       <description></description>
     </item>
     <item>
       <title>Automation</title>
-      <link>http://localhost:1313/tags/automation/</link>
+      <link>https://varmazyar.de/tags/automation/</link>
       <pubDate>Thu, 29 Aug 2024 16:52:45 +0200</pubDate>
-      <guid>http://localhost:1313/tags/automation/</guid>
+      <guid>https://varmazyar.de/tags/automation/</guid>
       <description></description>
     </item>
     <item>
       <title>CI/CD</title>
-      <link>http://localhost:1313/tags/ci/cd/</link>
+      <link>https://varmazyar.de/tags/ci/cd/</link>
       <pubDate>Thu, 29 Aug 2024 16:52:45 +0200</pubDate>
-      <guid>http://localhost:1313/tags/ci/cd/</guid>
+      <guid>https://varmazyar.de/tags/ci/cd/</guid>
       <description></description>
     </item>
     <item>
       <title>DevOps</title>
-      <link>http://localhost:1313/tags/devops/</link>
+      <link>https://varmazyar.de/tags/devops/</link>
       <pubDate>Thu, 29 Aug 2024 16:52:45 +0200</pubDate>
-      <guid>http://localhost:1313/tags/devops/</guid>
+      <guid>https://varmazyar.de/tags/devops/</guid>
       <description></description>
     </item>
     <item>
       <title>Docker</title>
-      <link>http://localhost:1313/tags/docker/</link>
+      <link>https://varmazyar.de/tags/docker/</link>
       <pubDate>Thu, 29 Aug 2024 16:52:45 +0200</pubDate>
-      <guid>http://localhost:1313/tags/docker/</guid>
+      <guid>https://varmazyar.de/tags/docker/</guid>
       <description></description>
     </item>
     <item>
       <title>K8s Operators</title>
-      <link>http://localhost:1313/tags/k8s-operators/</link>
+      <link>https://varmazyar.de/tags/k8s-operators/</link>
       <pubDate>Thu, 29 Aug 2024 16:52:45 +0200</pubDate>
-      <guid>http://localhost:1313/tags/k8s-operators/</guid>
+      <guid>https://varmazyar.de/tags/k8s-operators/</guid>
       <description></description>
     </item>
     <item>
       <title>Helm</title>
-      <link>http://localhost:1313/tags/helm/</link>
+      <link>https://varmazyar.de/tags/helm/</link>
       <pubDate>Thu, 29 Aug 2024 16:48:44 +0200</pubDate>
-      <guid>http://localhost:1313/tags/helm/</guid>
+      <guid>https://varmazyar.de/tags/helm/</guid>
       <description></description>
     </item>
     <item>
       <title>Infrastructure as Code</title>
-      <link>http://localhost:1313/tags/infrastructure-as-code/</link>
+      <link>https://varmazyar.de/tags/infrastructure-as-code/</link>
       <pubDate>Thu, 29 Aug 2024 16:48:44 +0200</pubDate>
-      <guid>http://localhost:1313/tags/infrastructure-as-code/</guid>
+      <guid>https://varmazyar.de/tags/infrastructure-as-code/</guid>
       <description></description>
     </item>
     <item>
       <title>Pulumi</title>
-      <link>http://localhost:1313/tags/pulumi/</link>
+      <link>https://varmazyar.de/tags/pulumi/</link>
       <pubDate>Thu, 29 Aug 2024 16:48:44 +0200</pubDate>
-      <guid>http://localhost:1313/tags/pulumi/</guid>
+      <guid>https://varmazyar.de/tags/pulumi/</guid>
       <description></description>
     </item>
     <item>
       <title>Terragrunt</title>
-      <link>http://localhost:1313/tags/terragrunt/</link>
+      <link>https://varmazyar.de/tags/terragrunt/</link>
       <pubDate>Thu, 29 Aug 2024 16:48:44 +0200</pubDate>
-      <guid>http://localhost:1313/tags/terragrunt/</guid>
+      <guid>https://varmazyar.de/tags/terragrunt/</guid>
       <description></description>
     </item>
     <item>
       <title>Containerization</title>
-      <link>http://localhost:1313/tags/containerization/</link>
+      <link>https://varmazyar.de/tags/containerization/</link>
       <pubDate>Thu, 29 Aug 2024 16:46:14 +0200</pubDate>
-      <guid>http://localhost:1313/tags/containerization/</guid>
+      <guid>https://varmazyar.de/tags/containerization/</guid>
       <description></description>
     </item>
     <item>
       <title>Istio</title>
-      <link>http://localhost:1313/tags/istio/</link>
+      <link>https://varmazyar.de/tags/istio/</link>
       <pubDate>Thu, 29 Aug 2024 16:40:00 +0200</pubDate>
-      <guid>http://localhost:1313/tags/istio/</guid>
+      <guid>https://varmazyar.de/tags/istio/</guid>
       <description></description>
     </item>
     <item>
       <title>Microservices</title>
-      <link>http://localhost:1313/tags/microservices/</link>
+      <link>https://varmazyar.de/tags/microservices/</link>
       <pubDate>Thu, 29 Aug 2024 16:40:00 +0200</pubDate>
-      <guid>http://localhost:1313/tags/microservices/</guid>
+      <guid>https://varmazyar.de/tags/microservices/</guid>
       <description></description>
     </item>
     <item>
       <title>Service Mesh</title>
-      <link>http://localhost:1313/tags/service-mesh/</link>
+      <link>https://varmazyar.de/tags/service-mesh/</link>
       <pubDate>Thu, 29 Aug 2024 16:40:00 +0200</pubDate>
-      <guid>http://localhost:1313/tags/service-mesh/</guid>
+      <guid>https://varmazyar.de/tags/service-mesh/</guid>
       <description></description>
     </item>
     <item>
       <title>API</title>
-      <link>http://localhost:1313/tags/api/</link>
+      <link>https://varmazyar.de/tags/api/</link>
       <pubDate>Wed, 28 Aug 2024 11:46:20 +0200</pubDate>
-      <guid>http://localhost:1313/tags/api/</guid>
+      <guid>https://varmazyar.de/tags/api/</guid>
       <description></description>
     </item>
     <item>
       <title>Cloud Engineering</title>
-      <link>http://localhost:1313/tags/cloud-engineering/</link>
+      <link>https://varmazyar.de/tags/cloud-engineering/</link>
       <pubDate>Wed, 28 Aug 2024 11:46:20 +0200</pubDate>
-      <guid>http://localhost:1313/tags/cloud-engineering/</guid>
+      <guid>https://varmazyar.de/tags/cloud-engineering/</guid>
       <description></description>
     </item>
     <item>
       <title>DevSecOps</title>
-      <link>http://localhost:1313/tags/devsecops/</link>
+      <link>https://varmazyar.de/tags/devsecops/</link>
       <pubDate>Wed, 28 Aug 2024 11:46:20 +0200</pubDate>
-      <guid>http://localhost:1313/tags/devsecops/</guid>
+      <guid>https://varmazyar.de/tags/devsecops/</guid>
       <description></description>
     </item>
     <item>
       <title>Generative AI</title>
-      <link>http://localhost:1313/tags/generative-ai/</link>
+      <link>https://varmazyar.de/tags/generative-ai/</link>
       <pubDate>Wed, 28 Aug 2024 11:46:20 +0200</pubDate>
-      <guid>http://localhost:1313/tags/generative-ai/</guid>
+      <guid>https://varmazyar.de/tags/generative-ai/</guid>
       <description></description>
     </item>
     <item>
       <title>Network Management</title>
-      <link>http://localhost:1313/tags/network-management/</link>
+      <link>https://varmazyar.de/tags/network-management/</link>
       <pubDate>Wed, 28 Aug 2024 11:46:20 +0200</pubDate>
-      <guid>http://localhost:1313/tags/network-management/</guid>
+      <guid>https://varmazyar.de/tags/network-management/</guid>
       <description></description>
     </item>
     <item>
       <title>Platform Engineering</title>
-      <link>http://localhost:1313/tags/platform-engineering/</link>
+      <link>https://varmazyar.de/tags/platform-engineering/</link>
       <pubDate>Wed, 28 Aug 2024 11:46:20 +0200</pubDate>
-      <guid>http://localhost:1313/tags/platform-engineering/</guid>
+      <guid>https://varmazyar.de/tags/platform-engineering/</guid>
       <description></description>
     </item>
     <item>
       <title>Rate Limiting</title>
-      <link>http://localhost:1313/tags/rate-limiting/</link>
+      <link>https://varmazyar.de/tags/rate-limiting/</link>
       <pubDate>Wed, 28 Aug 2024 11:46:20 +0200</pubDate>
-      <guid>http://localhost:1313/tags/rate-limiting/</guid>
+      <guid>https://varmazyar.de/tags/rate-limiting/</guid>
       <description></description>
     </item>
     <item>
       <title>SRE</title>
-      <link>http://localhost:1313/tags/sre/</link>
+      <link>https://varmazyar.de/tags/sre/</link>
       <pubDate>Wed, 28 Aug 2024 11:46:20 +0200</pubDate>
-      <guid>http://localhost:1313/tags/sre/</guid>
+      <guid>https://varmazyar.de/tags/sre/</guid>
       <description></description>
     </item>
     <item>
       <title>Web Security</title>
-      <link>http://localhost:1313/tags/web-security/</link>
+      <link>https://varmazyar.de/tags/web-security/</link>
       <pubDate>Wed, 28 Aug 2024 11:46:20 +0200</pubDate>
-      <guid>http://localhost:1313/tags/web-security/</guid>
+      <guid>https://varmazyar.de/tags/web-security/</guid>
       <description></description>
     </item>
     <item>
       <title>Apache Airflow</title>
-      <link>http://localhost:1313/tags/apache-airflow/</link>
+      <link>https://varmazyar.de/tags/apache-airflow/</link>
       <pubDate>Tue, 27 Aug 2024 11:46:20 +0200</pubDate>
-      <guid>http://localhost:1313/tags/apache-airflow/</guid>
+      <guid>https://varmazyar.de/tags/apache-airflow/</guid>
       <description></description>
     </item>
     <item>
       <title>GKE</title>
-      <link>http://localhost:1313/tags/gke/</link>
+      <link>https://varmazyar.de/tags/gke/</link>
       <pubDate>Tue, 27 Aug 2024 11:46:20 +0200</pubDate>
-      <guid>http://localhost:1313/tags/gke/</guid>
+      <guid>https://varmazyar.de/tags/gke/</guid>
       <description></description>
     </item>
     <item>
       <title>About Me</title>
-      <link>http://localhost:1313/tags/about-me/</link>
+      <link>https://varmazyar.de/tags/about-me/</link>
       <pubDate>Mon, 26 Aug 2024 11:46:20 +0200</pubDate>
-      <guid>http://localhost:1313/tags/about-me/</guid>
+      <guid>https://varmazyar.de/tags/about-me/</guid>
       <description></description>
     </item>
     <item>
       <title>Career</title>
-      <link>http://localhost:1313/tags/career/</link>
+      <link>https://varmazyar.de/tags/career/</link>
       <pubDate>Mon, 26 Aug 2024 11:46:20 +0200</pubDate>
-      <guid>http://localhost:1313/tags/career/</guid>
+      <guid>https://varmazyar.de/tags/career/</guid>
       <description></description>
     </item>
     <item>
       <title>Guides</title>
-      <link>http://localhost:1313/tags/guides/</link>
+      <link>https://varmazyar.de/tags/guides/</link>
       <pubDate>Mon, 26 Aug 2024 11:46:20 +0200</pubDate>
-      <guid>http://localhost:1313/tags/guides/</guid>
+      <guid>https://varmazyar.de/tags/guides/</guid>
       <description></description>
     </item>
     <item>
       <title>Introduction</title>
-      <link>http://localhost:1313/tags/introduction/</link>
+      <link>https://varmazyar.de/tags/introduction/</link>
       <pubDate>Mon, 26 Aug 2024 11:46:20 +0200</pubDate>
-      <guid>http://localhost:1313/tags/introduction/</guid>
+      <guid>https://varmazyar.de/tags/introduction/</guid>
       <description></description>
     </item>
     <item>
       <title>Observability</title>
-      <link>http://localhost:1313/tags/observability/</link>
+      <link>https://varmazyar.de/tags/observability/</link>
       <pubDate>Mon, 26 Aug 2024 11:46:20 +0200</pubDate>
-      <guid>http://localhost:1313/tags/observability/</guid>
+      <guid>https://varmazyar.de/tags/observability/</guid>
       <description></description>
     </item>
   </channel>

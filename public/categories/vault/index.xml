@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vault on Cloud Engineering Chronicles with Mohammad</title>
-    <link>http://localhost:1313/categories/vault/</link>
+    <link>https://varmazyar.de/categories/vault/</link>
     <description>Recent content in Vault on Cloud Engineering Chronicles with Mohammad</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 29 Aug 2024 20:23:44 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/vault/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://varmazyar.de/categories/vault/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Navigating the Depths: Model Interpretability, Securing Data with Vault, and Efficient Model Deployment</title>
-      <link>http://localhost:1313/posts/navigating-the-depths-model-interpretability-securing-data-with-vault-and-efficient-model-deployment/</link>
+      <link>https://varmazyar.de/posts/navigating-the-depths-model-interpretability-securing-data-with-vault-and-efficient-model-deployment/</link>
       <pubDate>Thu, 29 Aug 2024 20:23:44 +0200</pubDate>
-      <guid>http://localhost:1313/posts/navigating-the-depths-model-interpretability-securing-data-with-vault-and-efficient-model-deployment/</guid>
+      <guid>https://varmazyar.de/posts/navigating-the-depths-model-interpretability-securing-data-with-vault-and-efficient-model-deployment/</guid>
       <description>In today&amp;rsquo;s hyper-connected world, machine learning models power a wide array of applications, ranging from recommendation algorithms to predictive analytics. While these models offer breathtaking capabilities, they also bring new challenges in interpretability, data security, and deployment. This article aims to shed light on these aspects.&#xA;Deciphering the enigma: Understanding Model Interpretability Link to heading Machine learning models, particularly deep learning models, have often been compared to &amp;lsquo;black boxes&amp;rsquo; due to their complex nature.</description>
     </item>
   </channel>

@@ -2,136 +2,136 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mohammad Varmazyar on Cloud Engineering Chronicles with Mohammad</title>
-    <link>http://localhost:1313/authors/mohammad-varmazyar/</link>
+    <link>https://varmazyar.de/authors/mohammad-varmazyar/</link>
     <description>Recent content in Mohammad Varmazyar on Cloud Engineering Chronicles with Mohammad</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 29 Aug 2024 22:11:41 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/authors/mohammad-varmazyar/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://varmazyar.de/authors/mohammad-varmazyar/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Unleashing Extraordinary Web Development: Streamlining Django Web Applications with Vercel on a 5G Network</title>
-      <link>http://localhost:1313/posts/unleashing-extraordinary-web-development-streamlining-django-web-applications-with-vercel-on-a-5g-network/</link>
+      <link>https://varmazyar.de/posts/unleashing-extraordinary-web-development-streamlining-django-web-applications-with-vercel-on-a-5g-network/</link>
       <pubDate>Thu, 29 Aug 2024 22:11:41 +0200</pubDate>
-      <guid>http://localhost:1313/posts/unleashing-extraordinary-web-development-streamlining-django-web-applications-with-vercel-on-a-5g-network/</guid>
+      <guid>https://varmazyar.de/posts/unleashing-extraordinary-web-development-streamlining-django-web-applications-with-vercel-on-a-5g-network/</guid>
       <description>Short Description: Discover how Vercel’s deployment and hosting relevancy are propelling Django web applications in the 5G era. The blog highlights the potential of Django with Vercel on a 5G network to improve efficiency, performance, and scalability in web development.&#xA;Relevant Tags: Vercel, Django, 5G Network, Web Development, Hosting, Deployment, Scalability, Performance, Efficiency&#xA;Full Article Content:&#xA;Web development is continually evolving, and developers are keen on tools and platforms that can help deploy and host applications seamlessly with peak performance - something that Vercel promises!</description>
     </item>
     <item>
       <title>Enhancing Mobile Security with Mocha Testing on DigitalOcean</title>
-      <link>http://localhost:1313/posts/enhancing-mobile-security-with-mocha-testing-on-digitalocean/</link>
+      <link>https://varmazyar.de/posts/enhancing-mobile-security-with-mocha-testing-on-digitalocean/</link>
       <pubDate>Thu, 29 Aug 2024 21:07:16 +0200</pubDate>
-      <guid>http://localhost:1313/posts/enhancing-mobile-security-with-mocha-testing-on-digitalocean/</guid>
+      <guid>https://varmazyar.de/posts/enhancing-mobile-security-with-mocha-testing-on-digitalocean/</guid>
       <description>In an increasingly digital world where mobile applications play a crucial role in our daily lives, ensuring the security and reliability of these apps is of paramount importance. One of the ways to achieve this is by incorporating robust testing methodologies like Mocha and utilizing scalable cloud platforms like DigitalOcean. This article delves into the process of enhancing mobile security through Mocha testing on the DigitalOcean infrastructure.&#xA;Why Mobile Security Matters Link to heading Mobile devices have become ubiquitous tools for accessing services, storing sensitive information, and conducting transactions.</description>
     </item>
     <item>
       <title>Unmasking Technology: A Deep Dive into Heroku, Playwright and Unsupervised Learning</title>
-      <link>http://localhost:1313/posts/unmasking-technology-a-deep-dive-into-heroku-playwright-and-unsupervised-learning/</link>
+      <link>https://varmazyar.de/posts/unmasking-technology-a-deep-dive-into-heroku-playwright-and-unsupervised-learning/</link>
       <pubDate>Thu, 29 Aug 2024 20:54:30 +0200</pubDate>
-      <guid>http://localhost:1313/posts/unmasking-technology-a-deep-dive-into-heroku-playwright-and-unsupervised-learning/</guid>
+      <guid>https://varmazyar.de/posts/unmasking-technology-a-deep-dive-into-heroku-playwright-and-unsupervised-learning/</guid>
       <description>Navigating the vast and ever-improving world of technology can be both exhilarating and overwhelming. Today’s blog post takes you deep into Heroku, Playwright and Unsupervised Learning – three exciting and diverse elements of the technological universe.&#xA;Heroku: The Ubiquitous Cloud Platform&#xA;Heroku, one of the pioneer platforms as a service (PaaS), grants developers the convenience of deploying, managing, and scaling applications without the worries of hardware or infrastructure management. Its robust integrations, easy scaling, and flexible ecosystem make it a favorite among many developers.</description>
     </item>
     <item>
       <title>Demystifying Reinforcement Learning and Asynchronous Programming: An In-Depth Guide</title>
-      <link>http://localhost:1313/posts/demystifying-reinforcement-learning-and-asynchronous-programming-an-in-depth-guide/</link>
+      <link>https://varmazyar.de/posts/demystifying-reinforcement-learning-and-asynchronous-programming-an-in-depth-guide/</link>
       <pubDate>Thu, 29 Aug 2024 20:51:25 +0200</pubDate>
-      <guid>http://localhost:1313/posts/demystifying-reinforcement-learning-and-asynchronous-programming-an-in-depth-guide/</guid>
+      <guid>https://varmazyar.de/posts/demystifying-reinforcement-learning-and-asynchronous-programming-an-in-depth-guide/</guid>
       <description>Over the last decade, the tech industry has been evolving at an explosive pace. Two critical technological advancements that have been making waves recently are Reinforcement Learning (RL) and Asynchronous Programming. While these terms might seem intimidating at first, understanding their principles, applications, and overcoming related challenges can be simplified with a clear explanation and examples.&#xA;Reinforcement Learning and Its Implications&#xA;Let&amp;rsquo;s begin by understanding the emerging paradigm of Reinforcement Learning (RL).</description>
     </item>
     <item>
       <title>Mastering the Art of DevSecOps and Design Patterns: A Comprehensive Guide</title>
-      <link>http://localhost:1313/posts/mastering-the-art-of-devsecops-and-design-patterns-a-comprehensive-guide/</link>
+      <link>https://varmazyar.de/posts/mastering-the-art-of-devsecops-and-design-patterns-a-comprehensive-guide/</link>
       <pubDate>Thu, 29 Aug 2024 20:46:24 +0200</pubDate>
-      <guid>http://localhost:1313/posts/mastering-the-art-of-devsecops-and-design-patterns-a-comprehensive-guide/</guid>
+      <guid>https://varmazyar.de/posts/mastering-the-art-of-devsecops-and-design-patterns-a-comprehensive-guide/</guid>
       <description>The world has been constantly evolving, so has the field of software development. Two key elements that have transformed contemporary software development processes are DevSecOps and Design Patterns. In this guide, we&amp;rsquo;ll dive deep into both, debunk complexities, highlight the challenges, and reveal best practices, all through the lens of real-world examples.&#xA;DevSecOps: The Need of the Hour Link to heading DevSecOps, an acronym for Development, Security, and Operations, is a practice that integrates security protocols within the DevOps framework.</description>
     </item>
     <item>
       <title>Navigating the Depths: Model Interpretability, Securing Data with Vault, and Efficient Model Deployment</title>
-      <link>http://localhost:1313/posts/navigating-the-depths-model-interpretability-securing-data-with-vault-and-efficient-model-deployment/</link>
+      <link>https://varmazyar.de/posts/navigating-the-depths-model-interpretability-securing-data-with-vault-and-efficient-model-deployment/</link>
       <pubDate>Thu, 29 Aug 2024 20:23:44 +0200</pubDate>
-      <guid>http://localhost:1313/posts/navigating-the-depths-model-interpretability-securing-data-with-vault-and-efficient-model-deployment/</guid>
+      <guid>https://varmazyar.de/posts/navigating-the-depths-model-interpretability-securing-data-with-vault-and-efficient-model-deployment/</guid>
       <description>In today&amp;rsquo;s hyper-connected world, machine learning models power a wide array of applications, ranging from recommendation algorithms to predictive analytics. While these models offer breathtaking capabilities, they also bring new challenges in interpretability, data security, and deployment. This article aims to shed light on these aspects.&#xA;Deciphering the enigma: Understanding Model Interpretability Link to heading Machine learning models, particularly deep learning models, have often been compared to &amp;lsquo;black boxes&amp;rsquo; due to their complex nature.</description>
     </item>
     <item>
       <title>Unleashing the Power of Meteor, NativeScript, and JavaScript: A Comprehensive Guide</title>
-      <link>http://localhost:1313/posts/unleashing-the-power-of-meteor-nativescript-and-javascript-a-comprehensive-guide/</link>
+      <link>https://varmazyar.de/posts/unleashing-the-power-of-meteor-nativescript-and-javascript-a-comprehensive-guide/</link>
       <pubDate>Thu, 29 Aug 2024 20:10:49 +0200</pubDate>
-      <guid>http://localhost:1313/posts/unleashing-the-power-of-meteor-nativescript-and-javascript-a-comprehensive-guide/</guid>
+      <guid>https://varmazyar.de/posts/unleashing-the-power-of-meteor-nativescript-and-javascript-a-comprehensive-guide/</guid>
       <description>In the fast-paced world of web and mobile application development, staying ahead of the curve is crucial. Technologies like Meteor, NativeScript, and JavaScript have revolutionized the way developers create interactive and responsive apps. In this comprehensive guide, we will delve deep into the intricacies of Meteor, NativeScript, and JavaScript, exploring their features, challenges, best practices, and real-world examples.&#xA;Introduction to Meteor, NativeScript, and JavaScript&#xA;Meteor is a full-stack JavaScript framework that simplifies the process of developing real-time web applications.</description>
     </item>
     <item>
       <title>Mastering Agile Development with Scrum, Spring Boot, and Cordova</title>
-      <link>http://localhost:1313/posts/mastering-agile-development-with-scrum-spring-boot-and-cordova/</link>
+      <link>https://varmazyar.de/posts/mastering-agile-development-with-scrum-spring-boot-and-cordova/</link>
       <pubDate>Thu, 29 Aug 2024 17:23:15 +0200</pubDate>
-      <guid>http://localhost:1313/posts/mastering-agile-development-with-scrum-spring-boot-and-cordova/</guid>
+      <guid>https://varmazyar.de/posts/mastering-agile-development-with-scrum-spring-boot-and-cordova/</guid>
       <description>Agile software development has become the cornerstone of modern development practices, allowing teams to adapt to change and deliver high-quality products efficiently. Among the various methodologies, Scrum stands out for its iterative approach and collaborative principles. When combined with powerful tools like Spring Boot and Cordova, teams can further enhance their development process and achieve outstanding results. In this blog post, we will delve into the world of Scrum, Spring Boot, and Cordova, uncovering best practices, challenges, and real-world examples to help you master agile development.</description>
     </item>
     <item>
       <title>Exploring the Power of PostgreSQL on AKS: Challenges, Best Practices, and Real-World Examples</title>
-      <link>http://localhost:1313/posts/exploring-the-power-of-postgresql-on-aks-challenges-best-practices-and-real-world-examples/</link>
+      <link>https://varmazyar.de/posts/exploring-the-power-of-postgresql-on-aks-challenges-best-practices-and-real-world-examples/</link>
       <pubDate>Thu, 29 Aug 2024 17:19:44 +0200</pubDate>
-      <guid>http://localhost:1313/posts/exploring-the-power-of-postgresql-on-aks-challenges-best-practices-and-real-world-examples/</guid>
+      <guid>https://varmazyar.de/posts/exploring-the-power-of-postgresql-on-aks-challenges-best-practices-and-real-world-examples/</guid>
       <description>In the evolving landscape of cloud computing and database management, the combination of PostgreSQL and AKS offers a potent solution for businesses seeking flexibility, scalability, and reliability. In this blog post, we will explore the symbiotic relationship between PostgreSQL, a robust open-source relational database, and AKS, Microsoft Azure&amp;rsquo;s managed Kubernetes service. We will navigate through the challenges, best practices, and real-world examples of harnessing the power of PostgreSQL on AKS.</description>
     </item>
     <item>
       <title>Leveraging Kubernetes Operators for Efficient CI/CD Pipelines with Docker</title>
-      <link>http://localhost:1313/posts/leveraging-kubernetes-operators-for-efficient-cicd-pipelines-with-docker/</link>
+      <link>https://varmazyar.de/posts/leveraging-kubernetes-operators-for-efficient-cicd-pipelines-with-docker/</link>
       <pubDate>Thu, 29 Aug 2024 16:52:45 +0200</pubDate>
-      <guid>http://localhost:1313/posts/leveraging-kubernetes-operators-for-efficient-cicd-pipelines-with-docker/</guid>
+      <guid>https://varmazyar.de/posts/leveraging-kubernetes-operators-for-efficient-cicd-pipelines-with-docker/</guid>
       <description>In recent years, the tech industry has witnessed a significant shift towards containerized application deployment, continuous integration/continuous delivery (CI/CD) pipelines, and the adoption of Kubernetes for orchestration. Within this context, Kubernetes Operators have emerged as a powerful tool for simplifying and automating the management of complex applications on Kubernetes clusters. When combined with Docker, these technologies can optimize the development and deployment processes, leading to more efficient workflows and faster time-to-market for software products.</description>
     </item>
     <item>
       <title>Streamlining Infrastructure as Code with Pulumi, Helm, and Terragrunt</title>
-      <link>http://localhost:1313/posts/streamlining-infrastructure-as-code-with-pulumi-helm-and-terragrunt/</link>
+      <link>https://varmazyar.de/posts/streamlining-infrastructure-as-code-with-pulumi-helm-and-terragrunt/</link>
       <pubDate>Thu, 29 Aug 2024 16:48:44 +0200</pubDate>
-      <guid>http://localhost:1313/posts/streamlining-infrastructure-as-code-with-pulumi-helm-and-terragrunt/</guid>
+      <guid>https://varmazyar.de/posts/streamlining-infrastructure-as-code-with-pulumi-helm-and-terragrunt/</guid>
       <description>In the realm of cloud computing, the concept of Infrastructure as Code has revolutionized the way organizations manage their cloud resources. By treating infrastructure configurations as code, teams can automate provisioning, deployment, and maintenance processes, leading to increased efficiency, consistency, and scalability. In this blog post, we delve into the powerful synergy between three popular tools - Pulumi, Helm, and Terragrunt - that are instrumental in streamlining Infrastructure as Code practices.</description>
     </item>
     <item>
       <title>Transforming Software Development with CI/CD, Kubernetes, and Docker</title>
-      <link>http://localhost:1313/posts/transforming-software-development-with-cicd-kubernetes-and-docker/</link>
+      <link>https://varmazyar.de/posts/transforming-software-development-with-cicd-kubernetes-and-docker/</link>
       <pubDate>Thu, 29 Aug 2024 16:46:14 +0200</pubDate>
-      <guid>http://localhost:1313/posts/transforming-software-development-with-cicd-kubernetes-and-docker/</guid>
+      <guid>https://varmazyar.de/posts/transforming-software-development-with-cicd-kubernetes-and-docker/</guid>
       <description>In today&amp;rsquo;s fast-paced software development landscape, staying ahead of the curve means adopting cutting-edge technologies and practices that streamline the deployment process, increase scalability, and enhance overall productivity. Three key components driving this transformation are Continuous Integration/Continuous Deployment (CI/CD), Kubernetes orchestration, and Docker containers. In this article, we delve into how these technologies work harmoniously to revolutionize software development practices.&#xA;Understanding CI/CD Link to heading Continuous Integration (CI) and Continuous Deployment (CD) are software development practices that automate the process of testing and deploying code changes.</description>
     </item>
     <item>
       <title>Empowering Microservices with Istio on Kubernetes</title>
-      <link>http://localhost:1313/posts/empowering-microservices-with-istio-on-kubernetes/</link>
+      <link>https://varmazyar.de/posts/empowering-microservices-with-istio-on-kubernetes/</link>
       <pubDate>Thu, 29 Aug 2024 16:40:00 +0200</pubDate>
-      <guid>http://localhost:1313/posts/empowering-microservices-with-istio-on-kubernetes/</guid>
+      <guid>https://varmazyar.de/posts/empowering-microservices-with-istio-on-kubernetes/</guid>
       <description>In the world of modern cloud-native applications, orchestrating microservices efficiently is crucial for ensuring scalability, reliability, and security. Kubernetes has become the de facto standard for container orchestration, providing a robust platform for deploying and managing microservices. However, as the number of microservices grows, managing and monitoring them can become complex.&#xA;This is where Istio comes in. Istio is an open-source service mesh that provides a set of powerful tools for managing microservices traffic, enforcing security policies, and collecting telemetry data.</description>
     </item>
     <item>
       <title>Mastering API Rate Limiting: Strategies, Algorithms, and Best Practices</title>
-      <link>http://localhost:1313/posts/mastering-api-rate-limiting/</link>
+      <link>https://varmazyar.de/posts/mastering-api-rate-limiting/</link>
       <pubDate>Wed, 28 Aug 2024 11:46:20 +0200</pubDate>
-      <guid>http://localhost:1313/posts/mastering-api-rate-limiting/</guid>
+      <guid>https://varmazyar.de/posts/mastering-api-rate-limiting/</guid>
       <description>Introduction Link to heading In the rapidly growing landscape of digital services, APIs (Application Programming Interfaces) have become the backbone of modern software applications. Whether powering mobile apps, connecting microservices, or enabling third-party integrations, APIs are crucial for communication between systems. However, the open nature of APIs also makes them vulnerable to misuse, abuse, and attacks, leading to performance degradation and potential downtime. This is where rate limiting comes into play—a critical technique to ensure that APIs remain available, secure, and performant.</description>
     </item>
     <item>
       <title>The Impact of GenAI on Modern Cloud and DevOps Practices</title>
-      <link>http://localhost:1313/posts/genai-impact-cloud-devops-practices/</link>
+      <link>https://varmazyar.de/posts/genai-impact-cloud-devops-practices/</link>
       <pubDate>Wed, 28 Aug 2024 11:46:20 +0200</pubDate>
-      <guid>http://localhost:1313/posts/genai-impact-cloud-devops-practices/</guid>
+      <guid>https://varmazyar.de/posts/genai-impact-cloud-devops-practices/</guid>
       <description>Introduction Link to heading In today’s rapidly evolving technological landscape, software development and operations have become more complex and interconnected than ever. The rise of cloud computing, microservices, and continuous delivery has transformed how we build and deploy applications. However, with these advancements comes increased complexity, necessitating the convergence of various disciplines such as DevSecOps, Site Reliability Engineering (SRE), Platform Engineering, and Cloud Engineering. Each of these disciplines addresses unique challenges but also shares common goals—improving efficiency, scalability, security, and collaboration across teams.</description>
     </item>
     <item>
       <title>Optimizing Airflow Scheduler on Google Kubernetes Engine: A Cost-Effective Approach</title>
-      <link>http://localhost:1313/posts/optimizing-airflow-scheduler-gke/</link>
+      <link>https://varmazyar.de/posts/optimizing-airflow-scheduler-gke/</link>
       <pubDate>Tue, 27 Aug 2024 11:46:20 +0200</pubDate>
-      <guid>http://localhost:1313/posts/optimizing-airflow-scheduler-gke/</guid>
+      <guid>https://varmazyar.de/posts/optimizing-airflow-scheduler-gke/</guid>
       <description>Introduction Link to heading Running hundreds of daily tasks on Apache Airflow is a routine for data-driven companies like StoreMaven. We use Google’s managed Composer environment to streamline our data pipelines. However, as the number of tasks grows, the default Composer setup on Google Kubernetes Engine (GKE) reveals its limitations, particularly when it comes to scaling efficiently and cost-effectively.&#xA;In this post, I’ll share our journey of optimizing the Airflow Scheduler on GKE, which led to significant cost savings while maintaining high performance.</description>
     </item>
     <item>
       <title>Hello World! Meet Mohammad Varmazyar</title>
-      <link>http://localhost:1313/posts/hello-world/</link>
+      <link>https://varmazyar.de/posts/hello-world/</link>
       <pubDate>Mon, 26 Aug 2024 11:46:20 +0200</pubDate>
-      <guid>http://localhost:1313/posts/hello-world/</guid>
+      <guid>https://varmazyar.de/posts/hello-world/</guid>
       <description>Hey there! I’m Mohammad Varmazyar, and I’m thrilled to welcome you to my corner of the internet. If you’re here, you’re probably as obsessed with cloud infrastructure, automation, and observability as I am—or maybe you’re just curious about what makes a Platform Engineer tick. Either way, you’re in the right place!&#xA;A bit about me: I’ve spent the past decade diving deep into cloud platforms like AWS, Azure, and GCP, wrangling infrastructure to be more efficient, scalable, and robust.</description>
     </item>
     <item>
       <title>How to Become a DevOps Engineer: An Honest Guide</title>
-      <link>http://localhost:1313/posts/how-to-become-a-devops-engineer/</link>
+      <link>https://varmazyar.de/posts/how-to-become-a-devops-engineer/</link>
       <pubDate>Mon, 26 Aug 2024 11:46:20 +0200</pubDate>
-      <guid>http://localhost:1313/posts/how-to-become-a-devops-engineer/</guid>
+      <guid>https://varmazyar.de/posts/how-to-become-a-devops-engineer/</guid>
       <description>The role of a DevOps Engineer is one of the most sought-after positions in IT today, and it often comes with a lucrative salary. However, the path to landing this role can vary greatly depending on the company, with job titles like Site Reliability Engineer (SRE) or Platform Engineer sometimes being used interchangeably.&#xA;Despite the differences in titles and interview processes, the core responsibilities of a DevOps Engineer remain consistent. We’re the ones bridging the gap between development and operations teams, driving automation and continuous delivery practices, and ensuring the reliability and scalability of applications and infrastructure.</description>
     </item>
   </channel>

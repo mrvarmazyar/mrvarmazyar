@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>K8s Operators on Cloud Engineering Chronicles with Mohammad</title>
-    <link>http://localhost:1313/tags/k8s-operators/</link>
+    <link>https://varmazyar.de/tags/k8s-operators/</link>
     <description>Recent content in K8s Operators on Cloud Engineering Chronicles with Mohammad</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 29 Aug 2024 16:52:45 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/k8s-operators/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://varmazyar.de/tags/k8s-operators/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Leveraging Kubernetes Operators for Efficient CI/CD Pipelines with Docker</title>
-      <link>http://localhost:1313/posts/leveraging-kubernetes-operators-for-efficient-cicd-pipelines-with-docker/</link>
+      <link>https://varmazyar.de/posts/leveraging-kubernetes-operators-for-efficient-cicd-pipelines-with-docker/</link>
       <pubDate>Thu, 29 Aug 2024 16:52:45 +0200</pubDate>
-      <guid>http://localhost:1313/posts/leveraging-kubernetes-operators-for-efficient-cicd-pipelines-with-docker/</guid>
+      <guid>https://varmazyar.de/posts/leveraging-kubernetes-operators-for-efficient-cicd-pipelines-with-docker/</guid>
       <description>In recent years, the tech industry has witnessed a significant shift towards containerized application deployment, continuous integration/continuous delivery (CI/CD) pipelines, and the adoption of Kubernetes for orchestration. Within this context, Kubernetes Operators have emerged as a powerful tool for simplifying and automating the management of complex applications on Kubernetes clusters. When combined with Docker, these technologies can optimize the development and deployment processes, leading to more efficient workflows and faster time-to-market for software products.</description>
     </item>
   </channel>

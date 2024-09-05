@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>GKE on Cloud Engineering Chronicles with Mohammad</title>
-    <link>http://localhost:1313/tags/gke/</link>
+    <link>https://varmazyar.de/tags/gke/</link>
     <description>Recent content in GKE on Cloud Engineering Chronicles with Mohammad</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Tue, 27 Aug 2024 11:46:20 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/gke/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://varmazyar.de/tags/gke/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Optimizing Airflow Scheduler on Google Kubernetes Engine: A Cost-Effective Approach</title>
-      <link>http://localhost:1313/posts/optimizing-airflow-scheduler-gke/</link>
+      <link>https://varmazyar.de/posts/optimizing-airflow-scheduler-gke/</link>
       <pubDate>Tue, 27 Aug 2024 11:46:20 +0200</pubDate>
-      <guid>http://localhost:1313/posts/optimizing-airflow-scheduler-gke/</guid>
+      <guid>https://varmazyar.de/posts/optimizing-airflow-scheduler-gke/</guid>
       <description>Introduction Link to heading Running hundreds of daily tasks on Apache Airflow is a routine for data-driven companies like StoreMaven. We use Google’s managed Composer environment to streamline our data pipelines. However, as the number of tasks grows, the default Composer setup on Google Kubernetes Engine (GKE) reveals its limitations, particularly when it comes to scaling efficiently and cost-effectively.&#xA;In this post, I’ll share our journey of optimizing the Airflow Scheduler on GKE, which led to significant cost savings while maintaining high performance.</description>
     </item>
   </channel>

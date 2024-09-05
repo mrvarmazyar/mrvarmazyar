@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cloud Computing on Cloud Engineering Chronicles with Mohammad</title>
-    <link>http://localhost:1313/categories/cloud-computing/</link>
+    <link>https://varmazyar.de/categories/cloud-computing/</link>
     <description>Recent content in Cloud Computing on Cloud Engineering Chronicles with Mohammad</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 29 Aug 2024 17:19:44 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/cloud-computing/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://varmazyar.de/categories/cloud-computing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Exploring the Power of PostgreSQL on AKS: Challenges, Best Practices, and Real-World Examples</title>
-      <link>http://localhost:1313/posts/exploring-the-power-of-postgresql-on-aks-challenges-best-practices-and-real-world-examples/</link>
+      <link>https://varmazyar.de/posts/exploring-the-power-of-postgresql-on-aks-challenges-best-practices-and-real-world-examples/</link>
       <pubDate>Thu, 29 Aug 2024 17:19:44 +0200</pubDate>
-      <guid>http://localhost:1313/posts/exploring-the-power-of-postgresql-on-aks-challenges-best-practices-and-real-world-examples/</guid>
+      <guid>https://varmazyar.de/posts/exploring-the-power-of-postgresql-on-aks-challenges-best-practices-and-real-world-examples/</guid>
       <description>In the evolving landscape of cloud computing and database management, the combination of PostgreSQL and AKS offers a potent solution for businesses seeking flexibility, scalability, and reliability. In this blog post, we will explore the symbiotic relationship between PostgreSQL, a robust open-source relational database, and AKS, Microsoft Azure&amp;rsquo;s managed Kubernetes service. We will navigate through the challenges, best practices, and real-world examples of harnessing the power of PostgreSQL on AKS.</description>
     </item>
     <item>
       <title>Streamlining Infrastructure as Code with Pulumi, Helm, and Terragrunt</title>
-      <link>http://localhost:1313/posts/streamlining-infrastructure-as-code-with-pulumi-helm-and-terragrunt/</link>
+      <link>https://varmazyar.de/posts/streamlining-infrastructure-as-code-with-pulumi-helm-and-terragrunt/</link>
       <pubDate>Thu, 29 Aug 2024 16:48:44 +0200</pubDate>
-      <guid>http://localhost:1313/posts/streamlining-infrastructure-as-code-with-pulumi-helm-and-terragrunt/</guid>
+      <guid>https://varmazyar.de/posts/streamlining-infrastructure-as-code-with-pulumi-helm-and-terragrunt/</guid>
       <description>In the realm of cloud computing, the concept of Infrastructure as Code has revolutionized the way organizations manage their cloud resources. By treating infrastructure configurations as code, teams can automate provisioning, deployment, and maintenance processes, leading to increased efficiency, consistency, and scalability. In this blog post, we delve into the powerful synergy between three popular tools - Pulumi, Helm, and Terragrunt - that are instrumental in streamlining Infrastructure as Code practices.</description>
     </item>
   </channel>

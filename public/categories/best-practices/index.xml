@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Best Practices on Cloud Engineering Chronicles with Mohammad</title>
-    <link>http://localhost:1313/categories/best-practices/</link>
+    <link>https://varmazyar.de/categories/best-practices/</link>
     <description>Recent content in Best Practices on Cloud Engineering Chronicles with Mohammad</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 29 Aug 2024 20:51:25 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/best-practices/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://varmazyar.de/categories/best-practices/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Demystifying Reinforcement Learning and Asynchronous Programming: An In-Depth Guide</title>
-      <link>http://localhost:1313/posts/demystifying-reinforcement-learning-and-asynchronous-programming-an-in-depth-guide/</link>
+      <link>https://varmazyar.de/posts/demystifying-reinforcement-learning-and-asynchronous-programming-an-in-depth-guide/</link>
       <pubDate>Thu, 29 Aug 2024 20:51:25 +0200</pubDate>
-      <guid>http://localhost:1313/posts/demystifying-reinforcement-learning-and-asynchronous-programming-an-in-depth-guide/</guid>
+      <guid>https://varmazyar.de/posts/demystifying-reinforcement-learning-and-asynchronous-programming-an-in-depth-guide/</guid>
       <description>Over the last decade, the tech industry has been evolving at an explosive pace. Two critical technological advancements that have been making waves recently are Reinforcement Learning (RL) and Asynchronous Programming. While these terms might seem intimidating at first, understanding their principles, applications, and overcoming related challenges can be simplified with a clear explanation and examples.&#xA;Reinforcement Learning and Its Implications&#xA;Let&amp;rsquo;s begin by understanding the emerging paradigm of Reinforcement Learning (RL).</description>
     </item>
     <item>
       <title>Navigating the Depths: Model Interpretability, Securing Data with Vault, and Efficient Model Deployment</title>
-      <link>http://localhost:1313/posts/navigating-the-depths-model-interpretability-securing-data-with-vault-and-efficient-model-deployment/</link>
+      <link>https://varmazyar.de/posts/navigating-the-depths-model-interpretability-securing-data-with-vault-and-efficient-model-deployment/</link>
       <pubDate>Thu, 29 Aug 2024 20:23:44 +0200</pubDate>
-      <guid>http://localhost:1313/posts/navigating-the-depths-model-interpretability-securing-data-with-vault-and-efficient-model-deployment/</guid>
+      <guid>https://varmazyar.de/posts/navigating-the-depths-model-interpretability-securing-data-with-vault-and-efficient-model-deployment/</guid>
       <description>In today&amp;rsquo;s hyper-connected world, machine learning models power a wide array of applications, ranging from recommendation algorithms to predictive analytics. While these models offer breathtaking capabilities, they also bring new challenges in interpretability, data security, and deployment. This article aims to shed light on these aspects.&#xA;Deciphering the enigma: Understanding Model Interpretability Link to heading Machine learning models, particularly deep learning models, have often been compared to &amp;lsquo;black boxes&amp;rsquo; due to their complex nature.</description>
     </item>
     <item>
       <title>Mastering Agile Development with Scrum, Spring Boot, and Cordova</title>
-      <link>http://localhost:1313/posts/mastering-agile-development-with-scrum-spring-boot-and-cordova/</link>
+      <link>https://varmazyar.de/posts/mastering-agile-development-with-scrum-spring-boot-and-cordova/</link>
       <pubDate>Thu, 29 Aug 2024 17:23:15 +0200</pubDate>
-      <guid>http://localhost:1313/posts/mastering-agile-development-with-scrum-spring-boot-and-cordova/</guid>
+      <guid>https://varmazyar.de/posts/mastering-agile-development-with-scrum-spring-boot-and-cordova/</guid>
       <description>Agile software development has become the cornerstone of modern development practices, allowing teams to adapt to change and deliver high-quality products efficiently. Among the various methodologies, Scrum stands out for its iterative approach and collaborative principles. When combined with powerful tools like Spring Boot and Cordova, teams can further enhance their development process and achieve outstanding results. In this blog post, we will delve into the world of Scrum, Spring Boot, and Cordova, uncovering best practices, challenges, and real-world examples to help you master agile development.</description>
     </item>
   </channel>

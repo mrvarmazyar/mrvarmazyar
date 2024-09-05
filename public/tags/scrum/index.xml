@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Scrum on Cloud Engineering Chronicles with Mohammad</title>
-    <link>http://localhost:1313/tags/scrum/</link>
+    <link>https://varmazyar.de/tags/scrum/</link>
     <description>Recent content in Scrum on Cloud Engineering Chronicles with Mohammad</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 29 Aug 2024 17:23:15 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/scrum/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://varmazyar.de/tags/scrum/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mastering Agile Development with Scrum, Spring Boot, and Cordova</title>
-      <link>http://localhost:1313/posts/mastering-agile-development-with-scrum-spring-boot-and-cordova/</link>
+      <link>https://varmazyar.de/posts/mastering-agile-development-with-scrum-spring-boot-and-cordova/</link>
       <pubDate>Thu, 29 Aug 2024 17:23:15 +0200</pubDate>
-      <guid>http://localhost:1313/posts/mastering-agile-development-with-scrum-spring-boot-and-cordova/</guid>
+      <guid>https://varmazyar.de/posts/mastering-agile-development-with-scrum-spring-boot-and-cordova/</guid>
       <description>Agile software development has become the cornerstone of modern development practices, allowing teams to adapt to change and deliver high-quality products efficiently. Among the various methodologies, Scrum stands out for its iterative approach and collaborative principles. When combined with powerful tools like Spring Boot and Cordova, teams can further enhance their development process and achieve outstanding results. In this blog post, we will delve into the world of Scrum, Spring Boot, and Cordova, uncovering best practices, challenges, and real-world examples to help you master agile development.</description>
     </item>
   </channel>
