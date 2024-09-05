@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mobile Development on Cloud Engineering Chronicles with Mohammad</title>
-    <link>https://varmazyar.de/tags/mobile-development/</link>
+    <link>http://localhost:1313/tags/mobile-development/</link>
     <description>Recent content in Mobile Development on Cloud Engineering Chronicles with Mohammad</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 29 Aug 2024 21:07:16 +0200</lastBuildDate>
-    <atom:link href="https://varmazyar.de/tags/mobile-development/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/mobile-development/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Enhancing Mobile Security with Mocha Testing on DigitalOcean</title>
-      <link>https://varmazyar.de/posts/enhancing-mobile-security-with-mocha-testing-on-digitalocean/</link>
+      <link>http://localhost:1313/posts/enhancing-mobile-security-with-mocha-testing-on-digitalocean/</link>
       <pubDate>Thu, 29 Aug 2024 21:07:16 +0200</pubDate>
-      <guid>https://varmazyar.de/posts/enhancing-mobile-security-with-mocha-testing-on-digitalocean/</guid>
+      <guid>http://localhost:1313/posts/enhancing-mobile-security-with-mocha-testing-on-digitalocean/</guid>
       <description>In an increasingly digital world where mobile applications play a crucial role in our daily lives, ensuring the security and reliability of these apps is of paramount importance. One of the ways to achieve this is by incorporating robust testing methodologies like Mocha and utilizing scalable cloud platforms like DigitalOcean. This article delves into the process of enhancing mobile security through Mocha testing on the DigitalOcean infrastructure.&#xA;Why Mobile Security Matters Link to heading Mobile devices have become ubiquitous tools for accessing services, storing sensitive information, and conducting transactions.</description>
     </item>
     <item>
       <title>Unleashing the Power of Meteor, NativeScript, and JavaScript: A Comprehensive Guide</title>
-      <link>https://varmazyar.de/posts/unleashing-the-power-of-meteor-nativescript-and-javascript-a-comprehensive-guide/</link>
+      <link>http://localhost:1313/posts/unleashing-the-power-of-meteor-nativescript-and-javascript-a-comprehensive-guide/</link>
       <pubDate>Thu, 29 Aug 2024 20:10:49 +0200</pubDate>
-      <guid>https://varmazyar.de/posts/unleashing-the-power-of-meteor-nativescript-and-javascript-a-comprehensive-guide/</guid>
+      <guid>http://localhost:1313/posts/unleashing-the-power-of-meteor-nativescript-and-javascript-a-comprehensive-guide/</guid>
       <description>In the fast-paced world of web and mobile application development, staying ahead of the curve is crucial. Technologies like Meteor, NativeScript, and JavaScript have revolutionized the way developers create interactive and responsive apps. In this comprehensive guide, we will delve deep into the intricacies of Meteor, NativeScript, and JavaScript, exploring their features, challenges, best practices, and real-world examples.&#xA;Introduction to Meteor, NativeScript, and JavaScript&#xA;Meteor is a full-stack JavaScript framework that simplifies the process of developing real-time web applications.</description>
     </item>
   </channel>

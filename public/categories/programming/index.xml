@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Programming on Cloud Engineering Chronicles with Mohammad</title>
-    <link>https://varmazyar.de/categories/programming/</link>
+    <link>http://localhost:1313/categories/programming/</link>
     <description>Recent content in Programming on Cloud Engineering Chronicles with Mohammad</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 29 Aug 2024 20:51:25 +0200</lastBuildDate>
-    <atom:link href="https://varmazyar.de/categories/programming/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/programming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Demystifying Reinforcement Learning and Asynchronous Programming: An In-Depth Guide</title>
-      <link>https://varmazyar.de/posts/demystifying-reinforcement-learning-and-asynchronous-programming-an-in-depth-guide/</link>
+      <link>http://localhost:1313/posts/demystifying-reinforcement-learning-and-asynchronous-programming-an-in-depth-guide/</link>
       <pubDate>Thu, 29 Aug 2024 20:51:25 +0200</pubDate>
-      <guid>https://varmazyar.de/posts/demystifying-reinforcement-learning-and-asynchronous-programming-an-in-depth-guide/</guid>
+      <guid>http://localhost:1313/posts/demystifying-reinforcement-learning-and-asynchronous-programming-an-in-depth-guide/</guid>
       <description>Over the last decade, the tech industry has been evolving at an explosive pace. Two critical technological advancements that have been making waves recently are Reinforcement Learning (RL) and Asynchronous Programming. While these terms might seem intimidating at first, understanding their principles, applications, and overcoming related challenges can be simplified with a clear explanation and examples.&#xA;Reinforcement Learning and Its Implications&#xA;Let&amp;rsquo;s begin by understanding the emerging paradigm of Reinforcement Learning (RL).</description>
     </item>
   </channel>

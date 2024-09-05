@@ -96,8 +96,33 @@ _High School Diploma, Mathematics (2006 - 2009)_
 
 ## Skills
 
-- **Top Skills:** Network Administration, Continuous Integration, Shell Scripting
-- **Languages:** English (C1), Farsi (First language), German (B1)
+### **Core Skills:**
+- **Infrastructure as Code (IaC):** Terraform, CloudFormation, Ansible
+- **Cloud Platforms:** AWS, Azure, Google Cloud Platform (GCP), OpenStack
+- **Kubernetes & Containerization:** Kubernetes, Helm, Docker, OpenShift
+- **Service Mesh:** Istio, Linkerd, Envoy
+- **CI/CD Pipelines:** Azure DevOps, GitLab CI/CD, Jenkins, Argo CD, Spinnaker
+- **Monitoring & Logging:** Prometheus, Grafana, ELK Stack (Elasticsearch, Logstash, Kibana), EFK Stack (Elasticsearch, Fluentd, Kibana)
+- **Automation & Scripting:** Bash, Python, Go, PowerShell
+- **Networking & Security:** Nginx, Haproxy, VPN, SSH, SSL/TLS, DNS, Firewall Configuration, Zero Trust Architecture
+- **Version Control & Collaboration:** Git, GitOps, GitHub Actions, Bitbucket, Jira, Confluence
+
+### **Cloud & Platform Engineering:**
+- **Orchestration:** Kubernetes, Docker Swarm, Mesos
+- **Load Balancing & Ingress:** Nginx, Traefik, Haproxy
+- **Backup & Disaster Recovery:** Velero, AWS Backup, Azure Backup
+- **Distributed Storage Solutions:** GlusterFS, Ceph, Minio
+- **High Availability & Scalability:** Auto Scaling Groups (ASG), Horizontal Pod Autoscaler (HPA), AWS ECS, EKS, AKS
+- **Secrets Management:** HashiCorp Vault, AWS Secrets Manager, Azure Key Vault
+
+### **Languages & Tools:**
+- **Languages:** Bash, Python, Go, LUA, YAML, JSON
+- **CI/CD Tools:** Jenkins, GitLab CI, Argo CD, Azure DevOps
+- **Cloud Providers:** AWS, Azure, GCP
+- **Databases:** MySQL, PostgreSQL, Redis, MongoDB
+
+### **Languages:**
+- English (C1), Farsi (First language), German (B1)
 
 ---
 

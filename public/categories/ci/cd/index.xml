@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CI/CD on Cloud Engineering Chronicles with Mohammad</title>
-    <link>https://varmazyar.de/categories/ci/cd/</link>
+    <link>http://localhost:1313/categories/ci/cd/</link>
     <description>Recent content in CI/CD on Cloud Engineering Chronicles with Mohammad</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 29 Aug 2024 16:52:45 +0200</lastBuildDate>
-    <atom:link href="https://varmazyar.de/categories/ci/cd/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/ci/cd/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Leveraging Kubernetes Operators for Efficient CI/CD Pipelines with Docker</title>
-      <link>https://varmazyar.de/posts/leveraging-kubernetes-operators-for-efficient-cicd-pipelines-with-docker/</link>
+      <link>http://localhost:1313/posts/leveraging-kubernetes-operators-for-efficient-cicd-pipelines-with-docker/</link>
       <pubDate>Thu, 29 Aug 2024 16:52:45 +0200</pubDate>
-      <guid>https://varmazyar.de/posts/leveraging-kubernetes-operators-for-efficient-cicd-pipelines-with-docker/</guid>
+      <guid>http://localhost:1313/posts/leveraging-kubernetes-operators-for-efficient-cicd-pipelines-with-docker/</guid>
       <description>In recent years, the tech industry has witnessed a significant shift towards containerized application deployment, continuous integration/continuous delivery (CI/CD) pipelines, and the adoption of Kubernetes for orchestration. Within this context, Kubernetes Operators have emerged as a powerful tool for simplifying and automating the management of complex applications on Kubernetes clusters. When combined with Docker, these technologies can optimize the development and deployment processes, leading to more efficient workflows and faster time-to-market for software products.</description>
     </item>
     <item>
       <title>Transforming Software Development with CI/CD, Kubernetes, and Docker</title>
-      <link>https://varmazyar.de/posts/transforming-software-development-with-cicd-kubernetes-and-docker/</link>
+      <link>http://localhost:1313/posts/transforming-software-development-with-cicd-kubernetes-and-docker/</link>
       <pubDate>Thu, 29 Aug 2024 16:46:14 +0200</pubDate>
-      <guid>https://varmazyar.de/posts/transforming-software-development-with-cicd-kubernetes-and-docker/</guid>
+      <guid>http://localhost:1313/posts/transforming-software-development-with-cicd-kubernetes-and-docker/</guid>
       <description>In today&amp;rsquo;s fast-paced software development landscape, staying ahead of the curve means adopting cutting-edge technologies and practices that streamline the deployment process, increase scalability, and enhance overall productivity. Three key components driving this transformation are Continuous Integration/Continuous Deployment (CI/CD), Kubernetes orchestration, and Docker containers. In this article, we delve into how these technologies work harmoniously to revolutionize software development practices.&#xA;Understanding CI/CD Link to heading Continuous Integration (CI) and Continuous Deployment (CD) are software development practices that automate the process of testing and deploying code changes.</description>
     </item>
   </channel>
