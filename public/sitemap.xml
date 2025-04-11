@@ -2,19 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://varmazyar.de/posts/a-stellar-blend-mocha-load-testing-and-ruby-on-the-rails/</loc>
-    <lastmod>2025-04-11T14:46:10+02:00</lastmod>
-  </url><url>
     <loc>https://varmazyar.de/authors/</loc>
-    <lastmod>2025-04-11T14:46:10+02:00</lastmod>
+    <lastmod>2025-04-11T14:50:56+02:00</lastmod>
   </url><url>
     <loc>https://varmazyar.de/</loc>
-    <lastmod>2025-04-11T14:46:10+02:00</lastmod>
+    <lastmod>2025-04-11T14:50:56+02:00</lastmod>
   </url><url>
     <loc>https://varmazyar.de/authors/mohammad-varmazyar/</loc>
-    <lastmod>2025-04-11T14:46:10+02:00</lastmod>
+    <lastmod>2025-04-11T14:50:56+02:00</lastmod>
   </url><url>
     <loc>https://varmazyar.de/posts/</loc>
+    <lastmod>2025-04-11T14:50:56+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/posts/strengthening-the-tech-community-an-emphasis-on-grpc/</loc>
+    <lastmod>2025-04-11T14:50:56+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/posts/a-stellar-blend-mocha-load-testing-and-ruby-on-the-rails/</loc>
     <lastmod>2025-04-11T14:46:10+02:00</lastmod>
   </url><url>
     <loc>https://varmazyar.de/posts/harnessing-the-power-of-design-patterns-with-nextjs-and-firebase-an-essential-guide/</loc>
