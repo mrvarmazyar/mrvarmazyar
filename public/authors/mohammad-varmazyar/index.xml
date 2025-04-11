@@ -6,8 +6,15 @@
     <description>Recent content in Mohammad Varmazyar on Cloud Engineering Chronicles with Mohammad</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 11 Apr 2025 14:41:46 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 11 Apr 2025 14:46:10 +0200</lastBuildDate>
     <atom:link href="https://varmazyar.de/authors/mohammad-varmazyar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Stellar Blend: Mocha, Load Testing, and Ruby-On-The-Rails</title>
+      <link>https://varmazyar.de/posts/a-stellar-blend-mocha-load-testing-and-ruby-on-the-rails/</link>
+      <pubDate>Fri, 11 Apr 2025 14:46:10 +0200</pubDate>
+      <guid>https://varmazyar.de/posts/a-stellar-blend-mocha-load-testing-and-ruby-on-the-rails/</guid>
+      <description>Summary: Explore the rich flavors that make up coding with Ruby, the creamy robustness of Mocha for testing, and the potent punch of load testing. Just like a perfectly blended cup of coffee, these three elements, when combined, can power dynamic web applications!&#xA;SEO Tags: Ruby-on-the-Rails, Mocha Testing Framework, Load Testing, Web Development, Coding, Software Testing.&#xA;Article Body:&#xA;Hey there, you coding enthusiasts!&#xA;Coding with Ruby has always been a delight for programmers around the world.</description>
+    </item>
     <item>
       <title>Harnessing the Power of Design Patterns with Next.js and Firebase: An Essential Guide</title>
       <link>https://varmazyar.de/posts/harnessing-the-power-of-design-patterns-with-nextjs-and-firebase-an-essential-guide/</link>
