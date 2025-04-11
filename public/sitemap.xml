@@ -2,23 +2,71 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://varmazyar.de/</loc>
-    <lastmod>2024-09-05T16:20:00+02:00</lastmod>
-  </url><url>
-    <loc>https://varmazyar.de/posts/</loc>
-    <lastmod>2024-09-05T16:20:00+02:00</lastmod>
-  </url><url>
     <loc>https://varmazyar.de/authors/</loc>
-    <lastmod>2024-08-29T22:11:41+02:00</lastmod>
+    <lastmod>2025-04-11T14:41:46+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/</loc>
+    <lastmod>2025-04-11T14:41:46+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/posts/harnessing-the-power-of-design-patterns-with-nextjs-and-firebase-an-essential-guide/</loc>
+    <lastmod>2025-04-11T14:41:46+02:00</lastmod>
   </url><url>
     <loc>https://varmazyar.de/authors/mohammad-varmazyar/</loc>
-    <lastmod>2024-08-29T22:11:41+02:00</lastmod>
+    <lastmod>2025-04-11T14:41:46+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/posts/</loc>
+    <lastmod>2025-04-11T14:41:46+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/posts/navigating-the-edges-of-tdd-and-microsoft-sql-server-a-developers-tale/</loc>
+    <lastmod>2025-04-11T14:09:49+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/tags/automation/</loc>
+    <lastmod>2024-09-05T16:20:00+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/categories/automation/</loc>
+    <lastmod>2024-09-05T16:20:00+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/tags/backend-configuration/</loc>
+    <lastmod>2024-09-05T16:20:00+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/categories/</loc>
+    <lastmod>2024-09-05T16:20:00+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/tags/devops/</loc>
+    <lastmod>2024-09-05T16:20:00+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/categories/devops/</loc>
+    <lastmod>2024-09-05T16:20:00+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/posts/terragrunt-how-to-keep-your-terraform-code-dry-and-maintainable/</loc>
+    <lastmod>2024-09-05T16:20:00+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/tags/infrastructure-as-code/</loc>
+    <lastmod>2024-09-05T16:20:00+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/categories/infrastructure-as-code/</loc>
+    <lastmod>2024-09-05T16:20:00+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/tags/</loc>
+    <lastmod>2024-09-05T16:20:00+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/tags/terraform/</loc>
+    <lastmod>2024-09-05T16:20:00+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/categories/terraform/</loc>
+    <lastmod>2024-09-05T16:20:00+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/tags/terragrunt/</loc>
+    <lastmod>2024-09-05T16:20:00+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/categories/terragrunt/</loc>
+    <lastmod>2024-09-05T16:20:00+02:00</lastmod>
+  </url><url>
+    <loc>https://varmazyar.de/tags/versioning/</loc>
+    <lastmod>2024-09-05T16:20:00+02:00</lastmod>
   </url><url>
     <loc>https://varmazyar.de/posts/unleashing-extraordinary-web-development-streamlining-django-web-applications-with-vercel-on-a-5g-network/</loc>
     <lastmod>2024-08-29T22:11:41+02:00</lastmod>
-  </url><url>
-    <loc>https://varmazyar.de/categories/</loc>
-    <lastmod>2024-08-29T21:07:16+02:00</lastmod>
   </url><url>
     <loc>https://varmazyar.de/tags/digitalocean/</loc>
     <lastmod>2024-08-29T21:07:16+02:00</lastmod>
@@ -45,9 +93,6 @@
     <lastmod>2024-08-29T21:07:16+02:00</lastmod>
   </url><url>
     <loc>https://varmazyar.de/categories/mocha/</loc>
-    <lastmod>2024-08-29T21:07:16+02:00</lastmod>
-  </url><url>
-    <loc>https://varmazyar.de/tags/</loc>
     <lastmod>2024-08-29T21:07:16+02:00</lastmod>
   </url><url>
     <loc>https://varmazyar.de/tags/testing/</loc>
@@ -275,22 +320,10 @@
     <loc>https://varmazyar.de/categories/postgresql/</loc>
     <lastmod>2024-08-29T17:19:44+02:00</lastmod>
   </url><url>
-    <loc>https://varmazyar.de/tags/automation/</loc>
-    <lastmod>2024-08-29T16:52:45+02:00</lastmod>
-  </url><url>
-    <loc>https://varmazyar.de/categories/automation/</loc>
-    <lastmod>2024-08-29T16:52:45+02:00</lastmod>
-  </url><url>
     <loc>https://varmazyar.de/tags/ci/cd/</loc>
     <lastmod>2024-08-29T16:52:45+02:00</lastmod>
   </url><url>
     <loc>https://varmazyar.de/categories/ci/cd/</loc>
-    <lastmod>2024-08-29T16:52:45+02:00</lastmod>
-  </url><url>
-    <loc>https://varmazyar.de/tags/devops/</loc>
-    <lastmod>2024-08-29T16:52:45+02:00</lastmod>
-  </url><url>
-    <loc>https://varmazyar.de/categories/devops/</loc>
     <lastmod>2024-08-29T16:52:45+02:00</lastmod>
   </url><url>
     <loc>https://varmazyar.de/tags/docker/</loc>
@@ -314,12 +347,6 @@
     <loc>https://varmazyar.de/categories/helm/</loc>
     <lastmod>2024-08-29T16:48:44+02:00</lastmod>
   </url><url>
-    <loc>https://varmazyar.de/tags/infrastructure-as-code/</loc>
-    <lastmod>2024-08-29T16:48:44+02:00</lastmod>
-  </url><url>
-    <loc>https://varmazyar.de/categories/infrastructure-as-code/</loc>
-    <lastmod>2024-08-29T16:48:44+02:00</lastmod>
-  </url><url>
     <loc>https://varmazyar.de/tags/pulumi/</loc>
     <lastmod>2024-08-29T16:48:44+02:00</lastmod>
   </url><url>
@@ -327,12 +354,6 @@
     <lastmod>2024-08-29T16:48:44+02:00</lastmod>
   </url><url>
     <loc>https://varmazyar.de/posts/streamlining-infrastructure-as-code-with-pulumi-helm-and-terragrunt/</loc>
-    <lastmod>2024-08-29T16:48:44+02:00</lastmod>
-  </url><url>
-    <loc>https://varmazyar.de/tags/terragrunt/</loc>
-    <lastmod>2024-08-29T16:48:44+02:00</lastmod>
-  </url><url>
-    <loc>https://varmazyar.de/categories/terragrunt/</loc>
     <lastmod>2024-08-29T16:48:44+02:00</lastmod>
   </url><url>
     <loc>https://varmazyar.de/tags/containerization/</loc>

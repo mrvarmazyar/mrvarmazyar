@@ -6,8 +6,29 @@
     <description>Recent content in Posts on Cloud Engineering Chronicles with Mohammad</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Aug 2024 22:11:41 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 11 Apr 2025 14:41:46 +0200</lastBuildDate>
     <atom:link href="https://varmazyar.de/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Harnessing the Power of Design Patterns with Next.js and Firebase: An Essential Guide</title>
+      <link>https://varmazyar.de/posts/harnessing-the-power-of-design-patterns-with-nextjs-and-firebase-an-essential-guide/</link>
+      <pubDate>Fri, 11 Apr 2025 14:41:46 +0200</pubDate>
+      <guid>https://varmazyar.de/posts/harnessing-the-power-of-design-patterns-with-nextjs-and-firebase-an-essential-guide/</guid>
+      <description>Summary: Are you ready to take your web development game to the next level? Let&amp;rsquo;s dive in and explore the exciting world of design patterns in conjunction with Next.js and Firebase, and discover a more efficient way to create dynamic web applications.&#xA;SEO Tags: web development, design patterns, Next.js, Firebase, JavaScript, front-end development, back-end development, dynamic web applications, modern software development, database management&#xA;Good day, fellow tech enthusiasts! Today, we&amp;rsquo;ll put on our digital exploration hats and delve into the fascinating world of design patterns, Next.</description>
+    </item>
+    <item>
+      <title>Navigating the Edges of TDD and Microsoft SQL Server: A Developer&#39;s Tale</title>
+      <link>https://varmazyar.de/posts/navigating-the-edges-of-tdd-and-microsoft-sql-server-a-developers-tale/</link>
+      <pubDate>Fri, 11 Apr 2025 14:09:49 +0200</pubDate>
+      <guid>https://varmazyar.de/posts/navigating-the-edges-of-tdd-and-microsoft-sql-server-a-developers-tale/</guid>
+      <description>Summary: Dive into the world of Test-Driven Development (TDD) in the unique landscape of Microsoft SQL Server. Learn how these two powerful tools can work together to create robust, error-free applications.&#xA;SEO Tags: TDD, Microsoft SQL Server, Test-Driven Development, SQL Server, Software development, Database Management, Coding Best Practices.&#xA;Article Body:&#xA;Hello there, fellow coders! Today, we are embarking on an exciting journey, exploring the symbiotic relationship between Test-Driven Development (TDD) and Microsoft&amp;rsquo;s behemoth, the SQL Server.</description>
+    </item>
+    <item>
+      <title>Effortless Terraform Management: How Terragrunt Keeps Your Code DRY and Efficient</title>
+      <link>https://varmazyar.de/posts/terragrunt-how-to-keep-your-terraform-code-dry-and-maintainable/</link>
+      <pubDate>Thu, 05 Sep 2024 16:20:00 +0200</pubDate>
+      <guid>https://varmazyar.de/posts/terragrunt-how-to-keep-your-terraform-code-dry-and-maintainable/</guid>
+      <description>Effortless Terraform Management: How Terragrunt Keeps Your Code DRY and Efficient Link to heading In 2016, an open-source tool called Terragrunt was released to address two key issues with Terraform: (1) the lack of state locking and (2) the inability to configure Terraform state as code. While Terraform has since introduced solutions like backends to handle these problems, new challenges emerged as infrastructure grew more complex. The biggest issue? Keeping your Terraform code DRY (Don’t Repeat Yourself) and easy to maintain across environments.</description>
+    </item>
     <item>
       <title>Unleashing Extraordinary Web Development: Streamlining Django Web Applications with Vercel on a 5G Network</title>
       <link>https://varmazyar.de/posts/unleashing-extraordinary-web-development-streamlining-django-web-applications-with-vercel-on-a-5g-network/</link>

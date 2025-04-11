@@ -6,8 +6,57 @@
     <description>Recent content in Tags on Cloud Engineering Chronicles with Mohammad</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Aug 2024 21:07:16 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 05 Sep 2024 16:20:00 +0200</lastBuildDate>
     <atom:link href="https://varmazyar.de/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Automation</title>
+      <link>https://varmazyar.de/tags/automation/</link>
+      <pubDate>Thu, 05 Sep 2024 16:20:00 +0200</pubDate>
+      <guid>https://varmazyar.de/tags/automation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Backend Configuration</title>
+      <link>https://varmazyar.de/tags/backend-configuration/</link>
+      <pubDate>Thu, 05 Sep 2024 16:20:00 +0200</pubDate>
+      <guid>https://varmazyar.de/tags/backend-configuration/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DevOps</title>
+      <link>https://varmazyar.de/tags/devops/</link>
+      <pubDate>Thu, 05 Sep 2024 16:20:00 +0200</pubDate>
+      <guid>https://varmazyar.de/tags/devops/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Infrastructure as Code</title>
+      <link>https://varmazyar.de/tags/infrastructure-as-code/</link>
+      <pubDate>Thu, 05 Sep 2024 16:20:00 +0200</pubDate>
+      <guid>https://varmazyar.de/tags/infrastructure-as-code/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Terraform</title>
+      <link>https://varmazyar.de/tags/terraform/</link>
+      <pubDate>Thu, 05 Sep 2024 16:20:00 +0200</pubDate>
+      <guid>https://varmazyar.de/tags/terraform/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Terragrunt</title>
+      <link>https://varmazyar.de/tags/terragrunt/</link>
+      <pubDate>Thu, 05 Sep 2024 16:20:00 +0200</pubDate>
+      <guid>https://varmazyar.de/tags/terragrunt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Versioning</title>
+      <link>https://varmazyar.de/tags/versioning/</link>
+      <pubDate>Thu, 05 Sep 2024 16:20:00 +0200</pubDate>
+      <guid>https://varmazyar.de/tags/versioning/</guid>
+      <description></description>
+    </item>
     <item>
       <title>DigitalOcean</title>
       <link>https://varmazyar.de/tags/digitalocean/</link>
@@ -275,24 +324,10 @@
       <description></description>
     </item>
     <item>
-      <title>Automation</title>
-      <link>https://varmazyar.de/tags/automation/</link>
-      <pubDate>Thu, 29 Aug 2024 16:52:45 +0200</pubDate>
-      <guid>https://varmazyar.de/tags/automation/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>CI/CD</title>
       <link>https://varmazyar.de/tags/ci/cd/</link>
       <pubDate>Thu, 29 Aug 2024 16:52:45 +0200</pubDate>
       <guid>https://varmazyar.de/tags/ci/cd/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>DevOps</title>
-      <link>https://varmazyar.de/tags/devops/</link>
-      <pubDate>Thu, 29 Aug 2024 16:52:45 +0200</pubDate>
-      <guid>https://varmazyar.de/tags/devops/</guid>
       <description></description>
     </item>
     <item>
@@ -317,24 +352,10 @@
       <description></description>
     </item>
     <item>
-      <title>Infrastructure as Code</title>
-      <link>https://varmazyar.de/tags/infrastructure-as-code/</link>
-      <pubDate>Thu, 29 Aug 2024 16:48:44 +0200</pubDate>
-      <guid>https://varmazyar.de/tags/infrastructure-as-code/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Pulumi</title>
       <link>https://varmazyar.de/tags/pulumi/</link>
       <pubDate>Thu, 29 Aug 2024 16:48:44 +0200</pubDate>
       <guid>https://varmazyar.de/tags/pulumi/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Terragrunt</title>
-      <link>https://varmazyar.de/tags/terragrunt/</link>
-      <pubDate>Thu, 29 Aug 2024 16:48:44 +0200</pubDate>
-      <guid>https://varmazyar.de/tags/terragrunt/</guid>
       <description></description>
     </item>
     <item>

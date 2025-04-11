@@ -6,8 +6,43 @@
     <description>Recent content in Categories on Cloud Engineering Chronicles with Mohammad</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Aug 2024 21:07:16 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 05 Sep 2024 16:20:00 +0200</lastBuildDate>
     <atom:link href="https://varmazyar.de/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Automation</title>
+      <link>https://varmazyar.de/categories/automation/</link>
+      <pubDate>Thu, 05 Sep 2024 16:20:00 +0200</pubDate>
+      <guid>https://varmazyar.de/categories/automation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DevOps</title>
+      <link>https://varmazyar.de/categories/devops/</link>
+      <pubDate>Thu, 05 Sep 2024 16:20:00 +0200</pubDate>
+      <guid>https://varmazyar.de/categories/devops/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Infrastructure as Code</title>
+      <link>https://varmazyar.de/categories/infrastructure-as-code/</link>
+      <pubDate>Thu, 05 Sep 2024 16:20:00 +0200</pubDate>
+      <guid>https://varmazyar.de/categories/infrastructure-as-code/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Terraform</title>
+      <link>https://varmazyar.de/categories/terraform/</link>
+      <pubDate>Thu, 05 Sep 2024 16:20:00 +0200</pubDate>
+      <guid>https://varmazyar.de/categories/terraform/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Terragrunt</title>
+      <link>https://varmazyar.de/categories/terragrunt/</link>
+      <pubDate>Thu, 05 Sep 2024 16:20:00 +0200</pubDate>
+      <guid>https://varmazyar.de/categories/terragrunt/</guid>
+      <description></description>
+    </item>
     <item>
       <title>DigitalOcean</title>
       <link>https://varmazyar.de/categories/digitalocean/</link>
@@ -275,24 +310,10 @@
       <description></description>
     </item>
     <item>
-      <title>Automation</title>
-      <link>https://varmazyar.de/categories/automation/</link>
-      <pubDate>Thu, 29 Aug 2024 16:52:45 +0200</pubDate>
-      <guid>https://varmazyar.de/categories/automation/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>CI/CD</title>
       <link>https://varmazyar.de/categories/ci/cd/</link>
       <pubDate>Thu, 29 Aug 2024 16:52:45 +0200</pubDate>
       <guid>https://varmazyar.de/categories/ci/cd/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>DevOps</title>
-      <link>https://varmazyar.de/categories/devops/</link>
-      <pubDate>Thu, 29 Aug 2024 16:52:45 +0200</pubDate>
-      <guid>https://varmazyar.de/categories/devops/</guid>
       <description></description>
     </item>
     <item>
@@ -317,24 +338,10 @@
       <description></description>
     </item>
     <item>
-      <title>Infrastructure as Code</title>
-      <link>https://varmazyar.de/categories/infrastructure-as-code/</link>
-      <pubDate>Thu, 29 Aug 2024 16:48:44 +0200</pubDate>
-      <guid>https://varmazyar.de/categories/infrastructure-as-code/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Pulumi</title>
       <link>https://varmazyar.de/categories/pulumi/</link>
       <pubDate>Thu, 29 Aug 2024 16:48:44 +0200</pubDate>
       <guid>https://varmazyar.de/categories/pulumi/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Terragrunt</title>
-      <link>https://varmazyar.de/categories/terragrunt/</link>
-      <pubDate>Thu, 29 Aug 2024 16:48:44 +0200</pubDate>
-      <guid>https://varmazyar.de/categories/terragrunt/</guid>
       <description></description>
     </item>
     <item>
