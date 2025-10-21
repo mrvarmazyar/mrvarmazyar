@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>XSS on Cloud Engineering Chronicles with Mohammad</title>
+    <link>https://varmazyar.de/categories/xss/</link>
+    <description>Recent content in XSS on Cloud Engineering Chronicles with Mohammad</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 21 Oct 2025 12:34:55 +0000</lastBuildDate>
+    <atom:link href="https://varmazyar.de/categories/xss/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Unraveling XSS Vulnerabilities and Optimizing Search Algorithms: A Dual Guide</title>
+      <link>https://varmazyar.de/posts/unraveling-xss-vulnerabilities-and-optimizing-search-algorithms-a-dual-guide/</link>
+      <pubDate>Tue, 21 Oct 2025 12:34:55 +0000</pubDate>
+      <guid>https://varmazyar.de/posts/unraveling-xss-vulnerabilities-and-optimizing-search-algorithms-a-dual-guide/</guid>
+      <description>Introduction Link to heading Web applications are integral parts of our digital lifestyle, however they could harbor potential security risks such as Cross-Site Scripting (XSS). On the flip side, search algorithms are pivotal tools in the realm of software development and understanding their structure and optimization techniques can leapfrog the efficiency of your applications. In this comprehensive guide, we will take a deep dive into both XSS vulnerabilities, identifying them and counteracting potential threats.</description>
+    </item>
+  </channel>
+</rss>
