@@ -1,0 +1,179 @@
+{{/* Social sharing buttons partial */}}
+<div class="social-share">
+  <h4 class="social-share-title">Share this article</h4>
+  <div class="social-share-buttons">
+    {{/* Twitter/X */}}
+    <a href="https://twitter.com/intent/tweet?text={{ .Title | urlquery }}&url={{ .Permalink | urlquery }}&via=varmazyar"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="social-share-button twitter"
+       title="Share on Twitter">
+      <i class="fa-brands fa-twitter"></i>
+      <span>Twitter</span>
+    </a>
+
+    {{/* LinkedIn */}}
+    <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ .Permalink | urlquery }}"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="social-share-button linkedin"
+       title="Share on LinkedIn">
+      <i class="fa-brands fa-linkedin"></i>
+      <span>LinkedIn</span>
+    </a>
+
+    {{/* Reddit */}}
+    <a href="https://reddit.com/submit?url={{ .Permalink | urlquery }}&title={{ .Title | urlquery }}"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="social-share-button reddit"
+       title="Share on Reddit">
+      <i class="fa-brands fa-reddit"></i>
+      <span>Reddit</span>
+    </a>
+
+    {{/* Hacker News */}}
+    <a href="https://news.ycombinator.com/submitlink?u={{ .Permalink | urlquery }}&t={{ .Title | urlquery }}"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="social-share-button hackernews"
+       title="Share on Hacker News">
+      <i class="fa-brands fa-hacker-news"></i>
+      <span>HN</span>
+    </a>
+
+    {{/* Copy Link */}}
+    <button class="social-share-button copy-link"
+            onclick="copyToClipboard('{{ .Permalink }}')"
+            title="Copy link">
+      <i class="fa-solid fa-link"></i>
+      <span>Copy</span>
+    </button>
+  </div>
+</div>
+
+<style>
+  .social-share {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    border: 1px solid var(--color-border, #ddd);
+    border-radius: 8px;
+    background: var(--color-background-secondary, #f9f9f9);
+  }
+
+  .social-share-title {
+    margin: 0 0 1rem 0;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-text, #333);
+  }
+
+  .social-share-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+
+  .social-share-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+
+  .social-share-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+
+  .social-share-button i {
+    font-size: 1.1rem;
+  }
+
+  .social-share-button.twitter {
+    background: #1DA1F2;
+  }
+
+  .social-share-button.linkedin {
+    background: #0A66C2;
+  }
+
+  .social-share-button.reddit {
+    background: #FF4500;
+  }
+
+  .social-share-button.hackernews {
+    background: #FF6600;
+  }
+
+  .social-share-button.copy-link {
+    background: #6c757d;
+  }
+
+  .social-share-button.copy-link.copied {
+    background: #28a745;
+  }
+
+  @media (max-width: 600px) {
+    .social-share-button span {
+      display: none;
+    }
+
+    .social-share-button {
+      padding: 0.5rem;
+      justify-content: center;
+      min-width: 40px;
+    }
+  }
+</style>
+
+<script>
+  function copyToClipboard(text) {
+    if (navigator.clipboard) {
+      navigator.clipboard.writeText(text).then(function() {
+        const button = event.currentTarget;
+        const originalHTML = button.innerHTML;
+        button.classList.add('copied');
+        button.innerHTML = '<i class="fa-solid fa-check"></i><span>Copied!</span>';
+
+        setTimeout(function() {
+          button.classList.remove('copied');
+          button.innerHTML = originalHTML;
+        }, 2000);
+      }).catch(function(err) {
+        console.error('Failed to copy:', err);
+        alert('Failed to copy link');
+      });
+    } else {
+      // Fallback for older browsers
+      const textArea = document.createElement('textarea');
+      textArea.value = text;
+      textArea.style.position = 'fixed';
+      textArea.style.left = '-9999px';
+      document.body.appendChild(textArea);
+      textArea.select();
+      try {
+        document.execCommand('copy');
+        const button = event.currentTarget;
+        button.classList.add('copied');
+        button.innerHTML = '<i class="fa-solid fa-check"></i><span>Copied!</span>';
+        setTimeout(function() {
+          button.classList.remove('copied');
+          button.innerHTML = '<i class="fa-solid fa-link"></i><span>Copy</span>';
+        }, 2000);
+      } catch (err) {
+        console.error('Failed to copy:', err);
+        alert('Failed to copy link');
+      }
+      document.body.removeChild(textArea);
+    }
+  }
+</script>
