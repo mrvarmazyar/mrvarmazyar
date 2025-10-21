@@ -6,20 +6,48 @@
     <description>Recent content in Categories on Cloud Engineering Chronicles with Mohammad</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 21 Oct 2025 07:30:56 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Oct 2025 12:34:55 +0000</lastBuildDate>
     <atom:link href="https://varmazyar.de/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cybersecurity</title>
+      <link>https://varmazyar.de/categories/cybersecurity/</link>
+      <pubDate>Tue, 21 Oct 2025 12:34:55 +0000</pubDate>
+      <guid>https://varmazyar.de/categories/cybersecurity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Structures</title>
+      <link>https://varmazyar.de/categories/data-structures/</link>
+      <pubDate>Tue, 21 Oct 2025 12:34:55 +0000</pubDate>
+      <guid>https://varmazyar.de/categories/data-structures/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Search Algorithms</title>
+      <link>https://varmazyar.de/categories/search-algorithms/</link>
+      <pubDate>Tue, 21 Oct 2025 12:34:55 +0000</pubDate>
+      <guid>https://varmazyar.de/categories/search-algorithms/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software Development</title>
+      <link>https://varmazyar.de/categories/software-development/</link>
+      <pubDate>Tue, 21 Oct 2025 12:34:55 +0000</pubDate>
+      <guid>https://varmazyar.de/categories/software-development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>XSS</title>
+      <link>https://varmazyar.de/categories/xss/</link>
+      <pubDate>Tue, 21 Oct 2025 12:34:55 +0000</pubDate>
+      <guid>https://varmazyar.de/categories/xss/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Continuous Delivery</title>
       <link>https://varmazyar.de/categories/continuous-delivery/</link>
       <pubDate>Tue, 21 Oct 2025 07:30:56 +0000</pubDate>
       <guid>https://varmazyar.de/categories/continuous-delivery/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Cybersecurity</title>
-      <link>https://varmazyar.de/categories/cybersecurity/</link>
-      <pubDate>Tue, 21 Oct 2025 07:30:56 +0000</pubDate>
-      <guid>https://varmazyar.de/categories/cybersecurity/</guid>
       <description></description>
     </item>
     <item>
@@ -286,13 +314,6 @@
       <link>https://varmazyar.de/categories/scrum/</link>
       <pubDate>Thu, 29 Aug 2024 17:23:15 +0200</pubDate>
       <guid>https://varmazyar.de/categories/scrum/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Software Development</title>
-      <link>https://varmazyar.de/categories/software-development/</link>
-      <pubDate>Thu, 29 Aug 2024 17:23:15 +0200</pubDate>
-      <guid>https://varmazyar.de/categories/software-development/</guid>
       <description></description>
     </item>
     <item>

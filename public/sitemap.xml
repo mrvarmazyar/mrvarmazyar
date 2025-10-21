@@ -3,17 +3,87 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://varmazyar.de/authors/</loc>
-    <lastmod>2025-10-21T07:30:56+00:00</lastmod>
+    <lastmod>2025-10-21T12:34:55+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://varmazyar.de/categories/</loc>
-    <lastmod>2025-10-21T07:30:56+00:00</lastmod>
+    <lastmod>2025-10-21T12:34:55+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://varmazyar.de/</loc>
-    <lastmod>2025-10-21T07:30:56+00:00</lastmod>
+    <lastmod>2025-10-21T12:34:55+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/tags/cybersecurity/</loc>
+    <lastmod>2025-10-21T12:34:55+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/categories/cybersecurity/</loc>
+    <lastmod>2025-10-21T12:34:55+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/tags/data-structures/</loc>
+    <lastmod>2025-10-21T12:34:55+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/categories/data-structures/</loc>
+    <lastmod>2025-10-21T12:34:55+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/authors/mohammad-varmazyar/</loc>
+    <lastmod>2025-10-21T12:34:55+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/posts/</loc>
+    <lastmod>2025-10-21T12:34:55+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/tags/search-algorithms/</loc>
+    <lastmod>2025-10-21T12:34:55+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/categories/search-algorithms/</loc>
+    <lastmod>2025-10-21T12:34:55+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/tags/software-development/</loc>
+    <lastmod>2025-10-21T12:34:55+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/categories/software-development/</loc>
+    <lastmod>2025-10-21T12:34:55+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/tags/</loc>
+    <lastmod>2025-10-21T12:34:55+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/posts/unraveling-xss-vulnerabilities-and-optimizing-search-algorithms-a-dual-guide/</loc>
+    <lastmod>2025-10-21T12:34:55+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/tags/xss/</loc>
+    <lastmod>2025-10-21T12:34:55+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/categories/xss/</loc>
+    <lastmod>2025-10-21T12:34:55+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -23,16 +93,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://varmazyar.de/categories/continuous-delivery/</loc>
-    <lastmod>2025-10-21T07:30:56+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://varmazyar.de/tags/cybersecurity/</loc>
-    <lastmod>2025-10-21T07:30:56+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://varmazyar.de/categories/cybersecurity/</loc>
     <lastmod>2025-10-21T07:30:56+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -57,16 +117,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://varmazyar.de/authors/mohammad-varmazyar/</loc>
-    <lastmod>2025-10-21T07:30:56+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://varmazyar.de/posts/</loc>
-    <lastmod>2025-10-21T07:30:56+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://varmazyar.de/tags/rancher/</loc>
     <lastmod>2025-10-21T07:30:56+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -78,11 +128,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://varmazyar.de/posts/safeguarding-mobile-apps-a-deep-dive-into-mobile-security-rancher-and-continuous-delivery/</loc>
-    <lastmod>2025-10-21T07:30:56+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://varmazyar.de/tags/</loc>
     <lastmod>2025-10-21T07:30:56+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -508,16 +553,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://varmazyar.de/categories/scrum/</loc>
-    <lastmod>2024-08-29T17:23:15+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://varmazyar.de/tags/software-development/</loc>
-    <lastmod>2024-08-29T17:23:15+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://varmazyar.de/categories/software-development/</loc>
     <lastmod>2024-08-29T17:23:15+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

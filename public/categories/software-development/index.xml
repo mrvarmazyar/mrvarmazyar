@@ -6,8 +6,15 @@
     <description>Recent content in Software Development on Cloud Engineering Chronicles with Mohammad</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Aug 2024 17:23:15 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 21 Oct 2025 12:34:55 +0000</lastBuildDate>
     <atom:link href="https://varmazyar.de/categories/software-development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Unraveling XSS Vulnerabilities and Optimizing Search Algorithms: A Dual Guide</title>
+      <link>https://varmazyar.de/posts/unraveling-xss-vulnerabilities-and-optimizing-search-algorithms-a-dual-guide/</link>
+      <pubDate>Tue, 21 Oct 2025 12:34:55 +0000</pubDate>
+      <guid>https://varmazyar.de/posts/unraveling-xss-vulnerabilities-and-optimizing-search-algorithms-a-dual-guide/</guid>
+      <description>Introduction Link to heading Web applications are integral parts of our digital lifestyle, however they could harbor potential security risks such as Cross-Site Scripting (XSS). On the flip side, search algorithms are pivotal tools in the realm of software development and understanding their structure and optimization techniques can leapfrog the efficiency of your applications. In this comprehensive guide, we will take a deep dive into both XSS vulnerabilities, identifying them and counteracting potential threats.</description>
+    </item>
     <item>
       <title>Mastering Agile Development with Scrum, Spring Boot, and Cordova</title>
       <link>https://varmazyar.de/posts/mastering-agile-development-with-scrum-spring-boot-and-cordova/</link>
