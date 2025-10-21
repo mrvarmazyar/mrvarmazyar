@@ -1,0 +1,147 @@
+{{ define "title" }}
+  {{ .Title }} · {{ .Site.Title }}
+{{ end }}
+{{ define "content" }}
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="{{ .Permalink | safeURL }}">
+              {{ .Title }}
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+              <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+                {{ .Date | time.Format (.Site.Params.dateFormat | default "January 2, 2006" ) }}
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
+              {{ i18n "reading_time" .ReadingTime }}
+            </span>
+          </div>
+          {{ with .GetTerms "authors" }}{{ partial "taxonomy/authors.html" . }}{{ end }}
+          {{ with .GetTerms "categories" }}{{ partial "taxonomy/categories.html" . }}{{ end }}
+          {{ with .GetTerms "tags" }}{{ partial "taxonomy/tags.html" . }}{{ end }}
+        </div>
+      </header>
+
+      <div class="post-content">
+        {{ if .Params.featuredImage }}
+          <img src="{{ .Params.featuredImage | relURL }}" alt="Featured image"/>
+        {{ end }}
+        {{ .Content }}
+      </div>
+
+      {{ $related := .Site.RegularPages.Related . | first 3 }}
+      {{ with $related }}
+      <div class="related-posts">
+        <h3>Related Posts</h3>
+        <div class="related-posts-grid">
+          {{ range . }}
+          <article class="related-post-item">
+            <h4>
+              <a href="{{ .Permalink }}">{{ .Title }}</a>
+            </h4>
+            <p class="related-post-date">
+              <i class="fa-solid fa-calendar"></i>
+              {{ .Date | time.Format "January 2, 2006" }}
+            </p>
+            <p class="related-post-summary">{{ .Summary | truncate 150 }}</p>
+            {{ with .GetTerms "tags" }}
+            <div class="related-post-tags">
+              {{ range first 3 . }}
+              <span class="related-tag">{{ .LinkTitle }}</span>
+              {{ end }}
+            </div>
+            {{ end }}
+          </article>
+          {{ end }}
+        </div>
+      </div>
+      <style>
+        .related-posts {
+          margin-top: 3rem;
+          padding-top: 2rem;
+          border-top: 2px solid var(--color-border, #ddd);
+        }
+        .related-posts h3 {
+          margin-bottom: 1.5rem;
+          font-size: 1.5rem;
+          color: var(--color-text, #333);
+        }
+        .related-posts-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+          gap: 1.5rem;
+        }
+        .related-post-item {
+          padding: 1.25rem;
+          border: 1px solid var(--color-border, #ddd);
+          border-radius: 8px;
+          background: var(--color-background-secondary, #f9f9f9);
+          transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .related-post-item:hover {
+          transform: translateY(-4px);
+          box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        .related-post-item h4 {
+          margin: 0 0 0.5rem 0;
+          font-size: 1.1rem;
+          line-height: 1.4;
+        }
+        .related-post-item h4 a {
+          color: var(--color-primary, #007bff);
+          text-decoration: none;
+        }
+        .related-post-item h4 a:hover {
+          text-decoration: underline;
+        }
+        .related-post-date {
+          color: var(--color-text-secondary, #666);
+          font-size: 0.85rem;
+          margin: 0.25rem 0 0.5rem 0;
+        }
+        .related-post-summary {
+          color: var(--color-text, #333);
+          font-size: 0.95rem;
+          line-height: 1.5;
+          margin-bottom: 0.75rem;
+        }
+        .related-post-tags {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 0.5rem;
+        }
+        .related-tag {
+          display: inline-block;
+          padding: 0.25rem 0.5rem;
+          background: var(--color-primary, #007bff);
+          color: white;
+          border-radius: 4px;
+          font-size: 0.75rem;
+        }
+      </style>
+      {{ end }}
+
+      <footer>
+        {{ partial "posts/series.html" . }}
+        {{ partial "posts/disqus.html" . }}
+        {{ partial "posts/commento.html" . }}
+        {{ partial "posts/utterances.html" . }}
+        {{ partial "posts/giscus.html" . }}
+        {{ partial "posts/mastodon.html" . }}
+        {{ partial "posts/telegram.html" . }}
+        {{ partial "posts/cusdis.html" . }}
+      </footer>
+    </article>
+
+    {{ partial "posts/math.html" . }}
+  </section>
+{{ end }}

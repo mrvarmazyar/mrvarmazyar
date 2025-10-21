@@ -1,488 +1,127 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <title>
-  Effortless Terraform Management: How Terragrunt Keeps Your Code DRY and Efficient · Cloud Engineering Chronicles with Mohammad
-</title>
-  <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="color-scheme" content="light dark">
-
-
-<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests; block-all-mixed-content; default-src 'self'; child-src 'self' blob:; font-src 'self' https://fonts.gstatic.com data: https://varmazyar.de; form-action 'self'; frame-src 'self'; img-src 'self' data: https://www.gravatar.com https://varmazyar.de http://localhost:1313/; object-src 'none'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://varmazyar.de http://localhost:1313/css/; script-src 'self' https://www.googletagmanager.com https://varmazyar.de 'sha256-m4/M+m7eUT5UtkR8sOG3lFlhyuawXRxSBdAwzV6BBmU=' 'wasm-unsafe-eval' 'inline-speculation-rules'; connect-src 'self' https://varmazyar.de https://www.google-analytics.com https://region1.google-analytics.com;">
-
-
-
-
-<meta name="author" content="Mohammad Varmazyar">
-<meta name="description" content="Explore how Terragrunt helps keep your Terraform code DRY and maintainable by simplifying backend configurations, CLI arguments, and promoting versioned, immutable modules across environments.">
-<meta name="keywords" content="cloud engineering, DevOps, platform engineering, SRE, automation">
-<meta name="fediverse:creator" content="" />
-
-
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Effortless Terraform Management: How Terragrunt Keeps Your Code DRY and Efficient">
-  <meta name="twitter:description" content="Explore how Terragrunt helps keep your Terraform code DRY and maintainable by simplifying backend configurations, CLI arguments, and promoting versioned, immutable modules across environments.">
-
-<meta property="og:url" content="https://varmazyar.de/posts/terragrunt-how-to-keep-your-terraform-code-dry-and-maintainable/">
-  <meta property="og:site_name" content="Cloud Engineering Chronicles with Mohammad">
-  <meta property="og:title" content="Effortless Terraform Management: How Terragrunt Keeps Your Code DRY and Efficient">
-  <meta property="og:description" content="Explore how Terragrunt helps keep your Terraform code DRY and maintainable by simplifying backend configurations, CLI arguments, and promoting versioned, immutable modules across environments.">
-  <meta property="og:locale" content="en">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2024-09-05T16:20:00+02:00">
-    <meta property="article:modified_time" content="2024-09-05T16:20:00+02:00">
-    <meta property="article:tag" content="Terragrunt">
-    <meta property="article:tag" content="Terraform">
-    <meta property="article:tag" content="Infrastructure as Code">
-    <meta property="article:tag" content="DevOps">
-    <meta property="article:tag" content="Backend Configuration">
-    <meta property="article:tag" content="Versioning">
-
-
-
-
-<link rel="canonical" href="https://varmazyar.de/posts/terragrunt-how-to-keep-your-terraform-code-dry-and-maintainable/">
-
-
-<link rel="preload" href="../../fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="../../fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="../../fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
-
-
-  
-  
-  <link rel="stylesheet" href="../../css/coder.min.5e35fe9f2921e0d6c3f28502ddfa49024048eca925740d711aa8d933f91ce90a.css" integrity="sha256-XjX&#43;nykh4NbD8oUC3fpJAkBI7KkldA1xGqjZM/kc6Qo=" crossorigin="anonymous" media="screen" />
-
-
-
-
-
-
-  
-    
-    
-    <link rel="stylesheet" href="../../css/coder-dark.min.a00e6364bacbc8266ad1cc81230774a1397198f8cfb7bcba29b7d6fcb54ce57f.css" integrity="sha256-oA5jZLrLyCZq0cyBIwd0oTlxmPjPt7y6KbfW/LVM5X8=" crossorigin="anonymous" media="screen" />
-  
-
-
-
- 
-
-
-
-
-<link rel="icon" type="image/svg+xml" href="../../img/favicon.svg" sizes="any">
-<link rel="icon" type="image/png" href="../../img/favicon-32x32.png" sizes="32x32">
-<link rel="icon" type="image/png" href="../../img/favicon-16x16.png" sizes="16x16">
-
-<link rel="apple-touch-icon" href="../../images/apple-touch-icon.png">
-<link rel="apple-touch-icon" sizes="180x180" href="../../images/apple-touch-icon.png">
-
-<link rel="manifest" href="../../site.webmanifest">
-<link rel="mask-icon" href="../../images/safari-pinned-tab.svg" color="#5bbad5">
-
-
-
-
-
-
-
-
-
-</head>
-
-
-
-
-
-
-<body class="preload-transitions colorscheme-auto">
-  
-<div class="float-container">
-    <a id="dark-mode-toggle" class="colorscheme-toggle">
-        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
-    </a>
-</div>
-
-
-  <main class="wrapper">
-    <nav class="navigation">
-  <section class="container">
-    
-    <a class="navigation-title" href="https://varmazyar.de/">
-      Cloud Engineering Chronicles with Mohammad
-    </a>
-    
-    
-      <input type="checkbox" id="menu-toggle" />
-      <label class="menu-button float-right" for="menu-toggle">
-        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
-      </label>
-      <ul class="navigation-list">
-        
-          
-            <li class="navigation-item">
-              <a class="navigation-link " href="../../posts/">Blog</a>
-            </li>
-          
-            <li class="navigation-item">
-              <a class="navigation-link " href="../../resume/">Resume</a>
-            </li>
-          
-            <li class="navigation-item">
-              <a class="navigation-link " href="../../about/">About</a>
-            </li>
-          
-        
-        
-      </ul>
-    
-  </section>
-</nav>
-
-
-    <div class="content">
-      
-  <section class="container post">
-    <article>
-      <header>
-        <div class="post-title">
-          <h1 class="title">
-            <a class="title-link" href="https://varmazyar.de/posts/terragrunt-how-to-keep-your-terraform-code-dry-and-maintainable/">
-              Effortless Terraform Management: How Terragrunt Keeps Your Code DRY and Efficient
-            </a>
-          </h1>
-        </div>
-        <div class="post-meta">
-          <div class="date">
-            <span class="posted-on">
-              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
-              <time datetime="2024-09-05T16:20:00&#43;02:00">
-                September 5, 2024
-              </time>
-            </span>
-            <span class="reading-time">
-              <i class="fa-solid fa-clock" aria-hidden="true"></i>
-              5-minute read
-            </span>
-          </div>
-          <div class="authors">
-  <i class="fa-solid fa-user" aria-hidden="true"></i>
-    <a href="../../authors/mohammad-varmazyar/">Mohammad Varmazyar</a></div>
-
-          <div class="categories">
-  <i class="fa-solid fa-folder" aria-hidden="true"></i>
-    <a href="../../categories/devops/">DevOps</a>
-      <span class="separator">•</span>
-    <a href="../../categories/infrastructure-as-code/">Infrastructure as Code</a>
-      <span class="separator">•</span>
-    <a href="../../categories/terraform/">Terraform</a>
-      <span class="separator">•</span>
-    <a href="../../categories/terragrunt/">Terragrunt</a>
-      <span class="separator">•</span>
-    <a href="../../categories/automation/">Automation</a></div>
-
-          <div class="tags">
-  <i class="fa-solid fa-tag" aria-hidden="true"></i>
-    <span class="tag">
-      <a href="../../tags/terragrunt/">Terragrunt</a>
-    </span>
-      <span class="separator">•</span>
-    <span class="tag">
-      <a href="../../tags/terraform/">Terraform</a>
-    </span>
-      <span class="separator">•</span>
-    <span class="tag">
-      <a href="../../tags/infrastructure-as-code/">Infrastructure as Code</a>
-    </span>
-      <span class="separator">•</span>
-    <span class="tag">
-      <a href="../../tags/devops/">DevOps</a>
-    </span>
-      <span class="separator">•</span>
-    <span class="tag">
-      <a href="../../tags/backend-configuration/">Backend Configuration</a>
-    </span>
-      <span class="separator">•</span>
-    <span class="tag">
-      <a href="../../tags/versioning/">Versioning</a>
-    </span>
-      <span class="separator">•</span>
-    <span class="tag">
-      <a href="../../tags/automation/">Automation</a>
-    </span></div>
-
-        </div>
-      </header>
-
-      <div class="post-content">
-        
-        <hr>
-<h3 id="effortless-terraform-management-how-terragrunt-keeps-your-code-dry-and-efficient">
-  Effortless Terraform Management: How Terragrunt Keeps Your Code DRY and Efficient
-  <a class="heading-link" href="#effortless-terraform-management-how-terragrunt-keeps-your-code-dry-and-efficient">
-    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
-    <span class="sr-only">Link to heading</span>
-  </a>
-</h3>
-<p>In 2016, an open-source tool called <strong>Terragrunt</strong> was released to address two key issues with Terraform: (1) the lack of state locking and (2) the inability to configure Terraform state as code. While Terraform has since introduced solutions like backends to handle these problems, new challenges emerged as infrastructure grew more complex. The biggest issue? Keeping your Terraform code DRY (Don’t Repeat Yourself) and easy to maintain across environments.</p>
-<p>To tackle this, <strong>Terragrunt v0.19.0</strong> was released, providing compatibility with Terraform 0.12 and HCL2. This version offers several ways to streamline your Terraform workflow. Let&rsquo;s dive into how Terragrunt simplifies your infrastructure management and helps you avoid unnecessary repetition.</p>
-<h3 id="why-you-should-keep-your-terraform-code-dry">
-  Why You Should Keep Your Terraform Code DRY
-  <a class="heading-link" href="#why-you-should-keep-your-terraform-code-dry">
-    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
-    <span class="sr-only">Link to heading</span>
-  </a>
-</h3>
-<p>If you&rsquo;ve ever worked with large Terraform setups, you&rsquo;ve likely experienced the frustration of repeating code across environments. Managing backends, CLI arguments, and module configurations can lead to bloated codebases, which are harder to maintain, error-prone, and inefficient. This is where Terragrunt shines — by centralizing configurations, reducing duplication, and promoting best practices for managing infrastructure as code.</p>
-<h4 id="keeping-backend-configuration-dry">
-  Keeping Backend Configuration DRY
-  <a class="heading-link" href="#keeping-backend-configuration-dry">
-    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
-    <span class="sr-only">Link to heading</span>
-  </a>
-</h4>
-<p>Terraform&rsquo;s backend feature allows you to store state files in a shared location, such as an S3 bucket, and ensures that state is locked to avoid race conditions. However, one downside is that backend configurations don’t support variables. You’re left having to copy-paste backend code across modules, which introduces a risk of errors and inconsistencies.</p>
-<p>For example, here’s a typical backend configuration in Terraform:</p>
-<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-hcl" data-lang="hcl"><span style="display:flex;"><span><span style="color:#8b949e;font-style:italic"># stage/frontend-app/main.tf
-</span></span></span><span style="display:flex;"><span><span style="color:#8b949e;font-style:italic"></span><span style="color:#ff7b72">terraform</span> {
-</span></span><span style="display:flex;"><span>  <span style="color:#ff7b72">backend</span> <span style="color:#a5d6ff">&#34;s3&#34;</span> {
-</span></span><span style="display:flex;"><span>    bucket         <span style="color:#ff7b72;font-weight:bold">=</span> <span style="color:#a5d6ff">&#34;my-terraform-state&#34;</span>
-</span></span><span style="display:flex;"><span>    key            <span style="color:#ff7b72;font-weight:bold">=</span> <span style="color:#a5d6ff">&#34;stage/frontend-app/terraform.tfstate&#34;</span>
-</span></span><span style="display:flex;"><span>    region         <span style="color:#ff7b72;font-weight:bold">=</span> <span style="color:#a5d6ff">&#34;us-east-1&#34;</span>
-</span></span><span style="display:flex;"><span>    encrypt        <span style="color:#ff7b72;font-weight:bold">=</span> <span style="color:#ff7b72">true</span>
-</span></span><span style="display:flex;"><span>    dynamodb_table <span style="color:#ff7b72;font-weight:bold">=</span> <span style="color:#a5d6ff">&#34;my-lock-table&#34;</span>
-</span></span><span style="display:flex;"><span>  }
-</span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div><p>The issue here is that each module — say, one for a database and another for an app — will require a nearly identical backend configuration with slight modifications to the <code>key</code> field. This not only leads to duplication but also makes it easy to make a mistake.</p>
-<p>Terragrunt addresses this by allowing you to define the backend configuration once in a <code>terragrunt.hcl</code> file at the root level, and then reuse it across multiple modules. Here&rsquo;s an example:</p>
-<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-hcl" data-lang="hcl"><span style="display:flex;"><span><span style="color:#8b949e;font-style:italic"># stage/terragrunt.hcl
-</span></span></span><span style="display:flex;"><span><span style="color:#8b949e;font-style:italic"></span><span style="color:#ff7b72">remote_state</span> {
-</span></span><span style="display:flex;"><span>  backend <span style="color:#ff7b72;font-weight:bold">=</span> <span style="color:#a5d6ff">&#34;s3&#34;</span>
-</span></span><span style="display:flex;"><span>  config <span style="color:#ff7b72;font-weight:bold">=</span> {
-</span></span><span style="display:flex;"><span>    bucket         <span style="color:#ff7b72;font-weight:bold">=</span> <span style="color:#a5d6ff">&#34;my-terraform-state&#34;</span>
-</span></span><span style="display:flex;"><span>    key            <span style="color:#ff7b72;font-weight:bold">=</span> <span style="color:#a5d6ff">&#34;${path_relative_to_include()}/terraform.tfstate&#34;</span>
-</span></span><span style="display:flex;"><span>    region         <span style="color:#ff7b72;font-weight:bold">=</span> <span style="color:#a5d6ff">&#34;us-east-1&#34;</span>
-</span></span><span style="display:flex;"><span>    encrypt        <span style="color:#ff7b72;font-weight:bold">=</span> <span style="color:#ff7b72">true</span>
-</span></span><span style="display:flex;"><span>    dynamodb_table <span style="color:#ff7b72;font-weight:bold">=</span> <span style="color:#a5d6ff">&#34;my-lock-table&#34;</span>
-</span></span><span style="display:flex;"><span>  }
-</span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div><p>The <code>${path_relative_to_include()}</code> function dynamically generates the path, which means you no longer have to specify the backend for each module manually. This not only keeps your code DRY but also reduces the chances of human error.</p>
-<h4 id="drying-up-terraform-cli-arguments">
-  DRYing Up Terraform CLI Arguments
-  <a class="heading-link" href="#drying-up-terraform-cli-arguments">
-    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
-    <span class="sr-only">Link to heading</span>
-  </a>
-</h4>
-<p>Another common Terraform challenge is handling CLI arguments, such as passing variable files with the <code>-var-file</code> flag. If you&rsquo;re managing multiple environments, remembering which files to include can become tedious and error-prone.</p>
-<p>Terragrunt lets you define these arguments in the <code>terragrunt.hcl</code> file, so they’re automatically added every time you run a command:</p>
-<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-hcl" data-lang="hcl"><span style="display:flex;"><span><span style="color:#8b949e;font-style:italic"># terragrunt.hcl
-</span></span></span><span style="display:flex;"><span><span style="color:#8b949e;font-style:italic"></span><span style="color:#ff7b72">terraform</span> {
-</span></span><span style="display:flex;"><span>  <span style="color:#ff7b72">extra_arguments</span> <span style="color:#a5d6ff">&#34;common_vars&#34;</span> {
-</span></span><span style="display:flex;"><span>    commands <span style="color:#ff7b72;font-weight:bold">=</span> [<span style="color:#a5d6ff">&#34;plan&#34;, &#34;apply&#34;</span>]
-</span></span><span style="display:flex;"><span>    arguments <span style="color:#ff7b72;font-weight:bold">=</span> [
-</span></span><span style="display:flex;"><span>      &#34;-var-file<span style="color:#ff7b72;font-weight:bold">=</span>..<span style="color:#f85149">/</span>..<span style="color:#f85149">/</span><span style="color:#ff7b72">common</span>.<span style="color:#ff7b72">tfvars</span><span style="color:#f85149">&#34;</span>,
-</span></span><span style="display:flex;"><span>      &#34;-var-file<span style="color:#ff7b72;font-weight:bold">=</span>..<span style="color:#f85149">/</span><span style="color:#ff7b72">region</span>.<span style="color:#ff7b72">tfvars</span><span style="color:#f85149">&#34;</span>
-</span></span><span style="display:flex;"><span>    ]
-</span></span><span style="display:flex;"><span>  }
-</span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div><p>Now, whenever you run <code>terragrunt apply</code>, the necessary variable files are automatically included, eliminating the need for manual input:</p>
-<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ terragrunt apply
-</span></span><span style="display:flex;"><span>Running command: terraform with arguments <span style="color:#ff7b72;font-weight:bold">[</span>apply -var-file<span style="color:#ff7b72;font-weight:bold">=</span>../../common.tfvars -var-file<span style="color:#ff7b72;font-weight:bold">=</span>../region.tfvars<span style="color:#ff7b72;font-weight:bold">]</span>
-</span></span></code></pre></div><p>This saves time, reduces mistakes, and ensures consistency across your Terraform commands.</p>
-<h4 id="promoting-immutable-versioned-terraform-modules-across-environments">
-  Promoting Immutable, Versioned Terraform Modules Across Environments
-  <a class="heading-link" href="#promoting-immutable-versioned-terraform-modules-across-environments">
-    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
-    <span class="sr-only">Link to heading</span>
-  </a>
-</h4>
-<p>One of the most critical lessons learned from managing complex infrastructure is that large, monolithic modules can cause numerous issues. They tend to be slow, difficult to test, hard to review, and risky to update. Instead, breaking your infrastructure into smaller, modular components is the recommended approach.</p>
-<p>Here’s an example of how to organize your environments into smaller modules:</p>
-<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>├── prod
-</span></span><span style="display:flex;"><span>│   ├── app
-</span></span><span style="display:flex;"><span>│   │   ├── main.tf
-</span></span><span style="display:flex;"><span>│   │   └── outputs.tf
-</span></span><span style="display:flex;"><span>│   ├── mysql
-</span></span><span style="display:flex;"><span>│   │   ├── main.tf
-</span></span><span style="display:flex;"><span>│   │   └── outputs.tf
-</span></span><span style="display:flex;"><span>│   └── vpc
-</span></span><span style="display:flex;"><span>│       ├── main.tf
-</span></span><span style="display:flex;"><span>│       └── outputs.tf
-</span></span><span style="display:flex;"><span>└── stage
-</span></span><span style="display:flex;"><span>    ├── app
-</span></span><span style="display:flex;"><span>    │   ├── main.tf
-</span></span><span style="display:flex;"><span>    │   └── outputs.tf
-</span></span><span style="display:flex;"><span>    ├── mysql
-</span></span><span style="display:flex;"><span>    │   ├── main.tf
-</span></span><span style="display:flex;"><span>    │   └── outputs.tf
-</span></span><span style="display:flex;"><span>    └── vpc
-</span></span><span style="display:flex;"><span>        ├── main.tf
-</span></span><span style="display:flex;"><span>        └── outputs.tf
-</span></span></code></pre></div><p>While this approach keeps your infrastructure modular, it does introduce some code duplication. Each environment has similar <code>main.tf</code> and <code>outputs.tf</code> files, which can grow redundant. Terragrunt solves this by allowing you to version your Terraform modules and promote those versions across environments.</p>
-<p>First, define your reusable modules in a separate Git repository, such as <code>infrastructure-modules</code>, and then version them:</p>
-<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ git tag -a <span style="color:#a5d6ff">&#34;v0.0.1&#34;</span> -m <span style="color:#a5d6ff">&#34;First release of app module&#34;</span>
-</span></span><span style="display:flex;"><span>$ git push --follow-tags
-</span></span></code></pre></div><p>In your live environments, you can now reference this versioned module from the repository in your <code>terragrunt.hcl</code> files:</p>
-<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-hcl" data-lang="hcl"><span style="display:flex;"><span><span style="color:#8b949e;font-style:italic"># prod/app/terragrunt.hcl
-</span></span></span><span style="display:flex;"><span><span style="color:#8b949e;font-style:italic"></span><span style="color:#ff7b72">terraform</span> {
-</span></span><span style="display:flex;"><span>  source <span style="color:#ff7b72;font-weight:bold">=</span> &#34;github.com:your-org/infrastructure-modules.git//app?ref<span style="color:#ff7b72;font-weight:bold">=</span><span style="color:#ff7b72">v0</span>.<span style="color:#a5d6ff">0</span>.<span style="color:#a5d6ff">1</span><span style="color:#f85149">&#34;</span>
-</span></span><span style="display:flex;"><span>}
-</span></span><span style="display:flex;"><span>inputs <span style="color:#ff7b72;font-weight:bold">=</span> {
-</span></span><span style="display:flex;"><span>  instance_count <span style="color:#ff7b72;font-weight:bold">=</span> <span style="color:#a5d6ff">10</span>
-</span></span><span style="display:flex;"><span>  instance_type  <span style="color:#ff7b72;font-weight:bold">=</span> <span style="color:#a5d6ff">&#34;m4.large&#34;</span>
-</span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div><p>For a <code>stage</code> environment, you might reference the same module but with smaller instance sizes to save on costs:</p>
-<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-hcl" data-lang="hcl"><span style="display:flex;"><span><span style="color:#8b949e;font-style:italic"># stage/app/terragrunt.hcl
-</span></span></span><span style="display:flex;"><span><span style="color:#8b949e;font-style:italic"></span><span style="color:#ff7b72">terraform</span> {
-</span></span><span style="display:flex;"><span>  source <span style="color:#ff7b72;font-weight:bold">=</span> &#34;github.com:your-org/infrastructure-modules.git//app?ref<span style="color:#ff7b72;font-weight:bold">=</span><span style="color:#ff7b72">v0</span>.<span style="color:#a5d6ff">0</span>.<span style="color:#a5d6ff">1</span><span style="color:#f85149">&#34;</span>
-</span></span><span style="display:flex;"><span>}
-</span></span><span style="display:flex;"><span>inputs <span style="color:#ff7b72;font-weight:bold">=</span> {
-</span></span><span style="display:flex;"><span>  instance_count <span style="color:#ff7b72;font-weight:bold">=</span> <span style="color:#a5d6ff">3</span>
-</span></span><span style="display:flex;"><span>  instance_type  <span style="color:#ff7b72;font-weight:bold">=</span> <span style="color:#a5d6ff">&#34;t2.micro&#34;</span>
-</span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div><p>With this setup, you maintain a consistent infrastructure codebase while promoting versioned, immutable modules across your environments. If an issue arises in a particular environment, you can easily roll back to a previous version.</p>
-<h3 id="the-value-of-terragrunt-in-modern-infrastructure-management">
-  The Value of Terragrunt in Modern Infrastructure Management
-  <a class="heading-link" href="#the-value-of-terragrunt-in-modern-infrastructure-management">
-    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
-    <span class="sr-only">Link to heading</span>
-  </a>
-</h3>
-<p>Terragrunt isn&rsquo;t just a stopgap solution anymore — it has evolved into a powerful tool for managing Terraform configurations in a DRY, scalable, and maintainable way. By centralizing backend configurations, simplifying CLI arguments, and promoting versioned modules, Terragrunt helps you keep your infrastructure code clean and maintainable.</p>
-<p>If you&rsquo;re managing complex Terraform environments, Terragrunt is an essential tool that can help you avoid duplication, reduce errors, and make infrastructure-as-code more efficient.</p>
-<p>Why wait? Give Terragrunt a try today and experience the simplicity and power it brings to managing Terraform configurations at scale.</p>
-
-      </div>
-
-
-      <footer>
-        
-
-
-        <div id="disqus_thread"></div>
-<script>
-  window.disqus_config = function () {
-    
-    
-    
-    };
-    (function() {
-        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-            return;
-        }
-        var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "varmazyar-de" + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-    
-    document.addEventListener('themeChanged', function (e) { 
-        if (document.readyState == 'complete') {
-          DISQUS.reset({ reload: true, config: disqus_config });
-        }
-    });
-</script>
-        
-        
-        
-        
-
-        
-        
-      </footer>
-    </article>
-
-    
-  </section>
-
-    </div>
-
-    <footer class="footer">
-  <section class="container">
-    ©
-    
-      2024 -
-    
-    2025
-     Mohammad Varmazyar 
-    ·
-    
-    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
-    
-  </section>
-</footer>
-
-  </main>
-
-  
-
-  
-  
-  <script src="../../js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js" integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script>
-  
-
-  
-
-  
-
-
-  
-  
-    
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-W94N3M25M5"></script>
-      <script>
-        var doNotTrack = false;
-        if ( false ) {
-          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
-          var doNotTrack = (dnt == "1" || dnt == "yes");
-        }
-        if (!doNotTrack) {
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-W94N3M25M5');
-        }
-      </script>
-    
-  
-
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-</body>
-
-</html>
+<!doctype html><html lang=en><head><title>Effortless Terraform Management: How Terragrunt Keeps Your Code DRY and Efficient · Cloud Engineering Chronicles with Mohammad
+</title><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=color-scheme content="light dark"><meta http-equiv=Content-Security-Policy content="upgrade-insecure-requests; block-all-mixed-content; default-src 'self'; child-src 'self' blob:; font-src 'self' https://fonts.gstatic.com data: https://varmazyar.de; form-action 'self'; frame-src 'self'; img-src 'self' data: https://www.gravatar.com https://varmazyar.de http://localhost:1313/; object-src 'none'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://varmazyar.de http://localhost:1313/css/; script-src 'self' https://www.googletagmanager.com https://cdn.jsdelivr.net https://varmazyar.de 'sha256-m4/M+m7eUT5UtkR8sOG3lFlhyuawXRxSBdAwzV6BBmU=' 'wasm-unsafe-eval' 'inline-speculation-rules'; connect-src 'self' https://varmazyar.de https://www.google-analytics.com https://region1.google-analytics.com https://cdn.jsdelivr.net;"><meta name=author content="Mohammad Varmazyar"><meta name=description content="Explore how Terragrunt helps keep your Terraform code DRY and maintainable by simplifying backend configurations, CLI arguments, and promoting versioned, immutable modules across environments."><meta name=keywords content="cloud engineering,DevOps,platform engineering,SRE,automation"><meta name=fediverse:creator content><meta name=twitter:card content="summary"><meta name=twitter:title content="Effortless Terraform Management: How Terragrunt Keeps Your Code DRY and Efficient"><meta name=twitter:description content="Explore how Terragrunt helps keep your Terraform code DRY and maintainable by simplifying backend configurations, CLI arguments, and promoting versioned, immutable modules across environments."><meta property="og:url" content="https://varmazyar.de/posts/terragrunt-how-to-keep-your-terraform-code-dry-and-maintainable/"><meta property="og:site_name" content="Cloud Engineering Chronicles with Mohammad"><meta property="og:title" content="Effortless Terraform Management: How Terragrunt Keeps Your Code DRY and Efficient"><meta property="og:description" content="Explore how Terragrunt helps keep your Terraform code DRY and maintainable by simplifying backend configurations, CLI arguments, and promoting versioned, immutable modules across environments."><meta property="og:locale" content="en"><meta property="og:type" content="article"><meta property="article:section" content="posts"><meta property="article:published_time" content="2024-09-05T16:20:00+02:00"><meta property="article:modified_time" content="2024-09-05T16:20:00+02:00"><meta property="article:tag" content="Terragrunt"><meta property="article:tag" content="Terraform"><meta property="article:tag" content="Infrastructure as Code"><meta property="article:tag" content="DevOps"><meta property="article:tag" content="Backend Configuration"><meta property="article:tag" content="Versioning"><link rel=canonical href=https://varmazyar.de/posts/terragrunt-how-to-keep-your-terraform-code-dry-and-maintainable/><link rel=preload href=../../fonts/fa-brands-400.woff2 as=font type=font/woff2 crossorigin><link rel=preload href=../../fonts/fa-regular-400.woff2 as=font type=font/woff2 crossorigin><link rel=preload href=../../fonts/fa-solid-900.woff2 as=font type=font/woff2 crossorigin><link rel=stylesheet href=../../css/coder.min.5e35fe9f2921e0d6c3f28502ddfa49024048eca925740d711aa8d933f91ce90a.css integrity="sha256-XjX+nykh4NbD8oUC3fpJAkBI7KkldA1xGqjZM/kc6Qo=" crossorigin=anonymous media=screen><link rel=stylesheet href=../../css/coder-dark.min.a00e6364bacbc8266ad1cc81230774a1397198f8cfb7bcba29b7d6fcb54ce57f.css integrity="sha256-oA5jZLrLyCZq0cyBIwd0oTlxmPjPt7y6KbfW/LVM5X8=" crossorigin=anonymous media=screen><link rel=icon type=image/svg+xml href=../../img/favicon.svg sizes=any><link rel=icon type=image/png href=../../img/favicon-32x32.png sizes=32x32><link rel=icon type=image/png href=../../img/favicon-16x16.png sizes=16x16><link rel=apple-touch-icon href=../../images/apple-touch-icon.png><link rel=apple-touch-icon sizes=180x180 href=../../images/apple-touch-icon.png><link rel=manifest href=../../site.webmanifest><link rel=mask-icon href=../../images/safari-pinned-tab.svg color=#5bbad5></head><body class="preload-transitions colorscheme-auto"><div class=float-container><a id=dark-mode-toggle class=colorscheme-toggle><i class="fa-solid fa-adjust fa-fw" aria-hidden=true></i></a></div><main class=wrapper><nav class=navigation><section class=container><a class=navigation-title href=https://varmazyar.de/>Cloud Engineering Chronicles with Mohammad
+</a><input type=checkbox id=menu-toggle>
+<label class="menu-button float-right" for=menu-toggle><i class="fa-solid fa-bars fa-fw" aria-hidden=true></i></label><ul class=navigation-list><li class=navigation-item><a class=navigation-link href=../../posts/>Blog</a></li><li class=navigation-item><a class=navigation-link href=../../search/>Search</a></li><li class=navigation-item><a class=navigation-link href=../../resume/>Resume</a></li><li class=navigation-item><a class=navigation-link href=../../about/>About</a></li></ul></section></nav><div class=content><section class="container post"><article><header><div class=post-title><h1 class=title><a class=title-link href=https://varmazyar.de/posts/terragrunt-how-to-keep-your-terraform-code-dry-and-maintainable/>Effortless Terraform Management: How Terragrunt Keeps Your Code DRY and Efficient</a></h1></div><div class=post-meta><div class=date><span class=posted-on><i class="fa-solid fa-calendar" aria-hidden=true></i>
+<time datetime=2024-09-05T16:20:00+02:00>September 5, 2024
+</time></span><span class=reading-time><i class="fa-solid fa-clock" aria-hidden=true></i>
+5-minute read</span></div><div class=authors><i class="fa-solid fa-user" aria-hidden=true></i>
+<a href=../../authors/mohammad-varmazyar/>Mohammad Varmazyar</a></div><div class=categories><i class="fa-solid fa-folder" aria-hidden=true></i>
+<a href=../../categories/devops/>DevOps</a>
+<span class=separator>•</span>
+<a href=../../categories/infrastructure-as-code/>Infrastructure as Code</a>
+<span class=separator>•</span>
+<a href=../../categories/terraform/>Terraform</a>
+<span class=separator>•</span>
+<a href=../../categories/terragrunt/>Terragrunt</a>
+<span class=separator>•</span>
+<a href=../../categories/automation/>Automation</a></div><div class=tags><i class="fa-solid fa-tag" aria-hidden=true></i>
+<span class=tag><a href=../../tags/terragrunt/>Terragrunt</a>
+</span><span class=separator>•</span>
+<span class=tag><a href=../../tags/terraform/>Terraform</a>
+</span><span class=separator>•</span>
+<span class=tag><a href=../../tags/infrastructure-as-code/>Infrastructure as Code</a>
+</span><span class=separator>•</span>
+<span class=tag><a href=../../tags/devops/>DevOps</a>
+</span><span class=separator>•</span>
+<span class=tag><a href=../../tags/backend-configuration/>Backend Configuration</a>
+</span><span class=separator>•</span>
+<span class=tag><a href=../../tags/versioning/>Versioning</a>
+</span><span class=separator>•</span>
+<span class=tag><a href=../../tags/automation/>Automation</a></span></div></div></header><div class=post-content><hr><h3 id=effortless-terraform-management-how-terragrunt-keeps-your-code-dry-and-efficient>Effortless Terraform Management: How Terragrunt Keeps Your Code DRY and Efficient
+<a class=heading-link href=#effortless-terraform-management-how-terragrunt-keeps-your-code-dry-and-efficient><i class="fa-solid fa-link" aria-hidden=true title="Link to heading"></i>
+<span class=sr-only>Link to heading</span></a></h3><p>In 2016, an open-source tool called <strong>Terragrunt</strong> was released to address two key issues with Terraform: (1) the lack of state locking and (2) the inability to configure Terraform state as code. While Terraform has since introduced solutions like backends to handle these problems, new challenges emerged as infrastructure grew more complex. The biggest issue? Keeping your Terraform code DRY (Don’t Repeat Yourself) and easy to maintain across environments.</p><p>To tackle this, <strong>Terragrunt v0.19.0</strong> was released, providing compatibility with Terraform 0.12 and HCL2. This version offers several ways to streamline your Terraform workflow. Let&rsquo;s dive into how Terragrunt simplifies your infrastructure management and helps you avoid unnecessary repetition.</p><h3 id=why-you-should-keep-your-terraform-code-dry>Why You Should Keep Your Terraform Code DRY
+<a class=heading-link href=#why-you-should-keep-your-terraform-code-dry><i class="fa-solid fa-link" aria-hidden=true title="Link to heading"></i>
+<span class=sr-only>Link to heading</span></a></h3><p>If you&rsquo;ve ever worked with large Terraform setups, you&rsquo;ve likely experienced the frustration of repeating code across environments. Managing backends, CLI arguments, and module configurations can lead to bloated codebases, which are harder to maintain, error-prone, and inefficient. This is where Terragrunt shines — by centralizing configurations, reducing duplication, and promoting best practices for managing infrastructure as code.</p><h4 id=keeping-backend-configuration-dry>Keeping Backend Configuration DRY
+<a class=heading-link href=#keeping-backend-configuration-dry><i class="fa-solid fa-link" aria-hidden=true title="Link to heading"></i>
+<span class=sr-only>Link to heading</span></a></h4><p>Terraform&rsquo;s backend feature allows you to store state files in a shared location, such as an S3 bucket, and ensures that state is locked to avoid race conditions. However, one downside is that backend configurations don’t support variables. You’re left having to copy-paste backend code across modules, which introduces a risk of errors and inconsistencies.</p><p>For example, here’s a typical backend configuration in Terraform:</p><div class=highlight><pre tabindex=0 style=color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-hcl data-lang=hcl><span style=display:flex><span><span style=color:#8b949e;font-style:italic># stage/frontend-app/main.tf
+</span></span></span><span style=display:flex><span><span style=color:#8b949e;font-style:italic></span><span style=color:#ff7b72>terraform</span> {
+</span></span><span style=display:flex><span>  <span style=color:#ff7b72>backend</span> <span style=color:#a5d6ff>&#34;s3&#34;</span> {
+</span></span><span style=display:flex><span>    bucket         <span style=color:#ff7b72;font-weight:700>=</span> <span style=color:#a5d6ff>&#34;my-terraform-state&#34;</span>
+</span></span><span style=display:flex><span>    key            <span style=color:#ff7b72;font-weight:700>=</span> <span style=color:#a5d6ff>&#34;stage/frontend-app/terraform.tfstate&#34;</span>
+</span></span><span style=display:flex><span>    region         <span style=color:#ff7b72;font-weight:700>=</span> <span style=color:#a5d6ff>&#34;us-east-1&#34;</span>
+</span></span><span style=display:flex><span>    encrypt        <span style=color:#ff7b72;font-weight:700>=</span> <span style=color:#ff7b72>true</span>
+</span></span><span style=display:flex><span>    dynamodb_table <span style=color:#ff7b72;font-weight:700>=</span> <span style=color:#a5d6ff>&#34;my-lock-table&#34;</span>
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div><p>The issue here is that each module — say, one for a database and another for an app — will require a nearly identical backend configuration with slight modifications to the <code>key</code> field. This not only leads to duplication but also makes it easy to make a mistake.</p><p>Terragrunt addresses this by allowing you to define the backend configuration once in a <code>terragrunt.hcl</code> file at the root level, and then reuse it across multiple modules. Here&rsquo;s an example:</p><div class=highlight><pre tabindex=0 style=color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-hcl data-lang=hcl><span style=display:flex><span><span style=color:#8b949e;font-style:italic># stage/terragrunt.hcl
+</span></span></span><span style=display:flex><span><span style=color:#8b949e;font-style:italic></span><span style=color:#ff7b72>remote_state</span> {
+</span></span><span style=display:flex><span>  backend <span style=color:#ff7b72;font-weight:700>=</span> <span style=color:#a5d6ff>&#34;s3&#34;</span>
+</span></span><span style=display:flex><span>  config <span style=color:#ff7b72;font-weight:700>=</span> {
+</span></span><span style=display:flex><span>    bucket         <span style=color:#ff7b72;font-weight:700>=</span> <span style=color:#a5d6ff>&#34;my-terraform-state&#34;</span>
+</span></span><span style=display:flex><span>    key            <span style=color:#ff7b72;font-weight:700>=</span> <span style=color:#a5d6ff>&#34;${path_relative_to_include()}/terraform.tfstate&#34;</span>
+</span></span><span style=display:flex><span>    region         <span style=color:#ff7b72;font-weight:700>=</span> <span style=color:#a5d6ff>&#34;us-east-1&#34;</span>
+</span></span><span style=display:flex><span>    encrypt        <span style=color:#ff7b72;font-weight:700>=</span> <span style=color:#ff7b72>true</span>
+</span></span><span style=display:flex><span>    dynamodb_table <span style=color:#ff7b72;font-weight:700>=</span> <span style=color:#a5d6ff>&#34;my-lock-table&#34;</span>
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div><p>The <code>${path_relative_to_include()}</code> function dynamically generates the path, which means you no longer have to specify the backend for each module manually. This not only keeps your code DRY but also reduces the chances of human error.</p><h4 id=drying-up-terraform-cli-arguments>DRYing Up Terraform CLI Arguments
+<a class=heading-link href=#drying-up-terraform-cli-arguments><i class="fa-solid fa-link" aria-hidden=true title="Link to heading"></i>
+<span class=sr-only>Link to heading</span></a></h4><p>Another common Terraform challenge is handling CLI arguments, such as passing variable files with the <code>-var-file</code> flag. If you&rsquo;re managing multiple environments, remembering which files to include can become tedious and error-prone.</p><p>Terragrunt lets you define these arguments in the <code>terragrunt.hcl</code> file, so they’re automatically added every time you run a command:</p><div class=highlight><pre tabindex=0 style=color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-hcl data-lang=hcl><span style=display:flex><span><span style=color:#8b949e;font-style:italic># terragrunt.hcl
+</span></span></span><span style=display:flex><span><span style=color:#8b949e;font-style:italic></span><span style=color:#ff7b72>terraform</span> {
+</span></span><span style=display:flex><span>  <span style=color:#ff7b72>extra_arguments</span> <span style=color:#a5d6ff>&#34;common_vars&#34;</span> {
+</span></span><span style=display:flex><span>    commands <span style=color:#ff7b72;font-weight:700>=</span> [<span style=color:#a5d6ff>&#34;plan&#34;, &#34;apply&#34;</span>]
+</span></span><span style=display:flex><span>    arguments <span style=color:#ff7b72;font-weight:700>=</span> [
+</span></span><span style=display:flex><span>      &#34;-var-file<span style=color:#ff7b72;font-weight:700>=</span>..<span style=color:#f85149>/</span>..<span style=color:#f85149>/</span><span style=color:#ff7b72>common</span>.<span style=color:#ff7b72>tfvars</span><span style=color:#f85149>&#34;</span>,
+</span></span><span style=display:flex><span>      &#34;-var-file<span style=color:#ff7b72;font-weight:700>=</span>..<span style=color:#f85149>/</span><span style=color:#ff7b72>region</span>.<span style=color:#ff7b72>tfvars</span><span style=color:#f85149>&#34;</span>
+</span></span><span style=display:flex><span>    ]
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div><p>Now, whenever you run <code>terragrunt apply</code>, the necessary variable files are automatically included, eliminating the need for manual input:</p><div class=highlight><pre tabindex=0 style=color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>$ terragrunt apply
+</span></span><span style=display:flex><span>Running command: terraform with arguments <span style=color:#ff7b72;font-weight:700>[</span>apply -var-file<span style=color:#ff7b72;font-weight:700>=</span>../../common.tfvars -var-file<span style=color:#ff7b72;font-weight:700>=</span>../region.tfvars<span style=color:#ff7b72;font-weight:700>]</span>
+</span></span></code></pre></div><p>This saves time, reduces mistakes, and ensures consistency across your Terraform commands.</p><h4 id=promoting-immutable-versioned-terraform-modules-across-environments>Promoting Immutable, Versioned Terraform Modules Across Environments
+<a class=heading-link href=#promoting-immutable-versioned-terraform-modules-across-environments><i class="fa-solid fa-link" aria-hidden=true title="Link to heading"></i>
+<span class=sr-only>Link to heading</span></a></h4><p>One of the most critical lessons learned from managing complex infrastructure is that large, monolithic modules can cause numerous issues. They tend to be slow, difficult to test, hard to review, and risky to update. Instead, breaking your infrastructure into smaller, modular components is the recommended approach.</p><p>Here’s an example of how to organize your environments into smaller modules:</p><div class=highlight><pre tabindex=0 style=color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>├── prod
+</span></span><span style=display:flex><span>│   ├── app
+</span></span><span style=display:flex><span>│   │   ├── main.tf
+</span></span><span style=display:flex><span>│   │   └── outputs.tf
+</span></span><span style=display:flex><span>│   ├── mysql
+</span></span><span style=display:flex><span>│   │   ├── main.tf
+</span></span><span style=display:flex><span>│   │   └── outputs.tf
+</span></span><span style=display:flex><span>│   └── vpc
+</span></span><span style=display:flex><span>│       ├── main.tf
+</span></span><span style=display:flex><span>│       └── outputs.tf
+</span></span><span style=display:flex><span>└── stage
+</span></span><span style=display:flex><span>    ├── app
+</span></span><span style=display:flex><span>    │   ├── main.tf
+</span></span><span style=display:flex><span>    │   └── outputs.tf
+</span></span><span style=display:flex><span>    ├── mysql
+</span></span><span style=display:flex><span>    │   ├── main.tf
+</span></span><span style=display:flex><span>    │   └── outputs.tf
+</span></span><span style=display:flex><span>    └── vpc
+</span></span><span style=display:flex><span>        ├── main.tf
+</span></span><span style=display:flex><span>        └── outputs.tf
+</span></span></code></pre></div><p>While this approach keeps your infrastructure modular, it does introduce some code duplication. Each environment has similar <code>main.tf</code> and <code>outputs.tf</code> files, which can grow redundant. Terragrunt solves this by allowing you to version your Terraform modules and promote those versions across environments.</p><p>First, define your reusable modules in a separate Git repository, such as <code>infrastructure-modules</code>, and then version them:</p><div class=highlight><pre tabindex=0 style=color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>$ git tag -a <span style=color:#a5d6ff>&#34;v0.0.1&#34;</span> -m <span style=color:#a5d6ff>&#34;First release of app module&#34;</span>
+</span></span><span style=display:flex><span>$ git push --follow-tags
+</span></span></code></pre></div><p>In your live environments, you can now reference this versioned module from the repository in your <code>terragrunt.hcl</code> files:</p><div class=highlight><pre tabindex=0 style=color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-hcl data-lang=hcl><span style=display:flex><span><span style=color:#8b949e;font-style:italic># prod/app/terragrunt.hcl
+</span></span></span><span style=display:flex><span><span style=color:#8b949e;font-style:italic></span><span style=color:#ff7b72>terraform</span> {
+</span></span><span style=display:flex><span>  source <span style=color:#ff7b72;font-weight:700>=</span> &#34;github.com:your-org/infrastructure-modules.git//app?ref<span style=color:#ff7b72;font-weight:700>=</span><span style=color:#ff7b72>v0</span>.<span style=color:#a5d6ff>0</span>.<span style=color:#a5d6ff>1</span><span style=color:#f85149>&#34;</span>
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>inputs <span style=color:#ff7b72;font-weight:700>=</span> {
+</span></span><span style=display:flex><span>  instance_count <span style=color:#ff7b72;font-weight:700>=</span> <span style=color:#a5d6ff>10</span>
+</span></span><span style=display:flex><span>  instance_type  <span style=color:#ff7b72;font-weight:700>=</span> <span style=color:#a5d6ff>&#34;m4.large&#34;</span>
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div><p>For a <code>stage</code> environment, you might reference the same module but with smaller instance sizes to save on costs:</p><div class=highlight><pre tabindex=0 style=color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-hcl data-lang=hcl><span style=display:flex><span><span style=color:#8b949e;font-style:italic># stage/app/terragrunt.hcl
+</span></span></span><span style=display:flex><span><span style=color:#8b949e;font-style:italic></span><span style=color:#ff7b72>terraform</span> {
+</span></span><span style=display:flex><span>  source <span style=color:#ff7b72;font-weight:700>=</span> &#34;github.com:your-org/infrastructure-modules.git//app?ref<span style=color:#ff7b72;font-weight:700>=</span><span style=color:#ff7b72>v0</span>.<span style=color:#a5d6ff>0</span>.<span style=color:#a5d6ff>1</span><span style=color:#f85149>&#34;</span>
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>inputs <span style=color:#ff7b72;font-weight:700>=</span> {
+</span></span><span style=display:flex><span>  instance_count <span style=color:#ff7b72;font-weight:700>=</span> <span style=color:#a5d6ff>3</span>
+</span></span><span style=display:flex><span>  instance_type  <span style=color:#ff7b72;font-weight:700>=</span> <span style=color:#a5d6ff>&#34;t2.micro&#34;</span>
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div><p>With this setup, you maintain a consistent infrastructure codebase while promoting versioned, immutable modules across your environments. If an issue arises in a particular environment, you can easily roll back to a previous version.</p><h3 id=the-value-of-terragrunt-in-modern-infrastructure-management>The Value of Terragrunt in Modern Infrastructure Management
+<a class=heading-link href=#the-value-of-terragrunt-in-modern-infrastructure-management><i class="fa-solid fa-link" aria-hidden=true title="Link to heading"></i>
+<span class=sr-only>Link to heading</span></a></h3><p>Terragrunt isn&rsquo;t just a stopgap solution anymore — it has evolved into a powerful tool for managing Terraform configurations in a DRY, scalable, and maintainable way. By centralizing backend configurations, simplifying CLI arguments, and promoting versioned modules, Terragrunt helps you keep your infrastructure code clean and maintainable.</p><p>If you&rsquo;re managing complex Terraform environments, Terragrunt is an essential tool that can help you avoid duplication, reduce errors, and make infrastructure-as-code more efficient.</p><p>Why wait? Give Terragrunt a try today and experience the simplicity and power it brings to managing Terraform configurations at scale.</p></div><div class=related-posts><h3>Related Posts</h3><div class=related-posts-grid><article class=related-post-item><h4><a href=https://varmazyar.de/posts/streamlining-infrastructure-as-code-with-pulumi-helm-and-terragrunt/>Streamlining Infrastructure as Code with Pulumi, Helm, and Terragrunt</a></h4><p class=related-post-date><i class="fa-solid fa-calendar"></i>
+August 29, 2024</p><p class=related-post-summary>In the realm of cloud computing, the concept of Infrastructure as Code has revolutionized the way organizations manage their cloud resources. By …</p><div class=related-post-tags><span class=related-tag>Pulumi</span>
+<span class=related-tag>Helm</span>
+<span class=related-tag>Terragrunt</span></div></article><article class=related-post-item><h4><a href=https://varmazyar.de/posts/leveraging-kubernetes-operators-for-efficient-cicd-pipelines-with-docker/>Leveraging Kubernetes Operators for Efficient CI/CD Pipelines with Docker</a></h4><p class=related-post-date><i class="fa-solid fa-calendar"></i>
+August 29, 2024</p><p class=related-post-summary>In recent years, the tech industry has witnessed a significant shift towards containerized application deployment, continuous integration/continuous …</p><div class=related-post-tags><span class=related-tag>K8s Operators</span>
+<span class=related-tag>CI/CD</span>
+<span class=related-tag>Docker</span></div></article><article class=related-post-item><h4><a href=https://varmazyar.de/posts/transforming-software-development-with-cicd-kubernetes-and-docker/>Transforming Software Development with CI/CD, Kubernetes, and Docker</a></h4><p class=related-post-date><i class="fa-solid fa-calendar"></i>
+August 29, 2024</p><p class=related-post-summary>In today&rsquo;s fast-paced software development landscape, staying ahead of the curve means adopting cutting-edge technologies and practices that …</p><div class=related-post-tags><span class=related-tag>CI/CD</span>
+<span class=related-tag>Kubernetes</span>
+<span class=related-tag>Docker</span></div></article></div></div><style>.related-posts{margin-top:3rem;padding-top:2rem;border-top:2px solid var(--color-border,#ddd)}.related-posts h3{margin-bottom:1.5rem;font-size:1.5rem;color:var(--color-text,#333)}.related-posts-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.5rem}.related-post-item{padding:1.25rem;border:1px solid var(--color-border,#ddd);border-radius:8px;background:var(--color-background-secondary,#f9f9f9);transition:transform .2s,box-shadow .2s}.related-post-item:hover{transform:translateY(-4px);box-shadow:0 4px 12px rgba(0,0,0,.1)}.related-post-item h4{margin:0 0 .5rem;font-size:1.1rem;line-height:1.4}.related-post-item h4 a{color:var(--color-primary,#007bff);text-decoration:none}.related-post-item h4 a:hover{text-decoration:underline}.related-post-date{color:var(--color-text-secondary,#666);font-size:.85rem;margin:.25rem 0 .5rem}.related-post-summary{color:var(--color-text,#333);font-size:.95rem;line-height:1.5;margin-bottom:.75rem}.related-post-tags{display:flex;flex-wrap:wrap;gap:.5rem}.related-tag{display:inline-block;padding:.25rem .5rem;background:var(--color-primary,#007bff);color:#fff;border-radius:4px;font-size:.75rem}</style><footer><div id=disqus_thread></div><script>window.disqus_config=function(){},function(){if(["localhost","127.0.0.1"].indexOf(window.location.hostname)!=-1){document.getElementById("disqus_thread").innerHTML="Disqus comments not available by default when the website is previewed locally.";return}var t=document,e=t.createElement("script");e.async=!0,e.src="//varmazyar-de.disqus.com/embed.js",e.setAttribute("data-timestamp",+new Date),(t.head||t.body).appendChild(e)}(),document.addEventListener("themeChanged",function(){document.readyState=="complete"&&DISQUS.reset({reload:!0,config:disqus_config})})</script></footer></article></section></div><footer class=footer><section class=container>©
+2024 -
+2025
+Mohammad Varmazyar
+·
+Powered by <a href=https://gohugo.io/ target=_blank rel=noopener>Hugo</a> & <a href=https://github.com/luizdepra/hugo-coder/ target=_blank rel=noopener>Coder</a>.</section></footer></main><script src=../../js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script><script async src="https://www.googletagmanager.com/gtag/js?id=G-W94N3M25M5"></script><script>var dnt,doNotTrack=!1;if(!1&&(dnt=navigator.doNotTrack||window.doNotTrack||navigator.msDoNotTrack,doNotTrack=dnt=="1"||dnt=="yes"),!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-W94N3M25M5")}</script></body></html>

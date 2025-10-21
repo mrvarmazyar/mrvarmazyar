@@ -9,6 +9,16 @@ canonifyurls = true
 enableEmoji = true
 paginate = 20
 
+# Enable JSON output for search functionality and sitemap
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+# Sitemap configuration for SEO
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
 [services]
   [services.disqus]
     shortname = 'varmazyar-de'
@@ -72,8 +82,8 @@ framesrc = ["'self'"]
 imgsrc = ["'self'", "data:", "https://www.gravatar.com", "https://varmazyar.de", "http://localhost:1313/"]
 objectsrc = ["'none'"]
 stylesrc = ["'self'", "'unsafe-inline'", "https://fonts.googleapis.com", "https://varmazyar.de", "http://localhost:1313/css/"]
-scriptsrc = ["'self'", "https://www.googletagmanager.com", "https://varmazyar.de", "'sha256-m4/M+m7eUT5UtkR8sOG3lFlhyuawXRxSBdAwzV6BBmU='", "'wasm-unsafe-eval'", "'inline-speculation-rules'"]
-connectsrc = ["'self'", "https://varmazyar.de", "https://www.google-analytics.com", "https://region1.google-analytics.com"]
+scriptsrc = ["'self'", "https://www.googletagmanager.com", "https://cdn.jsdelivr.net", "https://varmazyar.de", "'sha256-m4/M+m7eUT5UtkR8sOG3lFlhyuawXRxSBdAwzV6BBmU='", "'wasm-unsafe-eval'", "'inline-speculation-rules'"]
+connectsrc = ["'self'", "https://varmazyar.de", "https://www.google-analytics.com", "https://region1.google-analytics.com", "https://cdn.jsdelivr.net"]
 
 # Menu links
 [[menu.main]]
@@ -81,10 +91,14 @@ connectsrc = ["'self'", "https://varmazyar.de", "https://www.google-analytics.co
   weight = 1
   url  = "posts/"
 [[menu.main]]
-  name = "Resume"
+  name = "Search"
   weight = 2
+  url  = "search/"
+[[menu.main]]
+  name = "Resume"
+  weight = 3
   url  = "resume/"
 [[menu.main]]
   name = "About"
-  weight = 3
+  weight = 4
   url = "about/"
