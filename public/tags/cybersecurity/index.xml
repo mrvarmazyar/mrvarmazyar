@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cybersecurity on Cloud Engineering Chronicles with Mohammad</title>
+    <link>https://varmazyar.de/tags/cybersecurity/</link>
+    <description>Recent content in Cybersecurity on Cloud Engineering Chronicles with Mohammad</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 21 Oct 2025 07:30:56 +0000</lastBuildDate>
+    <atom:link href="https://varmazyar.de/tags/cybersecurity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Safeguarding Mobile Apps: A Deep Dive into Mobile Security, Rancher, and Continuous Delivery</title>
+      <link>https://varmazyar.de/posts/safeguarding-mobile-apps-a-deep-dive-into-mobile-security-rancher-and-continuous-delivery/</link>
+      <pubDate>Tue, 21 Oct 2025 07:30:56 +0000</pubDate>
+      <guid>https://varmazyar.de/posts/safeguarding-mobile-apps-a-deep-dive-into-mobile-security-rancher-and-continuous-delivery/</guid>
+      <description>Introduction Link to heading In today&amp;rsquo;s fast-paced digital world, mobile applications have become an essential part of our daily lives. However, this ubiquity also comes with risks, as threats to mobile security are ever-present and ever-evolving. In this blog post, we will take a deep dive into the world of mobile security, Rancher — a powerful open-source software for managing Kubernetes at any scale — and Continuous Delivery.&#xA;Understanding Mobile Security Link to heading Mobile security involves protecting both personal and business information stored on and transmitted from smartphones, tablets, and other mobile devices.</description>
+    </item>
+  </channel>
+</rss>
