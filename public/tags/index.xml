@@ -6,8 +6,43 @@
     <description>Recent content in Tags on Cloud Engineering Chronicles with Mohammad</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 21 Oct 2025 12:34:55 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Oct 2025 09:31:30 +0000</lastBuildDate>
     <atom:link href="https://varmazyar.de/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI</title>
+      <link>https://varmazyar.de/tags/ai/</link>
+      <pubDate>Mon, 27 Oct 2025 09:31:30 +0000</pubDate>
+      <guid>https://varmazyar.de/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CanaryReleases</title>
+      <link>https://varmazyar.de/tags/canaryreleases/</link>
+      <pubDate>Mon, 27 Oct 2025 09:31:30 +0000</pubDate>
+      <guid>https://varmazyar.de/tags/canaryreleases/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DevOps</title>
+      <link>https://varmazyar.de/tags/devops/</link>
+      <pubDate>Mon, 27 Oct 2025 09:31:30 +0000</pubDate>
+      <guid>https://varmazyar.de/tags/devops/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GenerativeModels</title>
+      <link>https://varmazyar.de/tags/generativemodels/</link>
+      <pubDate>Mon, 27 Oct 2025 09:31:30 +0000</pubDate>
+      <guid>https://varmazyar.de/tags/generativemodels/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SoftwareDevelopment</title>
+      <link>https://varmazyar.de/tags/softwaredevelopment/</link>
+      <pubDate>Mon, 27 Oct 2025 09:31:30 +0000</pubDate>
+      <guid>https://varmazyar.de/tags/softwaredevelopment/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Cybersecurity</title>
       <link>https://varmazyar.de/tags/cybersecurity/</link>
@@ -83,13 +118,6 @@
       <link>https://varmazyar.de/tags/backend-configuration/</link>
       <pubDate>Thu, 05 Sep 2024 16:20:00 +0200</pubDate>
       <guid>https://varmazyar.de/tags/backend-configuration/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>DevOps</title>
-      <link>https://varmazyar.de/tags/devops/</link>
-      <pubDate>Thu, 05 Sep 2024 16:20:00 +0200</pubDate>
-      <guid>https://varmazyar.de/tags/devops/</guid>
       <description></description>
     </item>
     <item>
@@ -202,13 +230,6 @@
       <link>https://varmazyar.de/tags/web-scraping/</link>
       <pubDate>Thu, 29 Aug 2024 20:54:30 +0200</pubDate>
       <guid>https://varmazyar.de/tags/web-scraping/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>AI</title>
-      <link>https://varmazyar.de/tags/ai/</link>
-      <pubDate>Thu, 29 Aug 2024 20:51:25 +0200</pubDate>
-      <guid>https://varmazyar.de/tags/ai/</guid>
       <description></description>
     </item>
     <item>
