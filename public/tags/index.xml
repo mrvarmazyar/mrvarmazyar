@@ -6,8 +6,43 @@
     <description>Recent content in Tags on Cloud Engineering Chronicles with Mohammad</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 27 Oct 2025 09:31:30 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Nov 2025 09:32:33 +0000</lastBuildDate>
     <atom:link href="https://varmazyar.de/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Concurrency</title>
+      <link>https://varmazyar.de/tags/concurrency/</link>
+      <pubDate>Mon, 03 Nov 2025 09:32:33 +0000</pubDate>
+      <guid>https://varmazyar.de/tags/concurrency/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DevOps</title>
+      <link>https://varmazyar.de/tags/devops/</link>
+      <pubDate>Mon, 03 Nov 2025 09:32:33 +0000</pubDate>
+      <guid>https://varmazyar.de/tags/devops/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ExplainableAI</title>
+      <link>https://varmazyar.de/tags/explainableai/</link>
+      <pubDate>Mon, 03 Nov 2025 09:32:33 +0000</pubDate>
+      <guid>https://varmazyar.de/tags/explainableai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MessageQueues</title>
+      <link>https://varmazyar.de/tags/messagequeues/</link>
+      <pubDate>Mon, 03 Nov 2025 09:32:33 +0000</pubDate>
+      <guid>https://varmazyar.de/tags/messagequeues/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SoftwareEngineering</title>
+      <link>https://varmazyar.de/tags/softwareengineering/</link>
+      <pubDate>Mon, 03 Nov 2025 09:32:33 +0000</pubDate>
+      <guid>https://varmazyar.de/tags/softwareengineering/</guid>
+      <description></description>
+    </item>
     <item>
       <title>AI</title>
       <link>https://varmazyar.de/tags/ai/</link>
@@ -20,13 +55,6 @@
       <link>https://varmazyar.de/tags/canaryreleases/</link>
       <pubDate>Mon, 27 Oct 2025 09:31:30 +0000</pubDate>
       <guid>https://varmazyar.de/tags/canaryreleases/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>DevOps</title>
-      <link>https://varmazyar.de/tags/devops/</link>
-      <pubDate>Mon, 27 Oct 2025 09:31:30 +0000</pubDate>
-      <guid>https://varmazyar.de/tags/devops/</guid>
       <description></description>
     </item>
     <item>
