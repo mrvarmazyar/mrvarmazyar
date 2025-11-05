@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Concurrency on Cloud Engineering Chronicles with Mohammad</title>
+    <link>https://varmazyar.de/tags/concurrency/</link>
+    <description>Recent content in Concurrency on Cloud Engineering Chronicles with Mohammad</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 03 Nov 2025 09:32:33 +0000</lastBuildDate>
+    <atom:link href="https://varmazyar.de/tags/concurrency/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Unraveling The Mystiques of Explainable AI, Concurrency, and Message Queues</title>
+      <link>https://varmazyar.de/posts/unraveling-the-mystiques-of-explainable-ai-concurrency-and-message-queues/</link>
+      <pubDate>Mon, 03 Nov 2025 09:32:33 +0000</pubDate>
+      <guid>https://varmazyar.de/posts/unraveling-the-mystiques-of-explainable-ai-concurrency-and-message-queues/</guid>
+      <description>Introduction Link to heading Explainable Artificial Intelligence (AI), concurrency, and message queues are three fundamental topics in the world of software engineering and DevOps. These concepts have distinct roles but are intertwined intricacies of building robust, scalable, and efficient systems. Explainable AI allows us to understand and interpret decisions made by AI models, providing a sense of transparency. Concurrency enhances system efficiency by allowing multiple operations to occur simultaneously. Message queues are integral in providing asynchrony and decoupling in systems, enhancing maintainability and scalability.</description>
+    </item>
+  </channel>
+</rss>
