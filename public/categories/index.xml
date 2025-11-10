@@ -6,8 +6,43 @@
     <description>Recent content in Categories on Cloud Engineering Chronicles with Mohammad</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 03 Nov 2025 09:32:33 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Nov 2025 09:31:57 +0000</lastBuildDate>
     <atom:link href="https://varmazyar.de/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data-Analysis</title>
+      <link>https://varmazyar.de/categories/data-analysis/</link>
+      <pubDate>Mon, 10 Nov 2025 09:31:57 +0000</pubDate>
+      <guid>https://varmazyar.de/categories/data-analysis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hackathons</title>
+      <link>https://varmazyar.de/categories/hackathons/</link>
+      <pubDate>Mon, 10 Nov 2025 09:31:57 +0000</pubDate>
+      <guid>https://varmazyar.de/categories/hackathons/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pandas</title>
+      <link>https://varmazyar.de/categories/pandas/</link>
+      <pubDate>Mon, 10 Nov 2025 09:31:57 +0000</pubDate>
+      <guid>https://varmazyar.de/categories/pandas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>https://varmazyar.de/categories/python/</link>
+      <pubDate>Mon, 10 Nov 2025 09:31:57 +0000</pubDate>
+      <guid>https://varmazyar.de/categories/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tech-Portfolio</title>
+      <link>https://varmazyar.de/categories/tech-portfolio/</link>
+      <pubDate>Mon, 10 Nov 2025 09:31:57 +0000</pubDate>
+      <guid>https://varmazyar.de/categories/tech-portfolio/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Concurrency</title>
       <link>https://varmazyar.de/categories/concurrency/</link>

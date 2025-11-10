@@ -2,18 +2,88 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://varmazyar.de/posts/mastering-pandas-conquering-hackathons-and-building-an-impressive-tech-portfolio/</loc>
+    <lastmod>2025-11-10T09:31:57+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://varmazyar.de/authors/</loc>
-    <lastmod>2025-11-03T09:32:33+00:00</lastmod>
+    <lastmod>2025-11-10T09:31:57+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://varmazyar.de/categories/</loc>
-    <lastmod>2025-11-03T09:32:33+00:00</lastmod>
+    <lastmod>2025-11-10T09:31:57+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://varmazyar.de/</loc>
-    <lastmod>2025-11-03T09:32:33+00:00</lastmod>
+    <lastmod>2025-11-10T09:31:57+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/tags/data-analysis/</loc>
+    <lastmod>2025-11-10T09:31:57+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/categories/data-analysis/</loc>
+    <lastmod>2025-11-10T09:31:57+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/tags/hackathons/</loc>
+    <lastmod>2025-11-10T09:31:57+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/categories/hackathons/</loc>
+    <lastmod>2025-11-10T09:31:57+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/authors/mohammad-varmazyar/</loc>
+    <lastmod>2025-11-10T09:31:57+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/tags/pandas/</loc>
+    <lastmod>2025-11-10T09:31:57+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/categories/pandas/</loc>
+    <lastmod>2025-11-10T09:31:57+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/posts/</loc>
+    <lastmod>2025-11-10T09:31:57+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/tags/python/</loc>
+    <lastmod>2025-11-10T09:31:57+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/categories/python/</loc>
+    <lastmod>2025-11-10T09:31:57+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/tags/</loc>
+    <lastmod>2025-11-10T09:31:57+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/tags/tech-portfolio/</loc>
+    <lastmod>2025-11-10T09:31:57+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/categories/tech-portfolio/</loc>
+    <lastmod>2025-11-10T09:31:57+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -57,27 +127,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://varmazyar.de/authors/mohammad-varmazyar/</loc>
-    <lastmod>2025-11-03T09:32:33+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://varmazyar.de/posts/</loc>
-    <lastmod>2025-11-03T09:32:33+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://varmazyar.de/tags/softwareengineering/</loc>
     <lastmod>2025-11-03T09:32:33+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://varmazyar.de/categories/softwareengineering/</loc>
-    <lastmod>2025-11-03T09:32:33+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://varmazyar.de/tags/</loc>
     <lastmod>2025-11-03T09:32:33+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
