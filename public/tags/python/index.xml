@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on Cloud Engineering Chronicles with Mohammad</title>
+    <link>https://varmazyar.de/tags/python/</link>
+    <description>Recent content in Python on Cloud Engineering Chronicles with Mohammad</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 10 Nov 2025 09:31:57 +0000</lastBuildDate>
+    <atom:link href="https://varmazyar.de/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>**Mastering Pandas, Conquering Hackathons and Building an Impressive Tech Portfolio**</title>
+      <link>https://varmazyar.de/posts/mastering-pandas-conquering-hackathons-and-building-an-impressive-tech-portfolio/</link>
+      <pubDate>Mon, 10 Nov 2025 09:31:57 +0000</pubDate>
+      <guid>https://varmazyar.de/posts/mastering-pandas-conquering-hackathons-and-building-an-impressive-tech-portfolio/</guid>
+      <description>Introduction Link to heading In the fast-paced realm of technology, constant learning, innovation, and showcasing your skill set becomes obligatory. In this blog post, we will delve into a potent Python library called &amp;lsquo;Pandas&amp;rsquo; for data manipulation, explore the exciting world of hackathons, and discuss effective strategies to build an impressive tech portfolio. This three-pronged approach not only helps software engineers and DevOps professionals develop practical skills but also caters to showcasing these in a manner that garners recognition.</description>
+    </item>
+  </channel>
+</rss>
