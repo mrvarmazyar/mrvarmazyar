@@ -1,7 +1,7 @@
 +++
 draft = false
 date = 2025-11-10T09:31:57Z
-title = "**Mastering Pandas, Conquering Hackathons and Building an Impressive Tech Portfolio**"
+title = "Mastering Pandas, Conquering Hackathons and Building an Impressive Tech Portfolio"
 description = "Enhance your understanding of the Pandas library, unlock achievements at hackathons and build a top-notch tech portfolio with these insightful tips and techniques."
 slug = "mastering-pandas-conquering-hackathons-and-building-an-impressive-tech-portfolio"
 authors = ["Mohammad Varmazyar"]
