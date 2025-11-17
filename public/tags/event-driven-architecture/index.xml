@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Event-Driven Architecture on Cloud Engineering Chronicles with Mohammad</title>
+    <link>https://varmazyar.de/tags/event-driven-architecture/</link>
+    <description>Recent content in Event-Driven Architecture on Cloud Engineering Chronicles with Mohammad</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 17 Nov 2025 09:33:21 +0000</lastBuildDate>
+    <atom:link href="https://varmazyar.de/tags/event-driven-architecture/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Understanding and Implementing the Pub/Sub Model with Ruby</title>
+      <link>https://varmazyar.de/posts/understanding-and-implementing-the-pubsub-model-with-ruby/</link>
+      <pubDate>Mon, 17 Nov 2025 09:33:21 +0000</pubDate>
+      <guid>https://varmazyar.de/posts/understanding-and-implementing-the-pubsub-model-with-ruby/</guid>
+      <description>Introduction Link to heading In the dynamic world of software architecture, communication between different components of an application plays an imperative role. An efficient way to handle this inter-component communication is by using messaging models, and among them, the Publisher/Subscriber Model, commonly known as the Pub/Sub Model, has gained substantial recognition. It has the potential to simplify complexity and improve efficiency in software systems and provides an asynchronous, event-driven architecture.</description>
+    </item>
+  </channel>
+</rss>

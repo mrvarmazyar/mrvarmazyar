@@ -2,23 +2,88 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://varmazyar.de/posts/mastering-pandas-conquering-hackathons-and-building-an-impressive-tech-portfolio/</loc>
-    <lastmod>2025-11-10T09:31:57+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://varmazyar.de/authors/</loc>
-    <lastmod>2025-11-10T09:31:57+00:00</lastmod>
+    <lastmod>2025-11-17T09:33:21+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://varmazyar.de/categories/</loc>
-    <lastmod>2025-11-10T09:31:57+00:00</lastmod>
+    <lastmod>2025-11-17T09:33:21+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://varmazyar.de/</loc>
-    <lastmod>2025-11-10T09:31:57+00:00</lastmod>
+    <lastmod>2025-11-17T09:33:21+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/tags/communication-protocol/</loc>
+    <lastmod>2025-11-17T09:33:21+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/categories/communication-protocol/</loc>
+    <lastmod>2025-11-17T09:33:21+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/tags/event-driven-architecture/</loc>
+    <lastmod>2025-11-17T09:33:21+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/categories/event-driven-architecture/</loc>
+    <lastmod>2025-11-17T09:33:21+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/tags/message-queuing/</loc>
+    <lastmod>2025-11-17T09:33:21+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/categories/message-queuing/</loc>
+    <lastmod>2025-11-17T09:33:21+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/authors/mohammad-varmazyar/</loc>
+    <lastmod>2025-11-17T09:33:21+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/posts/</loc>
+    <lastmod>2025-11-17T09:33:21+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/tags/pub/sub-model/</loc>
+    <lastmod>2025-11-17T09:33:21+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/categories/pub/sub-model/</loc>
+    <lastmod>2025-11-17T09:33:21+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/tags/ruby/</loc>
+    <lastmod>2025-11-17T09:33:21+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/categories/ruby/</loc>
+    <lastmod>2025-11-17T09:33:21+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/tags/</loc>
+    <lastmod>2025-11-17T09:33:21+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/posts/understanding-and-implementing-the-pubsub-model-with-ruby/</loc>
+    <lastmod>2025-11-17T09:33:21+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -42,7 +107,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://varmazyar.de/authors/mohammad-varmazyar/</loc>
+    <loc>https://varmazyar.de/posts/mastering-pandas-conquering-hackathons-and-building-an-impressive-tech-portfolio/</loc>
     <lastmod>2025-11-10T09:31:57+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -57,22 +122,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://varmazyar.de/posts/</loc>
-    <lastmod>2025-11-10T09:31:57+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://varmazyar.de/tags/python/</loc>
     <lastmod>2025-11-10T09:31:57+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://varmazyar.de/categories/python/</loc>
-    <lastmod>2025-11-10T09:31:57+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://varmazyar.de/tags/</loc>
     <lastmod>2025-11-10T09:31:57+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

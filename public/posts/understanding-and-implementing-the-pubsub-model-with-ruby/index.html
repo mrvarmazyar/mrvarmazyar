@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+  Understanding and Implementing the Pub/Sub Model with Ruby · Cloud Engineering Chronicles with Mohammad
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests; block-all-mixed-content; default-src 'self'; child-src 'self' blob:; font-src 'self' https://fonts.gstatic.com data: https://varmazyar.de; form-action 'self'; frame-src 'self'; img-src 'self' data: https://www.gravatar.com https://varmazyar.de http://localhost:1313/; object-src 'none'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://varmazyar.de http://localhost:1313/css/; script-src 'self' https://www.googletagmanager.com https://cdn.jsdelivr.net https://varmazyar.de 'sha256-m4/M+m7eUT5UtkR8sOG3lFlhyuawXRxSBdAwzV6BBmU=' 'wasm-unsafe-eval' 'inline-speculation-rules'; connect-src 'self' https://varmazyar.de https://www.google-analytics.com https://region1.google-analytics.com https://cdn.jsdelivr.net;">
+
+
+
+
+<meta name="author" content="Mohammad Varmazyar">
+<meta name="description" content="Dive deep into understanding the Publisher/Subscriber Model commonly known as Pub/Sub and gather insights on how to effectively implement it using Ruby for efficient message communication.">
+<meta name="keywords" content="cloud engineering, DevOps, platform engineering, SRE, automation">
+<meta name="fediverse:creator" content="" />
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Understanding and Implementing the Pub/Sub Model with Ruby">
+  <meta name="twitter:description" content="Dive deep into understanding the Publisher/Subscriber Model commonly known as Pub/Sub and gather insights on how to effectively implement it using Ruby for efficient message communication.">
+
+<meta property="og:url" content="https://varmazyar.de/posts/understanding-and-implementing-the-pubsub-model-with-ruby/">
+  <meta property="og:site_name" content="Cloud Engineering Chronicles with Mohammad">
+  <meta property="og:title" content="Understanding and Implementing the Pub/Sub Model with Ruby">
+  <meta property="og:description" content="Dive deep into understanding the Publisher/Subscriber Model commonly known as Pub/Sub and gather insights on how to effectively implement it using Ruby for efficient message communication.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-11-17T09:33:21+00:00">
+    <meta property="article:modified_time" content="2025-11-17T09:33:21+00:00">
+    <meta property="article:tag" content="Pub/Sub Model">
+    <meta property="article:tag" content="Ruby">
+    <meta property="article:tag" content="Message Queuing">
+    <meta property="article:tag" content="Event-Driven Architecture">
+    <meta property="article:tag" content="Communication Protocol">
+
+
+
+
+<link rel="canonical" href="https://varmazyar.de/posts/understanding-and-implementing-the-pubsub-model-with-ruby/">
+
+
+<link rel="preload" href="../../fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../../fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../../fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="../../css/coder.min.5e35fe9f2921e0d6c3f28502ddfa49024048eca925740d711aa8d933f91ce90a.css" integrity="sha256-XjX&#43;nykh4NbD8oUC3fpJAkBI7KkldA1xGqjZM/kc6Qo=" crossorigin="anonymous" media="screen" />
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="../../css/coder-dark.min.a00e6364bacbc8266ad1cc81230774a1397198f8cfb7bcba29b7d6fcb54ce57f.css" integrity="sha256-oA5jZLrLyCZq0cyBIwd0oTlxmPjPt7y6KbfW/LVM5X8=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="../../img/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="../../img/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="../../img/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="../../images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="../../images/apple-touch-icon.png">
+
+<link rel="manifest" href="../../site.webmanifest">
+<link rel="mask-icon" href="../../images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="https://varmazyar.de/">
+      Cloud Engineering Chronicles with Mohammad
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="../../posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="../../search/">Search</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="../../resume/">Resume</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="../../about/">About</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="https://varmazyar.de/posts/understanding-and-implementing-the-pubsub-model-with-ruby/">
+              Understanding and Implementing the Pub/Sub Model with Ruby
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+              <time datetime="2025-11-17T09:33:21Z">
+                November 17, 2025
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
+              4-minute read
+            </span>
+          </div>
+          <div class="authors">
+  <i class="fa-solid fa-user" aria-hidden="true"></i>
+    <a href="../../authors/mohammad-varmazyar/">Mohammad Varmazyar</a></div>
+
+          <div class="categories">
+  <i class="fa-solid fa-folder" aria-hidden="true"></i>
+    <a href="../../categories/pub/sub-model/">Pub/Sub Model</a>
+      <span class="separator">•</span>
+    <a href="../../categories/ruby/">Ruby</a>
+      <span class="separator">•</span>
+    <a href="../../categories/message-queuing/">Message Queuing</a>
+      <span class="separator">•</span>
+    <a href="../../categories/event-driven-architecture/">Event-Driven Architecture</a>
+      <span class="separator">•</span>
+    <a href="../../categories/communication-protocol/">Communication Protocol</a></div>
+
+          <div class="tags">
+  <i class="fa-solid fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="../../tags/pub/sub-model/">Pub/Sub Model</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="../../tags/ruby/">Ruby</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="../../tags/message-queuing/">Message Queuing</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="../../tags/event-driven-architecture/">Event-Driven Architecture</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="../../tags/communication-protocol/">Communication Protocol</a>
+    </span></div>
+
+        </div>
+      </header>
+
+      <div class="post-content">
+        
+          <img src="../../images/posts/understanding-and-implementing-the-pubsub-model-wi.png" alt="Featured image"/>
+        
+        <h2 id="introduction">
+  Introduction
+  <a class="heading-link" href="#introduction">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>In the dynamic world of software architecture, communication between different components of an application plays an imperative role. An efficient way to handle this inter-component communication is by using messaging models, and among them, the Publisher/Subscriber Model, commonly known as the Pub/Sub Model, has gained substantial recognition. It has the potential to simplify complexity and improve efficiency in software systems and provides an asynchronous, event-driven architecture. Let’s explore this model and how to implement it using the Ruby programming language.
+The Pub/Sub Model consists of publishers, subscribers, and a message broker. Publishers are components that generate messages while subscribers consume these messages. The message broker, which can be an event bus or a message queue, handles the distribution of messages.</p>
+<h2 id="fundamentals-of-the-pubsub-model">
+  Fundamentals of the Pub/Sub Model
+  <a class="heading-link" href="#fundamentals-of-the-pubsub-model">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>First, we need to understand the core components of the Pub/Sub Model, which are:</p>
+<h3 id="publishers">
+  Publishers
+  <a class="heading-link" href="#publishers">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>Publishers create a message based on certain event occurrences. These messages are then dispatched to the broker without knowing who the subscribers might be. The main task of the publisher is to classify the message by adding topic to it which aids in effective routing by the broker.</p>
+<h3 id="subscribers">
+  Subscribers
+  <a class="heading-link" href="#subscribers">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>Subscribers are the components that express interest in specific topics and receive messages related to them. They are oblivious to the publishers who create the messages.</p>
+<h3 id="message-broker">
+  Message Broker
+  <a class="heading-link" href="#message-broker">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>This is the intermediary between publishers and subscribers. It receives messages from publishers, filters them based on topic, and delivers them to the interested subscribers.</p>
+<h2 id="pubsub-and-ruby--a-match-made-in-coding-heaven">
+  Pub/Sub and Ruby – A Match Made in Coding Heaven
+  <a class="heading-link" href="#pubsub-and-ruby--a-match-made-in-coding-heaven">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Ruby, with its vibrant ecosystem and rich set of libraries, is an excellent choice for implementing the Pub/Sub Model. One of its popular gems, &lsquo;ruby-kafka&rsquo;, interacts with the Apache Kafka platform, a high-throughput distributed messaging system, to create a powerful Pub/Sub setup.
+A simple publisher can be coded like this in Ruby:</p>
+<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span>require <span style="color:#a5d6ff">&#34;ruby-kafka&#34;</span>
+</span></span><span style="display:flex;"><span>kafka <span style="color:#ff7b72;font-weight:bold">=</span> <span style="color:#79c0ff;font-weight:bold">Kafka</span><span style="color:#ff7b72;font-weight:bold">.</span>new(<span style="color:#ff7b72;font-weight:bold">[</span><span style="color:#a5d6ff">&#34;kafka1:9092&#34;</span>, <span style="color:#a5d6ff">&#34;kafka2:9092&#34;</span><span style="color:#ff7b72;font-weight:bold">]</span>)
+</span></span><span style="display:flex;"><span>producer <span style="color:#ff7b72;font-weight:bold">=</span> kafka<span style="color:#ff7b72;font-weight:bold">.</span>producer
+</span></span><span style="display:flex;"><span>producer<span style="color:#ff7b72;font-weight:bold">.</span>produce(<span style="color:#a5d6ff">&#34;hello world&#34;</span>, <span style="color:#a5d6ff">topic</span>: <span style="color:#a5d6ff">&#34;greetings&#34;</span>)
+</span></span><span style="display:flex;"><span>producer<span style="color:#ff7b72;font-weight:bold">.</span>deliver_messages
+</span></span></code></pre></div><p>A basic subscriber might look like:</p>
+<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span>require <span style="color:#a5d6ff">&#34;ruby-kafka&#34;</span>
+</span></span><span style="display:flex;"><span>kafka <span style="color:#ff7b72;font-weight:bold">=</span> <span style="color:#79c0ff;font-weight:bold">Kafka</span><span style="color:#ff7b72;font-weight:bold">.</span>new(<span style="color:#ff7b72;font-weight:bold">[</span><span style="color:#a5d6ff">&#34;kafka1:9092&#34;</span>, <span style="color:#a5d6ff">&#34;kafka2:9092&#34;</span><span style="color:#ff7b72;font-weight:bold">]</span>)
+</span></span><span style="display:flex;"><span>consumer <span style="color:#ff7b72;font-weight:bold">=</span> kafka<span style="color:#ff7b72;font-weight:bold">.</span>consumer(<span style="color:#a5d6ff">group_id</span>: <span style="color:#a5d6ff">&#34;greetings_consumer&#34;</span>)
+</span></span><span style="display:flex;"><span>consumer<span style="color:#ff7b72;font-weight:bold">.</span>subscribe(<span style="color:#a5d6ff">&#34;greetings&#34;</span>)
+</span></span><span style="display:flex;"><span>consumer<span style="color:#ff7b72;font-weight:bold">.</span>each_message { <span style="color:#ff7b72;font-weight:bold">|</span>message<span style="color:#ff7b72;font-weight:bold">|</span> puts message<span style="color:#ff7b72;font-weight:bold">.</span>value }
+</span></span></code></pre></div><h2 id="real-world-examples">
+  Real-World Examples
+  <a class="heading-link" href="#real-world-examples">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Pub/Sub models using Ruby find extensive use in diverse applications:</p>
+<h3 id="real-time-notifications">
+  Real-Time Notifications
+  <a class="heading-link" href="#real-time-notifications">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>If you&rsquo;ve ever received an instant update from an app, chances are a Pub/Sub model is at work behind the scenes. The event (e.g., a friend’s new post) triggers a notification, which is distributed to all the subscribers of the event (friends or followers).</p>
+<h3 id="microservices-architecture">
+  Microservices Architecture
+  <a class="heading-link" href="#microservices-architecture">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>In complex systems where multiple microservices are involved, Pub/Sub helps maintain their independence and simplifies communication.</p>
+<h2 id="best-practices">
+  Best Practices
+  <a class="heading-link" href="#best-practices">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Following best practices can optimize your usage of the Pub/Sub model:</p>
+<ol>
+<li>Retain Loose Coupling: Publishers and subscribers should remain loosely coupled to ensure flexibility.</li>
+<li>Optimize Message Sizes: Strive for smaller, granular messages for better performance.</li>
+<li>Handle error scenarios: Cater for retries, dead-letter queues and back-off logics.</li>
+<li>Security: Ensure the confidentiality and integrity of your application&rsquo;s messages by encrypting or signing them where necessary.</li>
+</ol>
+<h2 id="common-pitfalls">
+  Common Pitfalls
+  <a class="heading-link" href="#common-pitfalls">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Though useful, the Pub/Sub Model could result in complications if not used effectively:</p>
+<ol>
+<li>Duplication: Messages delivered more than once can lead to complications. Ensure idempotency in your system to withstand repeated processing of messages.</li>
+<li>Uncertain Order of Messages: The Pub/Sub Model may not guarantee the order of received messages.</li>
+<li>Over-Subscription: Excessive subscriptions might overload the broker. To prevent this, optimize your topic assignment and subscription methodology.</li>
+</ol>
+<h2 id="conclusion">
+  Conclusion
+  <a class="heading-link" href="#conclusion">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>The Pub/Sub Model presents a design paradigm that enhances the scalability, reliability, and maintainability of software architectures, and Ruby&rsquo;s libraries provide a fitting platform to implement this model. Though it may come with some complexities, with a comprehensive understanding of the model and adherence to best practices, harnessing its potential benefits becomes achievable.</p>
+
+      </div>
+
+      
+<div class="social-share">
+  <h4 class="social-share-title">Share this article</h4>
+  <div class="social-share-buttons">
+    
+    <a href="https://twitter.com/intent/tweet?text=Understanding&#43;and&#43;Implementing&#43;the&#43;Pub%2FSub&#43;Model&#43;with&#43;Ruby&url=https%3A%2F%2Fvarmazyar.de%2Fposts%2Funderstanding-and-implementing-the-pubsub-model-with-ruby%2F&via=varmazyar"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="social-share-button twitter"
+       title="Share on Twitter">
+      <i class="fa-brands fa-twitter"></i>
+      <span>Twitter</span>
+    </a>
+
+    
+    <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fvarmazyar.de%2Fposts%2Funderstanding-and-implementing-the-pubsub-model-with-ruby%2F"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="social-share-button linkedin"
+       title="Share on LinkedIn">
+      <i class="fa-brands fa-linkedin"></i>
+      <span>LinkedIn</span>
+    </a>
+
+    
+    <a href="https://reddit.com/submit?url=https%3A%2F%2Fvarmazyar.de%2Fposts%2Funderstanding-and-implementing-the-pubsub-model-with-ruby%2F&title=Understanding&#43;and&#43;Implementing&#43;the&#43;Pub%2FSub&#43;Model&#43;with&#43;Ruby"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="social-share-button reddit"
+       title="Share on Reddit">
+      <i class="fa-brands fa-reddit"></i>
+      <span>Reddit</span>
+    </a>
+
+    
+    <a href="https://news.ycombinator.com/submitlink?u=https%3A%2F%2Fvarmazyar.de%2Fposts%2Funderstanding-and-implementing-the-pubsub-model-with-ruby%2F&t=Understanding&#43;and&#43;Implementing&#43;the&#43;Pub%2FSub&#43;Model&#43;with&#43;Ruby"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="social-share-button hackernews"
+       title="Share on Hacker News">
+      <i class="fa-brands fa-hacker-news"></i>
+      <span>HN</span>
+    </a>
+
+    
+    <button class="social-share-button copy-link"
+            onclick="copyToClipboard('https:\/\/varmazyar.de\/posts\/understanding-and-implementing-the-pubsub-model-with-ruby\/')"
+            title="Copy link">
+      <i class="fa-solid fa-link"></i>
+      <span>Copy</span>
+    </button>
+  </div>
+</div>
+
+<style>
+  .social-share {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    border: 1px solid var(--color-border, #ddd);
+    border-radius: 8px;
+    background: var(--color-background-secondary, #f9f9f9);
+  }
+
+  .social-share-title {
+    margin: 0 0 1rem 0;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-text, #333);
+  }
+
+  .social-share-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+
+  .social-share-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+
+  .social-share-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+
+  .social-share-button i {
+    font-size: 1.1rem;
+  }
+
+  .social-share-button.twitter {
+    background: #1DA1F2;
+  }
+
+  .social-share-button.linkedin {
+    background: #0A66C2;
+  }
+
+  .social-share-button.reddit {
+    background: #FF4500;
+  }
+
+  .social-share-button.hackernews {
+    background: #FF6600;
+  }
+
+  .social-share-button.copy-link {
+    background: #6c757d;
+  }
+
+  .social-share-button.copy-link.copied {
+    background: #28a745;
+  }
+
+  @media (max-width: 600px) {
+    .social-share-button span {
+      display: none;
+    }
+
+    .social-share-button {
+      padding: 0.5rem;
+      justify-content: center;
+      min-width: 40px;
+    }
+  }
+</style>
+
+<script>
+  function copyToClipboard(text) {
+    if (navigator.clipboard) {
+      navigator.clipboard.writeText(text).then(function() {
+        const button = event.currentTarget;
+        const originalHTML = button.innerHTML;
+        button.classList.add('copied');
+        button.innerHTML = '<i class="fa-solid fa-check"></i><span>Copied!</span>';
+
+        setTimeout(function() {
+          button.classList.remove('copied');
+          button.innerHTML = originalHTML;
+        }, 2000);
+      }).catch(function(err) {
+        console.error('Failed to copy:', err);
+        alert('Failed to copy link');
+      });
+    } else {
+      
+      const textArea = document.createElement('textarea');
+      textArea.value = text;
+      textArea.style.position = 'fixed';
+      textArea.style.left = '-9999px';
+      document.body.appendChild(textArea);
+      textArea.select();
+      try {
+        document.execCommand('copy');
+        const button = event.currentTarget;
+        button.classList.add('copied');
+        button.innerHTML = '<i class="fa-solid fa-check"></i><span>Copied!</span>';
+        setTimeout(function() {
+          button.classList.remove('copied');
+          button.innerHTML = '<i class="fa-solid fa-link"></i><span>Copy</span>';
+        }, 2000);
+      } catch (err) {
+        console.error('Failed to copy:', err);
+        alert('Failed to copy link');
+      }
+      document.body.removeChild(textArea);
+    }
+  }
+</script>
+
+
+      
+      
+      <div class="related-posts">
+        <h3>Related Posts</h3>
+        <div class="related-posts-grid">
+          
+          <article class="related-post-item">
+            <h4>
+              <a href="https://varmazyar.de/posts/mastering-pandas-conquering-hackathons-and-building-an-impressive-tech-portfolio/">Mastering Pandas, Conquering Hackathons and Building an Impressive Tech Portfolio</a>
+            </h4>
+            <p class="related-post-date">
+              <i class="fa-solid fa-calendar"></i>
+              November 10, 2025
+            </p>
+            <p class="related-post-summary">Introduction Link to heading In the fast-paced realm of technology, constant learning, innovation, and showcasing your skill set becomes obligatory. …</p>
+            
+            <div class="related-post-tags">
+              
+              <span class="related-tag">Pandas</span>
+              
+              <span class="related-tag">Python</span>
+              
+              <span class="related-tag">Hackathons</span>
+              
+            </div>
+            
+          </article>
+          
+          <article class="related-post-item">
+            <h4>
+              <a href="https://varmazyar.de/posts/unraveling-the-mystiques-of-explainable-ai-concurrency-and-message-queues/">Unraveling The Mystiques of Explainable AI, Concurrency, and Message Queues</a>
+            </h4>
+            <p class="related-post-date">
+              <i class="fa-solid fa-calendar"></i>
+              November 3, 2025
+            </p>
+            <p class="related-post-summary">Introduction Link to heading Explainable Artificial Intelligence (AI), concurrency, and message queues are three fundamental topics in the world of …</p>
+            
+            <div class="related-post-tags">
+              
+              <span class="related-tag">ExplainableAI</span>
+              
+              <span class="related-tag">Concurrency</span>
+              
+              <span class="related-tag">MessageQueues</span>
+              
+            </div>
+            
+          </article>
+          
+          <article class="related-post-item">
+            <h4>
+              <a href="https://varmazyar.de/posts/harnessing-the-power-of-generative-models-and-canary-releases-in-software-development/">Harnessing the Power of Generative Models and Canary Releases in Software Development</a>
+            </h4>
+            <p class="related-post-date">
+              <i class="fa-solid fa-calendar"></i>
+              October 27, 2025
+            </p>
+            <p class="related-post-summary">Introduction Link to heading In the expanding world of software development and artificial intelligence, two notions have emerged that hold …</p>
+            
+            <div class="related-post-tags">
+              
+              <span class="related-tag">GenerativeModels</span>
+              
+              <span class="related-tag">CanaryReleases</span>
+              
+              <span class="related-tag">SoftwareDevelopment</span>
+              
+            </div>
+            
+          </article>
+          
+        </div>
+      </div>
+      <style>
+        .related-posts {
+          margin-top: 3rem;
+          padding-top: 2rem;
+          border-top: 2px solid var(--color-border, #ddd);
+        }
+        .related-posts h3 {
+          margin-bottom: 1.5rem;
+          font-size: 1.5rem;
+          color: var(--color-text, #333);
+        }
+        .related-posts-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+          gap: 1.5rem;
+        }
+        .related-post-item {
+          padding: 1.25rem;
+          border: 1px solid var(--color-border, #ddd);
+          border-radius: 8px;
+          background: var(--color-background-secondary, #f9f9f9);
+          transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .related-post-item:hover {
+          transform: translateY(-4px);
+          box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        .related-post-item h4 {
+          margin: 0 0 0.5rem 0;
+          font-size: 1.1rem;
+          line-height: 1.4;
+        }
+        .related-post-item h4 a {
+          color: var(--color-primary, #007bff);
+          text-decoration: none;
+        }
+        .related-post-item h4 a:hover {
+          text-decoration: underline;
+        }
+        .related-post-date {
+          color: var(--color-text-secondary, #666);
+          font-size: 0.85rem;
+          margin: 0.25rem 0 0.5rem 0;
+        }
+        .related-post-summary {
+          color: var(--color-text, #333);
+          font-size: 0.95rem;
+          line-height: 1.5;
+          margin-bottom: 0.75rem;
+        }
+        .related-post-tags {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 0.5rem;
+        }
+        .related-tag {
+          display: inline-block;
+          padding: 0.25rem 0.5rem;
+          background: var(--color-primary, #007bff);
+          color: white;
+          border-radius: 4px;
+          font-size: 0.75rem;
+        }
+      </style>
+      
+
+      <footer>
+        
+
+
+        <div id="disqus_thread"></div>
+<script>
+  window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "varmazyar-de" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+    
+    document.addEventListener('themeChanged', function (e) { 
+        if (document.readyState == 'complete') {
+          DISQUS.reset({ reload: true, config: disqus_config });
+        }
+    });
+</script>
+        
+        
+        
+        
+
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2024 -
+    
+    2025
+     Mohammad Varmazyar 
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="../../js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js" integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script>
+  
+
+  
+
+  
+
+
+  
+  
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-W94N3M25M5"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-W94N3M25M5');
+        }
+      </script>
+    
+  
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>
