@@ -2,23 +2,88 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://varmazyar.de/posts/mastering-pandas-conquering-hackathons-and-building-an-impressive-tech-portfolio/</loc>
-    <lastmod>2025-11-10T09:31:57+00:00</lastmod>
+    <loc>https://varmazyar.de/tags/ai/</loc>
+    <lastmod>2025-11-24T09:33:29+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/categories/ai/</loc>
+    <lastmod>2025-11-24T09:33:29+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/tags/ai--vpn-intersection/</loc>
+    <lastmod>2025-11-24T09:33:29+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/categories/ai--vpn-intersection/</loc>
+    <lastmod>2025-11-24T09:33:29+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/tags/ai-ethics/</loc>
+    <lastmod>2025-11-24T09:33:29+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/categories/ai-ethics/</loc>
+    <lastmod>2025-11-24T09:33:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://varmazyar.de/authors/</loc>
-    <lastmod>2025-11-10T09:31:57+00:00</lastmod>
+    <lastmod>2025-11-24T09:33:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://varmazyar.de/categories/</loc>
-    <lastmod>2025-11-10T09:31:57+00:00</lastmod>
+    <lastmod>2025-11-24T09:33:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://varmazyar.de/</loc>
-    <lastmod>2025-11-10T09:31:57+00:00</lastmod>
+    <lastmod>2025-11-24T09:33:29+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/authors/mohammad-varmazyar/</loc>
+    <lastmod>2025-11-24T09:33:29+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/posts/navigating-the-intersection-of-artificial-intelligence-and-ethics-a-deep-dive-into-vpn-technology/</loc>
+    <lastmod>2025-11-24T09:33:29+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/posts/</loc>
+    <lastmod>2025-11-24T09:33:29+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/tags/</loc>
+    <lastmod>2025-11-24T09:33:29+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/tags/vpn/</loc>
+    <lastmod>2025-11-24T09:33:29+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/categories/vpn/</loc>
+    <lastmod>2025-11-24T09:33:29+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/tags/vpn-technology/</loc>
+    <lastmod>2025-11-24T09:33:29+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/categories/vpn-technology/</loc>
+    <lastmod>2025-11-24T09:33:29+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -42,7 +107,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://varmazyar.de/authors/mohammad-varmazyar/</loc>
+    <loc>https://varmazyar.de/posts/mastering-pandas-conquering-hackathons-and-building-an-impressive-tech-portfolio/</loc>
     <lastmod>2025-11-10T09:31:57+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -57,22 +122,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://varmazyar.de/posts/</loc>
-    <lastmod>2025-11-10T09:31:57+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://varmazyar.de/tags/python/</loc>
     <lastmod>2025-11-10T09:31:57+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://varmazyar.de/categories/python/</loc>
-    <lastmod>2025-11-10T09:31:57+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://varmazyar.de/tags/</loc>
     <lastmod>2025-11-10T09:31:57+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -139,16 +194,6 @@
   </url><url>
     <loc>https://varmazyar.de/posts/unraveling-the-mystiques-of-explainable-ai-concurrency-and-message-queues/</loc>
     <lastmod>2025-11-03T09:32:33+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://varmazyar.de/tags/ai/</loc>
-    <lastmod>2025-10-27T09:31:30+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://varmazyar.de/categories/ai/</loc>
-    <lastmod>2025-10-27T09:31:30+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
