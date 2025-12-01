@@ -6,8 +6,43 @@
     <description>Recent content in Categories on Cloud Engineering Chronicles with Mohammad</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 24 Nov 2025 09:33:29 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Dec 2025 09:37:07 +0000</lastBuildDate>
     <atom:link href="https://varmazyar.de/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>API</title>
+      <link>https://varmazyar.de/categories/api/</link>
+      <pubDate>Mon, 01 Dec 2025 09:37:07 +0000</pubDate>
+      <guid>https://varmazyar.de/categories/api/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>App Development</title>
+      <link>https://varmazyar.de/categories/app-development/</link>
+      <pubDate>Mon, 01 Dec 2025 09:37:07 +0000</pubDate>
+      <guid>https://varmazyar.de/categories/app-development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Firebase</title>
+      <link>https://varmazyar.de/categories/firebase/</link>
+      <pubDate>Mon, 01 Dec 2025 09:37:07 +0000</pubDate>
+      <guid>https://varmazyar.de/categories/firebase/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GraphQL</title>
+      <link>https://varmazyar.de/categories/graphql/</link>
+      <pubDate>Mon, 01 Dec 2025 09:37:07 +0000</pubDate>
+      <guid>https://varmazyar.de/categories/graphql/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Real-Time Database</title>
+      <link>https://varmazyar.de/categories/real-time-database/</link>
+      <pubDate>Mon, 01 Dec 2025 09:37:07 +0000</pubDate>
+      <guid>https://varmazyar.de/categories/real-time-database/</guid>
+      <description></description>
+    </item>
     <item>
       <title>AI</title>
       <link>https://varmazyar.de/categories/ai/</link>

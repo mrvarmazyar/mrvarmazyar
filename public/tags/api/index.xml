@@ -6,8 +6,15 @@
     <description>Recent content in API on Cloud Engineering Chronicles with Mohammad</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 28 Aug 2024 11:46:20 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 01 Dec 2025 09:37:07 +0000</lastBuildDate>
     <atom:link href="https://varmazyar.de/tags/api/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Accelerating App Development with Firebase and GraphQL</title>
+      <link>https://varmazyar.de/posts/accelerating-app-development-with-firebase-and-graphql/</link>
+      <pubDate>Mon, 01 Dec 2025 09:37:07 +0000</pubDate>
+      <guid>https://varmazyar.de/posts/accelerating-app-development-with-firebase-and-graphql/</guid>
+      <description>Introduction Link to heading Firebase and GraphQL have revolutionized the way in which we build and manage apps today. In our digital world where data is king, both Firebase and GraphQL offer unique solutions to handle the large volume of data generated every second, thereby making app development more efficient. This article will guide you through an in-depth understanding of Firebase, GraphQL, and how to effectively leverage these technologies in your app development process.</description>
+    </item>
     <item>
       <title>Mastering API Rate Limiting: Strategies, Algorithms, and Best Practices</title>
       <link>https://varmazyar.de/posts/mastering-api-rate-limiting/</link>
