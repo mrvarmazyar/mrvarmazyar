@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GraphQL on Cloud Engineering Chronicles with Mohammad</title>
+    <link>https://varmazyar.de/categories/graphql/</link>
+    <description>Recent content in GraphQL on Cloud Engineering Chronicles with Mohammad</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 01 Dec 2025 09:37:07 +0000</lastBuildDate>
+    <atom:link href="https://varmazyar.de/categories/graphql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Accelerating App Development with Firebase and GraphQL</title>
+      <link>https://varmazyar.de/posts/accelerating-app-development-with-firebase-and-graphql/</link>
+      <pubDate>Mon, 01 Dec 2025 09:37:07 +0000</pubDate>
+      <guid>https://varmazyar.de/posts/accelerating-app-development-with-firebase-and-graphql/</guid>
+      <description>Introduction Link to heading Firebase and GraphQL have revolutionized the way in which we build and manage apps today. In our digital world where data is king, both Firebase and GraphQL offer unique solutions to handle the large volume of data generated every second, thereby making app development more efficient. This article will guide you through an in-depth understanding of Firebase, GraphQL, and how to effectively leverage these technologies in your app development process.</description>
+    </item>
+  </channel>
+</rss>
