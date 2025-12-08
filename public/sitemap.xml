@@ -2,6 +2,91 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://varmazyar.de/authors/</loc>
+    <lastmod>2025-12-08T09:36:21+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/categories/</loc>
+    <lastmod>2025-12-08T09:36:21+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/</loc>
+    <lastmod>2025-12-08T09:36:21+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/tags/devops/</loc>
+    <lastmod>2025-12-08T09:36:21+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/categories/devops/</loc>
+    <lastmod>2025-12-08T09:36:21+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/posts/harnessing-the-power-of-istio-symfony-and-spark-an-in-depth-technical-dive/</loc>
+    <lastmod>2025-12-08T09:36:21+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/tags/istio/</loc>
+    <lastmod>2025-12-08T09:36:21+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/categories/istio/</loc>
+    <lastmod>2025-12-08T09:36:21+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/authors/mohammad-varmazyar/</loc>
+    <lastmod>2025-12-08T09:36:21+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/posts/</loc>
+    <lastmod>2025-12-08T09:36:21+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/tags/software-engineering/</loc>
+    <lastmod>2025-12-08T09:36:21+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/categories/software-engineering/</loc>
+    <lastmod>2025-12-08T09:36:21+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/tags/spark/</loc>
+    <lastmod>2025-12-08T09:36:21+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/categories/spark/</loc>
+    <lastmod>2025-12-08T09:36:21+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/tags/symfony/</loc>
+    <lastmod>2025-12-08T09:36:21+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/categories/symfony/</loc>
+    <lastmod>2025-12-08T09:36:21+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/tags/</loc>
+    <lastmod>2025-12-08T09:36:21+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://varmazyar.de/posts/accelerating-app-development-with-firebase-and-graphql/</loc>
     <lastmod>2025-12-01T09:37:07+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -27,21 +112,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://varmazyar.de/authors/</loc>
-    <lastmod>2025-12-01T09:37:07+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://varmazyar.de/categories/</loc>
-    <lastmod>2025-12-01T09:37:07+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://varmazyar.de/</loc>
-    <lastmod>2025-12-01T09:37:07+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://varmazyar.de/tags/firebase/</loc>
     <lastmod>2025-12-01T09:37:07+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -62,27 +132,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://varmazyar.de/authors/mohammad-varmazyar/</loc>
-    <lastmod>2025-12-01T09:37:07+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://varmazyar.de/posts/</loc>
-    <lastmod>2025-12-01T09:37:07+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://varmazyar.de/tags/real-time-database/</loc>
     <lastmod>2025-12-01T09:37:07+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://varmazyar.de/categories/real-time-database/</loc>
-    <lastmod>2025-12-01T09:37:07+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://varmazyar.de/tags/</loc>
     <lastmod>2025-12-01T09:37:07+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -203,16 +258,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://varmazyar.de/categories/concurrency/</loc>
-    <lastmod>2025-11-03T09:32:33+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://varmazyar.de/tags/devops/</loc>
-    <lastmod>2025-11-03T09:32:33+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://varmazyar.de/categories/devops/</loc>
     <lastmod>2025-11-03T09:32:33+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -938,11 +983,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://varmazyar.de/posts/empowering-microservices-with-istio-on-kubernetes/</loc>
-    <lastmod>2024-08-29T16:40:00+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://varmazyar.de/tags/istio/</loc>
     <lastmod>2024-08-29T16:40:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

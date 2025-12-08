@@ -6,8 +6,43 @@
     <description>Recent content in Categories on Cloud Engineering Chronicles with Mohammad</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 01 Dec 2025 09:37:07 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Dec 2025 09:36:21 +0000</lastBuildDate>
     <atom:link href="https://varmazyar.de/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DevOps</title>
+      <link>https://varmazyar.de/categories/devops/</link>
+      <pubDate>Mon, 08 Dec 2025 09:36:21 +0000</pubDate>
+      <guid>https://varmazyar.de/categories/devops/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Istio</title>
+      <link>https://varmazyar.de/categories/istio/</link>
+      <pubDate>Mon, 08 Dec 2025 09:36:21 +0000</pubDate>
+      <guid>https://varmazyar.de/categories/istio/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software Engineering</title>
+      <link>https://varmazyar.de/categories/software-engineering/</link>
+      <pubDate>Mon, 08 Dec 2025 09:36:21 +0000</pubDate>
+      <guid>https://varmazyar.de/categories/software-engineering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spark</title>
+      <link>https://varmazyar.de/categories/spark/</link>
+      <pubDate>Mon, 08 Dec 2025 09:36:21 +0000</pubDate>
+      <guid>https://varmazyar.de/categories/spark/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Symfony</title>
+      <link>https://varmazyar.de/categories/symfony/</link>
+      <pubDate>Mon, 08 Dec 2025 09:36:21 +0000</pubDate>
+      <guid>https://varmazyar.de/categories/symfony/</guid>
+      <description></description>
+    </item>
     <item>
       <title>API</title>
       <link>https://varmazyar.de/categories/api/</link>
@@ -118,13 +153,6 @@
       <link>https://varmazyar.de/categories/concurrency/</link>
       <pubDate>Mon, 03 Nov 2025 09:32:33 +0000</pubDate>
       <guid>https://varmazyar.de/categories/concurrency/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>DevOps</title>
-      <link>https://varmazyar.de/categories/devops/</link>
-      <pubDate>Mon, 03 Nov 2025 09:32:33 +0000</pubDate>
-      <guid>https://varmazyar.de/categories/devops/</guid>
       <description></description>
     </item>
     <item>
