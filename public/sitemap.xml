@@ -2,6 +2,91 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://varmazyar.de/authors/</loc>
+    <lastmod>2025-12-15T09:40:24+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/categories/</loc>
+    <lastmod>2025-12-15T09:40:24+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/</loc>
+    <lastmod>2025-12-15T09:40:24+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/posts/cracking-jwt-decoding-generative-models-and-mastering-solid-a-deep-dive-for-software-engineers-and-devops-professionals/</loc>
+    <lastmod>2025-12-15T09:40:24+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/tags/devops/</loc>
+    <lastmod>2025-12-15T09:40:24+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/categories/devops/</loc>
+    <lastmod>2025-12-15T09:40:24+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/tags/generativemodels/</loc>
+    <lastmod>2025-12-15T09:40:24+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/categories/generativemodels/</loc>
+    <lastmod>2025-12-15T09:40:24+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/tags/jwt/</loc>
+    <lastmod>2025-12-15T09:40:24+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/categories/jwt/</loc>
+    <lastmod>2025-12-15T09:40:24+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/authors/mohammad-varmazyar/</loc>
+    <lastmod>2025-12-15T09:40:24+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/posts/</loc>
+    <lastmod>2025-12-15T09:40:24+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/tags/softwareengineering/</loc>
+    <lastmod>2025-12-15T09:40:24+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/categories/softwareengineering/</loc>
+    <lastmod>2025-12-15T09:40:24+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/tags/solidprinciples/</loc>
+    <lastmod>2025-12-15T09:40:24+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/categories/solidprinciples/</loc>
+    <lastmod>2025-12-15T09:40:24+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/tags/</loc>
+    <lastmod>2025-12-15T09:40:24+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://varmazyar.de/posts/accelerating-app-development-with-firebase-and-graphql/</loc>
     <lastmod>2025-12-01T09:37:07+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -27,21 +112,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://varmazyar.de/authors/</loc>
-    <lastmod>2025-12-01T09:37:07+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://varmazyar.de/categories/</loc>
-    <lastmod>2025-12-01T09:37:07+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://varmazyar.de/</loc>
-    <lastmod>2025-12-01T09:37:07+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://varmazyar.de/tags/firebase/</loc>
     <lastmod>2025-12-01T09:37:07+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -62,27 +132,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://varmazyar.de/authors/mohammad-varmazyar/</loc>
-    <lastmod>2025-12-01T09:37:07+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://varmazyar.de/posts/</loc>
-    <lastmod>2025-12-01T09:37:07+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://varmazyar.de/tags/real-time-database/</loc>
     <lastmod>2025-12-01T09:37:07+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://varmazyar.de/categories/real-time-database/</loc>
-    <lastmod>2025-12-01T09:37:07+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://varmazyar.de/tags/</loc>
     <lastmod>2025-12-01T09:37:07+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -207,16 +262,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://varmazyar.de/tags/devops/</loc>
-    <lastmod>2025-11-03T09:32:33+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://varmazyar.de/categories/devops/</loc>
-    <lastmod>2025-11-03T09:32:33+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://varmazyar.de/tags/explainableai/</loc>
     <lastmod>2025-11-03T09:32:33+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -237,16 +282,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://varmazyar.de/tags/softwareengineering/</loc>
-    <lastmod>2025-11-03T09:32:33+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://varmazyar.de/categories/softwareengineering/</loc>
-    <lastmod>2025-11-03T09:32:33+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://varmazyar.de/posts/unraveling-the-mystiques-of-explainable-ai-concurrency-and-message-queues/</loc>
     <lastmod>2025-11-03T09:32:33+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -258,16 +293,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://varmazyar.de/categories/canaryreleases/</loc>
-    <lastmod>2025-10-27T09:31:30+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://varmazyar.de/tags/generativemodels/</loc>
-    <lastmod>2025-10-27T09:31:30+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://varmazyar.de/categories/generativemodels/</loc>
     <lastmod>2025-10-27T09:31:30+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
