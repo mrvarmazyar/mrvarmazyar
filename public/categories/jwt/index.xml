@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JWT on Cloud Engineering Chronicles with Mohammad</title>
+    <link>https://varmazyar.de/categories/jwt/</link>
+    <description>Recent content in JWT on Cloud Engineering Chronicles with Mohammad</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 15 Dec 2025 09:40:24 +0000</lastBuildDate>
+    <atom:link href="https://varmazyar.de/categories/jwt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cracking JWT, Decoding Generative Models and Mastering SOLID: A Deep Dive for Software Engineers and DevOps Professionals</title>
+      <link>https://varmazyar.de/posts/cracking-jwt-decoding-generative-models-and-mastering-solid-a-deep-dive-for-software-engineers-and-devops-professionals/</link>
+      <pubDate>Mon, 15 Dec 2025 09:40:24 +0000</pubDate>
+      <guid>https://varmazyar.de/posts/cracking-jwt-decoding-generative-models-and-mastering-solid-a-deep-dive-for-software-engineers-and-devops-professionals/</guid>
+      <description>Introduction Link to heading In the dynamic and ever-expanding arena of software engineering and DevOps, three key categories necessitate a deep dive: JSON Web Tokens (JWT), Generative Models, and SOLID principles. JWT is central to secure data transfer between parties, Generative Models bring in the facet of Machine Learning models that can generate new instances after learning from data, and SOLID principles guide towards writing software that’s easy to manage and grows with your business requirements.</description>
+    </item>
+  </channel>
+</rss>

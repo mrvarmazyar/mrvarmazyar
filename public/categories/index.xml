@@ -6,8 +6,43 @@
     <description>Recent content in Categories on Cloud Engineering Chronicles with Mohammad</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 01 Dec 2025 09:37:07 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Dec 2025 09:40:24 +0000</lastBuildDate>
     <atom:link href="https://varmazyar.de/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DevOps</title>
+      <link>https://varmazyar.de/categories/devops/</link>
+      <pubDate>Mon, 15 Dec 2025 09:40:24 +0000</pubDate>
+      <guid>https://varmazyar.de/categories/devops/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GenerativeModels</title>
+      <link>https://varmazyar.de/categories/generativemodels/</link>
+      <pubDate>Mon, 15 Dec 2025 09:40:24 +0000</pubDate>
+      <guid>https://varmazyar.de/categories/generativemodels/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>JWT</title>
+      <link>https://varmazyar.de/categories/jwt/</link>
+      <pubDate>Mon, 15 Dec 2025 09:40:24 +0000</pubDate>
+      <guid>https://varmazyar.de/categories/jwt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SoftwareEngineering</title>
+      <link>https://varmazyar.de/categories/softwareengineering/</link>
+      <pubDate>Mon, 15 Dec 2025 09:40:24 +0000</pubDate>
+      <guid>https://varmazyar.de/categories/softwareengineering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SOLIDPrinciples</title>
+      <link>https://varmazyar.de/categories/solidprinciples/</link>
+      <pubDate>Mon, 15 Dec 2025 09:40:24 +0000</pubDate>
+      <guid>https://varmazyar.de/categories/solidprinciples/</guid>
+      <description></description>
+    </item>
     <item>
       <title>API</title>
       <link>https://varmazyar.de/categories/api/</link>
@@ -121,13 +156,6 @@
       <description></description>
     </item>
     <item>
-      <title>DevOps</title>
-      <link>https://varmazyar.de/categories/devops/</link>
-      <pubDate>Mon, 03 Nov 2025 09:32:33 +0000</pubDate>
-      <guid>https://varmazyar.de/categories/devops/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>ExplainableAI</title>
       <link>https://varmazyar.de/categories/explainableai/</link>
       <pubDate>Mon, 03 Nov 2025 09:32:33 +0000</pubDate>
@@ -142,24 +170,10 @@
       <description></description>
     </item>
     <item>
-      <title>SoftwareEngineering</title>
-      <link>https://varmazyar.de/categories/softwareengineering/</link>
-      <pubDate>Mon, 03 Nov 2025 09:32:33 +0000</pubDate>
-      <guid>https://varmazyar.de/categories/softwareengineering/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>CanaryReleases</title>
       <link>https://varmazyar.de/categories/canaryreleases/</link>
       <pubDate>Mon, 27 Oct 2025 09:31:30 +0000</pubDate>
       <guid>https://varmazyar.de/categories/canaryreleases/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>GenerativeModels</title>
-      <link>https://varmazyar.de/categories/generativemodels/</link>
-      <pubDate>Mon, 27 Oct 2025 09:31:30 +0000</pubDate>
-      <guid>https://varmazyar.de/categories/generativemodels/</guid>
       <description></description>
     </item>
     <item>

@@ -6,8 +6,15 @@
     <description>Recent content in DevOps on Cloud Engineering Chronicles with Mohammad</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 03 Nov 2025 09:32:33 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Dec 2025 09:40:24 +0000</lastBuildDate>
     <atom:link href="https://varmazyar.de/categories/devops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cracking JWT, Decoding Generative Models and Mastering SOLID: A Deep Dive for Software Engineers and DevOps Professionals</title>
+      <link>https://varmazyar.de/posts/cracking-jwt-decoding-generative-models-and-mastering-solid-a-deep-dive-for-software-engineers-and-devops-professionals/</link>
+      <pubDate>Mon, 15 Dec 2025 09:40:24 +0000</pubDate>
+      <guid>https://varmazyar.de/posts/cracking-jwt-decoding-generative-models-and-mastering-solid-a-deep-dive-for-software-engineers-and-devops-professionals/</guid>
+      <description>Introduction Link to heading In the dynamic and ever-expanding arena of software engineering and DevOps, three key categories necessitate a deep dive: JSON Web Tokens (JWT), Generative Models, and SOLID principles. JWT is central to secure data transfer between parties, Generative Models bring in the facet of Machine Learning models that can generate new instances after learning from data, and SOLID principles guide towards writing software that’s easy to manage and grows with your business requirements.</description>
+    </item>
     <item>
       <title>Unraveling The Mystiques of Explainable AI, Concurrency, and Message Queues</title>
       <link>https://varmazyar.de/posts/unraveling-the-mystiques-of-explainable-ai-concurrency-and-message-queues/</link>
