@@ -6,8 +6,15 @@
     <description>Recent content in GKE on Cloud Engineering Chronicles with Mohammad</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 27 Aug 2024 11:46:20 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 22 Dec 2025 09:36:31 +0000</lastBuildDate>
     <atom:link href="https://varmazyar.de/tags/gke/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Unleashing the Power of Elasticsearch on Google Kubernetes Engine (GKE)</title>
+      <link>https://varmazyar.de/posts/unleashing-the-power-of-elasticsearch-on-google-kubernetes-engine-gke/</link>
+      <pubDate>Mon, 22 Dec 2025 09:36:31 +0000</pubDate>
+      <guid>https://varmazyar.de/posts/unleashing-the-power-of-elasticsearch-on-google-kubernetes-engine-gke/</guid>
+      <description>Introduction Link to heading With the increasing prevalence of big data solutions, it&amp;rsquo;s crucial for developers and engineers to understand technologies like Elasticsearch and Google Kubernetes Engine (GKE). Elasticsearch, an open-source full-text search and analytics engine, is built on Apache Lucene and is known to handle large volumes of data in near real-time. On the other hand, GKE is a managed, production-ready environment for deploying containerized applications. It stands out in its dynamic scalability, high availability, and secure multi-tenant architecture.</description>
+    </item>
     <item>
       <title>Optimizing Airflow Scheduler on Google Kubernetes Engine: A Cost-Effective Approach</title>
       <link>https://varmazyar.de/posts/optimizing-airflow-scheduler-gke/</link>

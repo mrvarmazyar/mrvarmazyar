@@ -6,13 +6,41 @@
     <description>Recent content in Tags on Cloud Engineering Chronicles with Mohammad</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 15 Dec 2025 09:40:24 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Dec 2025 09:36:31 +0000</lastBuildDate>
     <atom:link href="https://varmazyar.de/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>DevOps</title>
       <link>https://varmazyar.de/tags/devops/</link>
-      <pubDate>Mon, 15 Dec 2025 09:40:24 +0000</pubDate>
+      <pubDate>Mon, 22 Dec 2025 09:36:31 +0000</pubDate>
       <guid>https://varmazyar.de/tags/devops/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Elasticsearch</title>
+      <link>https://varmazyar.de/tags/elasticsearch/</link>
+      <pubDate>Mon, 22 Dec 2025 09:36:31 +0000</pubDate>
+      <guid>https://varmazyar.de/tags/elasticsearch/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GKE</title>
+      <link>https://varmazyar.de/tags/gke/</link>
+      <pubDate>Mon, 22 Dec 2025 09:36:31 +0000</pubDate>
+      <guid>https://varmazyar.de/tags/gke/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Google Kubernetes Engine</title>
+      <link>https://varmazyar.de/tags/google-kubernetes-engine/</link>
+      <pubDate>Mon, 22 Dec 2025 09:36:31 +0000</pubDate>
+      <guid>https://varmazyar.de/tags/google-kubernetes-engine/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software Engineering</title>
+      <link>https://varmazyar.de/tags/software-engineering/</link>
+      <pubDate>Mon, 22 Dec 2025 09:36:31 +0000</pubDate>
+      <guid>https://varmazyar.de/tags/software-engineering/</guid>
       <description></description>
     </item>
     <item>
@@ -657,13 +685,6 @@
       <link>https://varmazyar.de/tags/apache-airflow/</link>
       <pubDate>Tue, 27 Aug 2024 11:46:20 +0200</pubDate>
       <guid>https://varmazyar.de/tags/apache-airflow/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>GKE</title>
-      <link>https://varmazyar.de/tags/gke/</link>
-      <pubDate>Tue, 27 Aug 2024 11:46:20 +0200</pubDate>
-      <guid>https://varmazyar.de/tags/gke/</guid>
       <description></description>
     </item>
     <item>
