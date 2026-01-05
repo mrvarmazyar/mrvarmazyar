@@ -6,8 +6,15 @@
     <description>Recent content on Cloud Engineering Chronicles with Mohammad</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 15 Dec 2025 09:40:24 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Jan 2026 09:41:02 +0000</lastBuildDate>
     <atom:link href="https://varmazyar.de/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exploring ALBERT and its Implementation in Java: A Deep Dive for Software Engineers &amp; DevOps professionals</title>
+      <link>https://varmazyar.de/posts/exploring-albert-and-its-implementation-in-java-a-deep-dive-for-software-engineers-devops-professionals/</link>
+      <pubDate>Mon, 05 Jan 2026 09:41:02 +0000</pubDate>
+      <guid>https://varmazyar.de/posts/exploring-albert-and-its-implementation-in-java-a-deep-dive-for-software-engineers-devops-professionals/</guid>
+      <description>Introduction Link to heading In the Artificial Intelligence (AI) world, the need for models to understand and generate human language has gained traction. One of the sophisticated models to emerge in this domain is &amp;ldquo;A Lite BERT&amp;rdquo; (ALBERT), a transformer-based model churning tremendous advancements in natural language processing tasks. This blog post outlines ALBERT and its implementation in the Java language. Java, owing to its portability and easy-to-manage memory mechanism, proves to be formidable for implementing various AI models, including ALBERT.</description>
+    </item>
     <item>
       <title>Cracking JWT, Decoding Generative Models and Mastering SOLID: A Deep Dive for Software Engineers and DevOps Professionals</title>
       <link>https://varmazyar.de/posts/cracking-jwt-decoding-generative-models-and-mastering-solid-a-deep-dive-for-software-engineers-and-devops-professionals/</link>
