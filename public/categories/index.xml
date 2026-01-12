@@ -6,8 +6,43 @@
     <description>Recent content in Categories on Cloud Engineering Chronicles with Mohammad</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 15 Dec 2025 09:40:24 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Jan 2026 09:41:45 +0000</lastBuildDate>
     <atom:link href="https://varmazyar.de/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apache Spark</title>
+      <link>https://varmazyar.de/categories/apache-spark/</link>
+      <pubDate>Mon, 12 Jan 2026 09:41:45 +0000</pubDate>
+      <guid>https://varmazyar.de/categories/apache-spark/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cybersecurity</title>
+      <link>https://varmazyar.de/categories/cybersecurity/</link>
+      <pubDate>Mon, 12 Jan 2026 09:41:45 +0000</pubDate>
+      <guid>https://varmazyar.de/categories/cybersecurity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Processing</title>
+      <link>https://varmazyar.de/categories/data-processing/</link>
+      <pubDate>Mon, 12 Jan 2026 09:41:45 +0000</pubDate>
+      <guid>https://varmazyar.de/categories/data-processing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Man-in-the-Middle</title>
+      <link>https://varmazyar.de/categories/man-in-the-middle/</link>
+      <pubDate>Mon, 12 Jan 2026 09:41:45 +0000</pubDate>
+      <guid>https://varmazyar.de/categories/man-in-the-middle/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Refactoring</title>
+      <link>https://varmazyar.de/categories/refactoring/</link>
+      <pubDate>Mon, 12 Jan 2026 09:41:45 +0000</pubDate>
+      <guid>https://varmazyar.de/categories/refactoring/</guid>
+      <description></description>
+    </item>
     <item>
       <title>DevOps</title>
       <link>https://varmazyar.de/categories/devops/</link>
@@ -181,13 +216,6 @@
       <link>https://varmazyar.de/categories/softwaredevelopment/</link>
       <pubDate>Mon, 27 Oct 2025 09:31:30 +0000</pubDate>
       <guid>https://varmazyar.de/categories/softwaredevelopment/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Cybersecurity</title>
-      <link>https://varmazyar.de/categories/cybersecurity/</link>
-      <pubDate>Tue, 21 Oct 2025 12:34:55 +0000</pubDate>
-      <guid>https://varmazyar.de/categories/cybersecurity/</guid>
       <description></description>
     </item>
     <item>

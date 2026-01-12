@@ -2,18 +2,88 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://varmazyar.de/tags/apache-spark/</loc>
+    <lastmod>2026-01-12T09:41:45+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/categories/apache-spark/</loc>
+    <lastmod>2026-01-12T09:41:45+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://varmazyar.de/authors/</loc>
-    <lastmod>2025-12-15T09:40:24+00:00</lastmod>
+    <lastmod>2026-01-12T09:41:45+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://varmazyar.de/categories/</loc>
-    <lastmod>2025-12-15T09:40:24+00:00</lastmod>
+    <lastmod>2026-01-12T09:41:45+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://varmazyar.de/</loc>
-    <lastmod>2025-12-15T09:40:24+00:00</lastmod>
+    <lastmod>2026-01-12T09:41:45+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/tags/cybersecurity/</loc>
+    <lastmod>2026-01-12T09:41:45+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/categories/cybersecurity/</loc>
+    <lastmod>2026-01-12T09:41:45+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/tags/data-processing/</loc>
+    <lastmod>2026-01-12T09:41:45+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/categories/data-processing/</loc>
+    <lastmod>2026-01-12T09:41:45+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/tags/man-in-the-middle/</loc>
+    <lastmod>2026-01-12T09:41:45+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/categories/man-in-the-middle/</loc>
+    <lastmod>2026-01-12T09:41:45+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/authors/mohammad-varmazyar/</loc>
+    <lastmod>2026-01-12T09:41:45+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/posts/</loc>
+    <lastmod>2026-01-12T09:41:45+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/tags/refactoring/</loc>
+    <lastmod>2026-01-12T09:41:45+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/categories/refactoring/</loc>
+    <lastmod>2026-01-12T09:41:45+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/posts/safeguarding-from-man-in-the-middle-refactoring-in-apache-spark/</loc>
+    <lastmod>2026-01-12T09:41:45+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://varmazyar.de/tags/</loc>
+    <lastmod>2026-01-12T09:41:45+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -52,16 +122,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://varmazyar.de/authors/mohammad-varmazyar/</loc>
-    <lastmod>2025-12-15T09:40:24+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://varmazyar.de/posts/</loc>
-    <lastmod>2025-12-15T09:40:24+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://varmazyar.de/tags/softwareengineering/</loc>
     <lastmod>2025-12-15T09:40:24+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -78,11 +138,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://varmazyar.de/categories/solidprinciples/</loc>
-    <lastmod>2025-12-15T09:40:24+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://varmazyar.de/tags/</loc>
     <lastmod>2025-12-15T09:40:24+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -309,16 +364,6 @@
   </url><url>
     <loc>https://varmazyar.de/categories/softwaredevelopment/</loc>
     <lastmod>2025-10-27T09:31:30+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://varmazyar.de/tags/cybersecurity/</loc>
-    <lastmod>2025-10-21T12:34:55+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://varmazyar.de/categories/cybersecurity/</loc>
-    <lastmod>2025-10-21T12:34:55+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>

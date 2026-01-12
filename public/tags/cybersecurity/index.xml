@@ -6,8 +6,15 @@
     <description>Recent content in Cybersecurity on Cloud Engineering Chronicles with Mohammad</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 21 Oct 2025 12:34:55 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Jan 2026 09:41:45 +0000</lastBuildDate>
     <atom:link href="https://varmazyar.de/tags/cybersecurity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Safeguarding from Man-in-the-Middle: Refactoring in Apache Spark</title>
+      <link>https://varmazyar.de/posts/safeguarding-from-man-in-the-middle-refactoring-in-apache-spark/</link>
+      <pubDate>Mon, 12 Jan 2026 09:41:45 +0000</pubDate>
+      <guid>https://varmazyar.de/posts/safeguarding-from-man-in-the-middle-refactoring-in-apache-spark/</guid>
+      <description>Introduction Link to heading This post focuses on two distinct areas that every adept software engineer, DevOps professional, or data scientist should understand – cybersecurity, specifically Man-in-the-Middle (MitM) attacks, and data processing, honing in on refactoring in Apache Spark. Even though MitM attacks and refactoring Spark may seem unrelated, addressing both areas can significantly enhance the robustness, efficiency, and security of your software delivery pipeline.&#xA;Man-in-the-Middle Basics Link to heading MitM attacks target the communication between two parties, with the attacker covertly intercepting, possibly altering, and relaying messages between them.</description>
+    </item>
     <item>
       <title>Unraveling XSS Vulnerabilities and Optimizing Search Algorithms: A Dual Guide</title>
       <link>https://varmazyar.de/posts/unraveling-xss-vulnerabilities-and-optimizing-search-algorithms-a-dual-guide/</link>
